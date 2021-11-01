@@ -1,29 +1,29 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "plushies",
   "version": "${version}",
 
-  "name": "Example Mod",
+  "name": "Pushie Mod",
   "description": "This is an example description! Tell everyone what your mod is about!",
   "authors": [
     "Link4Real"
   ],
   "contact": {
-    "homepage": "https://link4real.github.io",
-    "sources": "https://github.com/Link4real/link4real-example-mod"
+    "homepage": "https://link4real.github.io/plushies",
+    "sources": "https://github.com/Link4real/Plushie-Mod"
   },
 
   "license": "MIT",
-  "icon": "assets/modid/icon.png",
+  "icon": "assets/plushies/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "com.link.mod.template.Main"
+      "com.link.plushies.mod.Main"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    ""
   ],
 
   "depends": {
@@ -33,6 +33,6 @@
     "java": ">=16"
   },
   "suggests": {
-    "foodmod": "FoodMod for Fabric by Link4real"
+    "cakemod": "Cake Mod by Link4real"
   }
 }
