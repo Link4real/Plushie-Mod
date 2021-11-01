@@ -1,3 +1,3 @@
-# Link4real Fabric Mod Template
+# Plushie Mod
 
-## Mod Template for all Fabric Mods by Link4real!
+## Adds many cute plushies to the game!
