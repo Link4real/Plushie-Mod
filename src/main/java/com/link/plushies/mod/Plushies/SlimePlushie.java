@@ -12,9 +12,9 @@ import net.minecraft.util.shape.VoxelShape;
 import net.minecraft.util.shape.VoxelShapes;
 import net.minecraft.world.BlockView;
 
-public class PandaPlushie extends HorizontalFacingBlock {
-    public PandaPlushie(Settings settings) {
-        super(FabricBlockSettings.of(Material.WOOL).nonOpaque().sounds(BlockSoundGroup.WOOL).strength(0.7f));
+public class SlimePlushie extends HorizontalFacingBlock {
+    public SlimePlushie(Settings settings) {
+        super(FabricBlockSettings.of(Material.WOOL).nonOpaque().sounds(BlockSoundGroup.WOOL).strength(0.6f));
         setDefaultState(this.stateManager.getDefaultState().with(Properties.HORIZONTAL_FACING, Direction.NORTH));
     }
 
@@ -28,13 +28,13 @@ public class PandaPlushie extends HorizontalFacingBlock {
         Direction dir = state.get(FACING);
         switch(dir) {
             case NORTH:
-                return VoxelShapes.cuboid(0.2f, 0f, 0.2f, 0.8f, 0.6f, 0.7f);
+                return VoxelShapes.cuboid(0.22f, 0f, 0.3f, 0.9f, 0.91f, 0.8f);
             case SOUTH:
-                return VoxelShapes.cuboid(0.23f, 0f, 0.2f, 0.8f, 0.6f, 0.7f);
+                return VoxelShapes.cuboid(0.22f, 0f, 0.3f, 0.9f, 0.92f, 0.8f);
             case EAST:
-                return VoxelShapes.cuboid(0.22f, 0f, 0.3f, 0.9f, 0.6f, 0.8f);
+                return VoxelShapes.cuboid(0.22f, 0f, 0.3f, 0.9f, 0.9f, 0.8f);
             case WEST:
-                return VoxelShapes.cuboid(0.3f, 0f, 0.3f, 0.9f, 0.6f, 0.8f);
+                return VoxelShapes.cuboid(0.22f, 0f, 0.3f, 0.9f, 0.93f, 0.8f);
             default:
                 return VoxelShapes.fullCube();
         }

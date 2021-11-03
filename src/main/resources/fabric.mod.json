@@ -3,10 +3,10 @@
   "id": "plushies",
   "version": "${version}",
 
-  "name": "Pushie Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Plushie Mod",
+  "description": "This mod adds cute plushies to the game!",
   "authors": [
-    "Link4Real"
+    "Link4real"
   ],
   "contact": {
     "homepage": "https://link4real.github.io/plushies",
