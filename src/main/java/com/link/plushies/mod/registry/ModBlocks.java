@@ -20,7 +20,8 @@ public class ModBlocks {
 
     public static final Block PANDA_PLUSHIE = new PandaPlushie(FabricBlockSettings.of(Material.WOOL).nonOpaque().sounds(BlockSoundGroup.WOOL).strength(0.7f));
     public static final Block SLIME_PLUSHIE = new SlimePlushie(FabricBlockSettings.of(Material.WOOL).nonOpaque().sounds(BlockSoundGroup.WOOL).strength(0.6f));
-    public static final Block FOX_PLUSHIE = new FoxPlushie(FabricBlockSettings.of(Material.WOOL).nonOpaque().sounds(BlockSoundGroup.WOOL).strength(0.8f));
+    public static final Block RED_FOX_PLUSHIE = new FoxPlushie(FabricBlockSettings.of(Material.WOOL).nonOpaque().sounds(BlockSoundGroup.WOOL).strength(0.8f));
+    public static final Block WHITE_FOX_PLUSHIE = new FoxPlushie(FabricBlockSettings.of(Material.WOOL).nonOpaque().sounds(BlockSoundGroup.WOOL).strength(0.8f));
 
     public static void registerItems() {
 
@@ -29,7 +30,9 @@ public class ModBlocks {
         Registry.register(Registry.ITEM, new Identifier(MOD_ID, "panda_plushie"), new BlockItem(PANDA_PLUSHIE, new FabricItemSettings().maxCount(16).group(ItemGroup.DECORATIONS)));
         Registry.register(Registry.BLOCK, new Identifier(MOD_ID, "slime_plushie"), SLIME_PLUSHIE);
         Registry.register(Registry.ITEM, new Identifier(MOD_ID, "slime_plushie"), new BlockItem(SLIME_PLUSHIE, new FabricItemSettings().maxCount(16).group(ItemGroup.DECORATIONS)));
-        Registry.register(Registry.BLOCK, new Identifier(MOD_ID, "fox_plushie"), FOX_PLUSHIE);
-        Registry.register(Registry.ITEM, new Identifier(MOD_ID, "fox_plushie"), new BlockItem(FOX_PLUSHIE, new FabricItemSettings().maxCount(16).group(ItemGroup.DECORATIONS)));
+        Registry.register(Registry.BLOCK, new Identifier(MOD_ID, "red_fox_plushie"), RED_FOX_PLUSHIE);
+        Registry.register(Registry.ITEM, new Identifier(MOD_ID, "red_fox_plushie"), new BlockItem(RED_FOX_PLUSHIE, new FabricItemSettings().maxCount(16).group(ItemGroup.DECORATIONS)));
+        Registry.register(Registry.BLOCK, new Identifier(MOD_ID, "white_fox_plushie"), WHITE_FOX_PLUSHIE);
+        Registry.register(Registry.ITEM, new Identifier(MOD_ID, "white_fox_plushie"), new BlockItem(WHITE_FOX_PLUSHIE, new FabricItemSettings().maxCount(16).group(ItemGroup.DECORATIONS)));
     }
 }

@@ -48,6 +48,9 @@
     "thirdperson_righthand": {
       "rotation": [71.25, 0, 0],
       "translation": [1.25, 3.5, 2]
+    },
+    "ground": {
+      "translation": [0, 4, 0]
     }
   }
 }
