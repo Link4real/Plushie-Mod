@@ -89,8 +89,27 @@
 			"rotation": [67.75, 0, 0],
 			"translation": [0, 5.5, 2.75]
 		},
+		"thirdperson_lefthand": {
+			"rotation": [73, 0, 0],
+			"translation": [0, 4.5, 3.5]
+		},
+		"firstperson_righthand": {
+			"translation": [0, 6.25, 0]
+		},
+		"firstperson_lefthand": {
+			"translation": [0, 6.5, 0]
+		},
 		"ground": {
 			"translation": [0, 4.25, 0]
+		},
+		"gui": {
+			"rotation": [-180, 5.75, -180]
+		},
+		"head": {
+			"translation": [0, 14.5, 0]
+		},
+		"fixed": {
+			"translation": [0, 5.25, -4.25]
 		}
 	}
 }
