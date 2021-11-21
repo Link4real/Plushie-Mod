@@ -1,0 +1,9 @@
+
+{
+  "variants": {
+    "facing=north": { "model": "plushies:block/mooshroom_plushie"},
+    "facing=east":  { "model": "plushies:block/mooshroom_plushie", "y":  90},
+    "facing=south": { "model": "plushies:block/mooshroom_plushie", "y": 180},
+    "facing=west":  { "model": "plushies:block/mooshroom_plushie", "y": 270}
+  }
+}
