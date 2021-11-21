@@ -23,6 +23,9 @@ public class Main implements ModInitializer {
              stacks.add(new ItemStack(ModBlocks.WHITE_FOX_PLUSHIE));
              stacks.add(new ItemStack(ModBlocks.DRAGON_PLUSHIE));
              stacks.add(new ItemStack(ModBlocks.COW_PLUSHIE));
+             stacks.add(new ItemStack(ModBlocks.MOOSHROOM_PLUSHIE));
+             stacks.add(new ItemStack(ModBlocks.BEE_PLUSHIE));
+             stacks.add(new ItemStack(ModBlocks.LLAMA_PLUSHIE));
             })
             .build();
     // ...

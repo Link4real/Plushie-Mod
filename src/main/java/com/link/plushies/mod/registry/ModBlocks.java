@@ -25,6 +25,8 @@ public class ModBlocks {
     public static final Block DRAGON_PLUSHIE = new DragonPlushie(FabricBlockSettings.of(Material.WOOL).nonOpaque().sounds(BlockSoundGroup.WOOL).strength(0.9f));
     public static final Block COW_PLUSHIE = new CowPlushie(FabricBlockSettings.of(Material.WOOL).nonOpaque().sounds(BlockSoundGroup.WOOL).strength(0.9f));
     public static final Block MOOSHROOM_PLUSHIE = new CowPlushie(FabricBlockSettings.of(Material.WOOL).nonOpaque().strength(0.9f).sounds(BlockSoundGroup.WOOL));
+    public static final Block BEE_PLUSHIE = new BeePlushie(FabricBlockSettings.of(Material.WOOL).strength(0.9f).sounds(BlockSoundGroup.WOOL));
+    public static final Block LLAMA_PLUSHIE = new LlamaPlushie(FabricBlockSettings.of(Material.WOOL).strength(0.9f).sounds(BlockSoundGroup.WOOL));
 
     public static void registerItems() {
         //Panda Plushie
@@ -48,5 +50,11 @@ public class ModBlocks {
         //Mooshroom Plushie
         Registry.register(Registry.BLOCK, new Identifier(MOD_ID,"mooshroom_plushie"), MOOSHROOM_PLUSHIE);
         Registry.register(Registry.ITEM, new Identifier(MOD_ID, "mooshroom_plushie"), new BlockItem(MOOSHROOM_PLUSHIE, new FabricItemSettings().group(Main.ITEM_GROUP).maxCount(16)));
+        //Bee Plushie
+        Registry.register(Registry.BLOCK, new Identifier(MOD_ID,"bee_plushie"), BEE_PLUSHIE);
+        Registry.register(Registry.ITEM, new Identifier(MOD_ID, "bee_plushie"), new BlockItem(BEE_PLUSHIE, new FabricItemSettings().group(Main.ITEM_GROUP).maxCount(16)));
+        //Llama Plushie
+        Registry.register(Registry.BLOCK, new Identifier(MOD_ID,"llama_plushie"), LLAMA_PLUSHIE);
+        Registry.register(Registry.ITEM, new Identifier(MOD_ID, "llama_plushie"), new BlockItem(LLAMA_PLUSHIE, new FabricItemSettings().group(Main.ITEM_GROUP).maxCount(16)));
     }
 }
