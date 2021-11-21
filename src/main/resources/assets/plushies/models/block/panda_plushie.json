@@ -2,7 +2,7 @@
 	"credit": "Made with Blockbench",
 	"textures": {
 		"0": "plushies:blocks/panda_plushie",
-		"particle": "plushies:blocks/panda_plushie"
+		"particle": "minecraft:block/white_wool"
 	},
 	"elements": [
 		{
@@ -122,7 +122,8 @@
 			"translation": [0, 4.25, 0]
 		},
 		"gui": {
-			"rotation": [-180, 11, -180]
+			"rotation": [-180, -31, -180],
+			"translation": [0, 3, 0]
 		},
 		"head": {
 			"translation": [0, 14.75, 0]

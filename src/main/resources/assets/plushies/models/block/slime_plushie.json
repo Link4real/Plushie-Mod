@@ -2,7 +2,7 @@
 	"credit": "Made with Blockbench",
 	"textures": {
 		"0": "plushies:blocks/slime_plushie",
-		"particle": "plushies:blocks/slime_plushie"
+		"particle": "minecraft:block/green_wool"
 	},
 	"elements": [
 		{
@@ -63,7 +63,8 @@
 			"translation": [0, 4, 0]
 		},
 		"gui": {
-			"rotation": [-180, 3.5, -180]
+			"rotation": [-180, -7.5, -180],
+			"translation": [0, 1.25, 0]
 		},
 		"head": {
 			"translation": [0, 14.5, 0]

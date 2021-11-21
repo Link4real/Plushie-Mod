@@ -2,7 +2,7 @@
 	"credit": "Made with Blockbench",
 	"textures": {
 		"0": "plushies:blocks/red_fox_plushie",
-		"particle": "plushies:blocks/red_fox_plushie"
+		"particle": "minecraft:block/orange_wool"
 	},
 	"elements": [
 		{

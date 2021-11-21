@@ -2,7 +2,7 @@
 	"credit": "Made with Blockbench",
 	"textures": {
 		"0": "plushies:blocks/cow_plushie",
-		"particle": "plushies:blocks/cow_plushie"
+		"particle": "minecraft:block/brown_wool"
 	},
 	"elements": [
 		{
@@ -121,8 +121,8 @@
 			"translation": [0, 4.5, 0]
 		},
 		"gui": {
-			"rotation": [-180, 0.25, -180],
-			"translation": [0, 1.75, 0]
+			"rotation": [-180, -35.75, -180],
+			"translation": [-1.25, 1.75, 0]
 		},
 		"head": {
 			"translation": [0, 14.5, 0]
