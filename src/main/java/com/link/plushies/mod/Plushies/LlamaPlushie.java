@@ -28,13 +28,13 @@ public class LlamaPlushie extends HorizontalFacingBlock {
         Direction dir = state.get(FACING);
         switch(dir) {
             case NORTH:
-                return VoxelShapes.cuboid(0.1f, 0f, 0.23f, 1f, 0.85f, 1f);
+                return VoxelShapes.cuboid(0.2f, 0f, 0f, 0.8f, 0.85f, 0.9f);
             case SOUTH:
-                return VoxelShapes.cuboid(0.1f, 0f, 0.23f, 1f, 0.85111f, 1f);
+                return VoxelShapes.cuboid(0.21f, 0f, 0f, 0.8f, 0.85f, 0.9f);
             case EAST:
-                return VoxelShapes.cuboid(0.1f, 0f, 0.23f, 1f, 0.8511f, 1f);
+                return VoxelShapes.cuboid(0.1f, 0f, 0.23f, 1f, 0.85f, 0.75f);
             case WEST:
-                return VoxelShapes.cuboid(0.1f, 0f, 0.23f, 1f, 0.851f, 1f);
+                return VoxelShapes.cuboid(0.1f, 0f, 0.23f, 1f, 0.851f, 0.75f);
             default:
                 return VoxelShapes.fullCube();
         }
