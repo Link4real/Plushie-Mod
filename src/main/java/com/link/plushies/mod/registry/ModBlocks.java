@@ -5,6 +5,7 @@ import com.link.plushies.mod.Plushies.*;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.Block;
+import net.minecraft.block.MagmaBlock;
 import net.minecraft.block.Material;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.ItemGroup;
@@ -27,6 +28,7 @@ public class ModBlocks {
     public static final Block MOOSHROOM_PLUSHIE = new CowPlushie(FabricBlockSettings.of(Material.WOOL).nonOpaque().strength(0.9f).sounds(BlockSoundGroup.WOOL));
     public static final Block BEE_PLUSHIE = new BeePlushie(FabricBlockSettings.of(Material.WOOL).strength(0.9f).sounds(BlockSoundGroup.WOOL));
     public static final Block LLAMA_PLUSHIE = new LlamaPlushie(FabricBlockSettings.of(Material.WOOL).strength(0.9f).sounds(BlockSoundGroup.WOOL));
+    public static final Block MAGMA_CUBE_PLUSHIE = new SlimePlushie(FabricBlockSettings.of(Material.WOOL).strength(0.9f).sounds(BlockSoundGroup.WOOL));
 
     public static void registerItems() {
         //Panda Plushie
@@ -56,5 +58,8 @@ public class ModBlocks {
         //Llama Plushie
         Registry.register(Registry.BLOCK, new Identifier(MOD_ID,"llama_plushie"), LLAMA_PLUSHIE);
         Registry.register(Registry.ITEM, new Identifier(MOD_ID, "llama_plushie"), new BlockItem(LLAMA_PLUSHIE, new FabricItemSettings().group(Main.ITEM_GROUP).maxCount(16)));
+        //Magma Cube Plushie
+        Registry.register(Registry.BLOCK, new Identifier(MOD_ID,"magma_cube_plushie"), MAGMA_CUBE_PLUSHIE);
+        Registry.register(Registry.ITEM, new Identifier(MOD_ID, "magma_cube_plushie"), new BlockItem(MAGMA_CUBE_PLUSHIE, new FabricItemSettings().group(Main.ITEM_GROUP).maxCount(16)));
     }
 }
