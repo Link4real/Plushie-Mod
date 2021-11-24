@@ -1,23 +1,26 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "#B#",
-    "BLB",
-    "L#L"
+    "#R#",
+    "RLR",
+    "X#X"
   ],
   "key": {
     "#": {
       "item": "minecraft:black_wool"
     },
-    "B": {
-      "item": "minecraft:brown_wool"
+    "R": {
+      "item": "minecraft:red_wool"
     },
     "L": {
       "item": "minecraft:leather"
+    },
+    "X": {
+      "item": "minecraft:red_mushroom"
     }
   },
   "result": {
-    "item": "plushies:cow_plushie",
+    "item": "plushies:mooshroom_plushie",
     "count": 1
   }
 }
