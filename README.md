@@ -1,5 +1,7 @@
 <h1 style="font-size:60px;"align="center">Plushie-Mod</h1>
 
+<p style="font-size:25px" align="center">1.18 version! (1.18-rc.2)</p>
+
 <p style="font-size:25px" align="center">Contribute, by making a pull request!</p>
 
 <p style="font-size:36px;" align="center">This is a Minecraft Mod for Fabric</p>
@@ -10,7 +12,10 @@
 
 <p style="font-size:25px;" align="center"><a href="https://link4real.github.io/plushie.html">Website</a></p>
 
-<p align="center"><img valign="middle" src="https://i.imgur.com/yXVPiJK.png"></p>
+<p style="font-size:25px;" align="center"><a href="https://link4real.github.io/wiki/plushies.html">Wiki (Comming Soon!!!)</a></p>
+
+
+<p align="center"><img valign="middle" src="https://i.imgur.com/HpSjwgw.png"></p>
 
 <p style="font-size:25px" align="center">This project is under the Cosmo license (Click <a href="https://raw.githubusercontent.com/CosmoNetworks/TheCosmoLicense/master/LICENSE">here</a>)</p>
 <p style="font-size:25px" align="center">Please respect the license in any way!</p>
