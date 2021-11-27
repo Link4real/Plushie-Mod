@@ -10,6 +10,9 @@
 
 <p style="font-size:25px;" align="center"><a href="https://link4real.github.io/plushie.html">Website</a></p>
 
+<p align="center"><a href="https://gist.github.com/Link4real/af545420163c11858c4f4640b00191cd"><img valign="middle" src="https://i.imgur.com/3jztcWc.png" width="330px" height="120"></a></p>
+
+
 <p align="center"><img valign="middle" src="https://i.imgur.com/yXVPiJK.png"></p>
 
 <p style="font-size:25px" align="center">This project is under the Cosmo license (Click <a href="https://raw.githubusercontent.com/CosmoNetworks/TheCosmoLicense/master/LICENSE">here</a>)</p>
