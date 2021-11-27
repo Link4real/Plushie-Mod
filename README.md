@@ -14,6 +14,8 @@
 
 <p style="font-size:25px;" align="center"><a href="https://link4real.github.io/wiki/plushies.html">Wiki (Comming Soon!!!)</a></p>
 
+<p align="center"><img valign="middle" src="https://i.imgur.com/3jztcWc.png" width="330px" height="120"></p>
+
 
 <p align="center"><img valign="middle" src="https://i.imgur.com/HpSjwgw.png"></p>
 
