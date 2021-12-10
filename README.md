@@ -1,6 +1,6 @@
 <h1 style="font-size:60px;"align="center">Plushie-Mod</h1>
 
-<p style="font-size:25px" align="center">1.18 version! (1.18-rc.4)</p>
+<p style="font-size:25px" align="center">1.18 version!</p>
 
 <p style="font-size:25px" align="center">Contribute, by making a pull request!</p>
 
@@ -12,7 +12,7 @@
 
 <p style="font-size:25px;" align="center"><a href="https://link4real.github.io/plushie.html">Website</a></p>
 
-<p style="font-size:25px;" align="center"><a href="https://link4real.github.io/wiki/plushies.html">Wiki (Comming Soon!!!)</a></p>
+<p style="font-size:25px;" align="center"><a href="https://link4real.github.io/wiki/plushies.html">Wiki</a></p>
 
 <p align="center"><a href="https://gist.github.com/Link4real/af545420163c11858c4f4640b00191cd"><img valign="middle" src="https://i.imgur.com/3jztcWc.png" width="330px" height="120"></a></p>
 
