@@ -8,6 +8,8 @@
 
 <p style="font-size:25px;" align="center"><img src="https://cf.way2muchnoise.eu/544197.svg"><a href="https://www.curseforge.com/minecraft/mc-mods/plushie-mod"></a></p>
 
+<p style="font-size:25px;" align="center"><img src="https://cf.way2muchnoise.eu/versions/For%20MC_544197_all.svg"><a href="https://www.curseforge.com/minecraft/mc-mods/plushie-mod"></a></p>
+
 <p style="font-size:25px;" align="center"><a href="https://www.curseforge.com/minecraft/mc-mods/plushie-mod">Curseforge</a></p>
 
 <p style="font-size:25px;" align="center"><a href="https://modrinth.com/mod/plushie">Modrinth</a></p>
