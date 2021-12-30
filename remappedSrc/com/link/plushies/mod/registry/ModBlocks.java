@@ -24,11 +24,19 @@ public class ModBlocks {
     public static final Block RED_FOX_PLUSHIE = new FoxPlushie(FabricBlockSettings.of(Material.WOOL).nonOpaque().sounds(BlockSoundGroup.WOOL).strength(0.8f));
     public static final Block WHITE_FOX_PLUSHIE = new FoxPlushie(FabricBlockSettings.of(Material.WOOL).nonOpaque().sounds(BlockSoundGroup.WOOL).strength(0.8f));
     public static final Block DRAGON_PLUSHIE = new DragonPlushie(FabricBlockSettings.of(Material.WOOL).nonOpaque().sounds(BlockSoundGroup.WOOL).strength(0.9f));
+    //v1.1
     public static final Block COW_PLUSHIE = new CowPlushie(FabricBlockSettings.of(Material.WOOL).nonOpaque().sounds(BlockSoundGroup.WOOL).strength(0.9f));
     public static final Block MOOSHROOM_PLUSHIE = new CowPlushie(FabricBlockSettings.of(Material.WOOL).nonOpaque().strength(0.9f).sounds(BlockSoundGroup.WOOL));
     public static final Block BEE_PLUSHIE = new BeePlushie(FabricBlockSettings.of(Material.WOOL).strength(0.9f).sounds(BlockSoundGroup.WOOL));
     public static final Block LLAMA_PLUSHIE = new LlamaPlushie(FabricBlockSettings.of(Material.WOOL).strength(0.9f).sounds(BlockSoundGroup.WOOL).luminance(1));
     public static final Block MAGMA_CUBE_PLUSHIE = new SlimePlushie(FabricBlockSettings.of(Material.WOOL).strength(0.9f).sounds(BlockSoundGroup.WOOL));
+    //v1.2
+    public static final Block AXOLOTL_PLUSHIE = new AxolotlPlushie(FabricBlockSettings.of(Material.WOOL).strength(0.9f).sounds(BlockSoundGroup.WOOL));
+    public static final Block TURTLE_PLUSHIE = new TurtlePlushie(FabricBlockSettings.of(Material.WOOL).strength(0.9f).sounds(BlockSoundGroup.WOOL));
+    public static final Block SNOW_GOLEM_PLUSHIE = new SnowgolemPlushie(FabricBlockSettings.of(Material.WOOL).strength(0.9f).sounds(BlockSoundGroup.WOOL));
+    public static final Block DOLPHIN_PLUSHIE = new DolphinPlushie(FabricBlockSettings.of(Material.WOOL).strength(0.9f).sounds(BlockSoundGroup.WOOL));
+    public static final Block PARROT_PLUSHIE = new ParrotPlushie(FabricBlockSettings.of(Material.WOOL).strength(0.9f).sounds(BlockSoundGroup.WOOL));
+
 
     public static void registerItems() {
         //Panda Plushie
@@ -61,5 +69,20 @@ public class ModBlocks {
         //Magma Cube Plushie
         Registry.register(Registry.BLOCK, new Identifier(MOD_ID,"magma_cube_plushie"), MAGMA_CUBE_PLUSHIE);
         Registry.register(Registry.ITEM, new Identifier(MOD_ID, "magma_cube_plushie"), new BlockItem(MAGMA_CUBE_PLUSHIE, new FabricItemSettings().group(Main.ITEM_GROUP).maxCount(16)));
+        //Axolotl Plushie
+        Registry.register(Registry.BLOCK, new Identifier(MOD_ID,"axolotl_plushie"), AXOLOTL_PLUSHIE);
+        Registry.register(Registry.ITEM, new Identifier(MOD_ID, "axolotl_plushie"), new BlockItem(AXOLOTL_PLUSHIE, new FabricItemSettings().group(Main.ITEM_GROUP).maxCount(16)));
+        //Turtle Plushie
+        Registry.register(Registry.BLOCK, new Identifier(MOD_ID,"turtle_plushie"), TURTLE_PLUSHIE);
+        Registry.register(Registry.ITEM, new Identifier(MOD_ID, "turtle_plushie"), new BlockItem(TURTLE_PLUSHIE, new FabricItemSettings().group(Main.ITEM_GROUP).maxCount(16)));
+        //Snow Golem Plushie
+        Registry.register(Registry.BLOCK, new Identifier(MOD_ID,"snow_golem_plushie"), SNOW_GOLEM_PLUSHIE);
+        Registry.register(Registry.ITEM, new Identifier(MOD_ID, "snow_golem_plushie"), new BlockItem(SNOW_GOLEM_PLUSHIE, new FabricItemSettings().group(Main.ITEM_GROUP).maxCount(16)));
+        //Dolphin Plushie
+        Registry.register(Registry.BLOCK, new Identifier(MOD_ID,"dolphin_plushie"), DOLPHIN_PLUSHIE);
+        Registry.register(Registry.ITEM, new Identifier(MOD_ID, "dolphin_plushie"), new BlockItem(DOLPHIN_PLUSHIE, new FabricItemSettings().group(Main.ITEM_GROUP).maxCount(16)));
+        //Parrot Plushie
+        Registry.register(Registry.BLOCK, new Identifier(MOD_ID,"parrot_plushie"), PARROT_PLUSHIE);
+        Registry.register(Registry.ITEM, new Identifier(MOD_ID, "parrot_plushie"), new BlockItem(PARROT_PLUSHIE, new FabricItemSettings().group(Main.ITEM_GROUP).maxCount(16)));
     }
 }

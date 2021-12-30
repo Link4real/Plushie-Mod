@@ -9,5 +9,10 @@
   "block.plushies.bee_plushie": "Bee Plushie",
   "block.plushies.llama_plushie": "Llama Plushie",
   "block.plushies.magma_cube_plushie": "Magma Cube Plushie",
+  "block.plushies.axolotl_plushie": "Axolotl Plushie",
+  "block.plushies.turtle_plushie": "Turtle Plushie",
+  "block.plushies.snow_golem_plushie": "Snow Golem Plushie",
+  "block.plushies.dolphin_plushie": "Dolphin Plushie",
+  "block.plushies.parrot_plushie": "Parrot Plushie",
   "itemGroup.plushies.main": "Plushie-Mod"
 }

@@ -9,5 +9,10 @@
   "block.plushies.bee_plushie": "Плюшевая Пчёлка",
   "block.plushies.llama_plushie": "Плюшевая Лама",
   "block.plushies.magma_cube_plushie": "Плюшевый Кубик Магмы",
+  "block.plushies.axolotl_plushie": "Плюшевый Аксолотль",
+  "block.plushies.turtle_plushie": "Плюшевые Черепаха",
+  "block.plushies.snow_golem_plushie": "Плюшевый снежный голем",
+  "block.plushies.dolphin_plushie": "Плюшевый Дельфин",
+  "block.plushies.parrot_plushie": "Попугай плюшевый",
   "itemGroup.plushies.main": "Плюшевые"
 }
