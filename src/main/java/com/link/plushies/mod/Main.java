@@ -32,10 +32,12 @@ public class Main implements ModInitializer {
              stacks.add(new ItemStack(ModBlocks.SNOW_GOLEM_PLUSHIE));
              stacks.add(new ItemStack(ModBlocks.DOLPHIN_PLUSHIE));
              stacks.add(new ItemStack(ModBlocks.PARROT_PLUSHIE));
+             stacks.add(new ItemStack(ModBlocks.WARDEN_PLUSHIE));
+             stacks.add(new ItemStack(ModBlocks.FROG_PLUSHIE));
+             stacks.add(new ItemStack(ModBlocks.GOAT_PLUSHIE));
             })
             .build();
     // ...
-
 
     @Override
     public void onInitialize() {

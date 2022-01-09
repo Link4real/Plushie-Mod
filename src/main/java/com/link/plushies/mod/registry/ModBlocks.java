@@ -36,7 +36,9 @@ public class ModBlocks {
     public static final Block SNOW_GOLEM_PLUSHIE = new SnowgolemPlushie(FabricBlockSettings.of(Material.WOOL).strength(0.9f).sounds(BlockSoundGroup.WOOL));
     public static final Block DOLPHIN_PLUSHIE = new DolphinPlushie(FabricBlockSettings.of(Material.WOOL).strength(0.9f).sounds(BlockSoundGroup.WOOL));
     public static final Block PARROT_PLUSHIE = new ParrotPlushie(FabricBlockSettings.of(Material.WOOL).strength(0.9f).sounds(BlockSoundGroup.WOOL));
-
+    public static final Block WARDEN_PLUSHIE = new WardenPlushie(FabricBlockSettings.of(Material.WOOL).strength(0.9f).sounds(BlockSoundGroup.WOOL));
+    public static final Block FROG_PLUSHIE = new FrogPlushie(FabricBlockSettings.of(Material.WOOL).strength(0.9f).sounds(BlockSoundGroup.WOOL));
+    public static final Block GOAT_PLUSHIE = new GoatPlushie(FabricBlockSettings.of(Material.WOOL).strength(0.9f).sounds(BlockSoundGroup.WOOL));
 
     public static void registerItems() {
         //Panda Plushie
@@ -84,5 +86,14 @@ public class ModBlocks {
         //Parrot Plushie
         Registry.register(Registry.BLOCK, new Identifier(MOD_ID,"parrot_plushie"), PARROT_PLUSHIE);
         Registry.register(Registry.ITEM, new Identifier(MOD_ID, "parrot_plushie"), new BlockItem(PARROT_PLUSHIE, new FabricItemSettings().group(Main.ITEM_GROUP).maxCount(16)));
+        //Warden Plushie
+        Registry.register(Registry.BLOCK, new Identifier(MOD_ID,"warden_plushie"), WARDEN_PLUSHIE);
+        Registry.register(Registry.ITEM, new Identifier(MOD_ID, "warden_plushie"), new BlockItem(WARDEN_PLUSHIE, new FabricItemSettings().group(Main.ITEM_GROUP).maxCount(16)));
+        //Frog Plushie
+        Registry.register(Registry.BLOCK, new Identifier(MOD_ID,"frog_plushie"), FROG_PLUSHIE);
+        Registry.register(Registry.ITEM, new Identifier(MOD_ID, "frog_plushie"), new BlockItem(FROG_PLUSHIE, new FabricItemSettings().group(Main.ITEM_GROUP).maxCount(16)));
+        //Goat Plushie
+        Registry.register(Registry.BLOCK, new Identifier(MOD_ID, "goat_plushie"), GOAT_PLUSHIE);
+        Registry.register(Registry.ITEM, new Identifier(MOD_ID, "goat_plushie"), new BlockItem(GOAT_PLUSHIE, new FabricItemSettings().group(Main.ITEM_GROUP).maxCount(16)));
     }
 }
