@@ -25,4 +25,3 @@
 
 <p style="font-size:25px" align="center">This project is under the Cosmo license (Click <a href="https://raw.githubusercontent.com/CosmoNetworks/TheCosmoLicense/master/LICENSE">here</a>)</p>
 <p style="font-size:25px" align="center">Please respect the license in any way!</p>
-<p align="center">Copyright Link4real and Cosmo Networks!</p>
