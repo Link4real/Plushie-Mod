@@ -13,7 +13,7 @@
     "sources": "https://github.com/Link4real/Plushie-Mod"
   },
 
-  "license": "Cosmo",
+  "license": "MIT",
   "icon": "assets/plushies/icon.png",
 
   "environment": "*",
