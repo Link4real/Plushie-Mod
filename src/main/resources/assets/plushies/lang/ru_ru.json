@@ -13,9 +13,12 @@
   "block.plushies.turtle_plushie": "Плюшевые Черепаха",
   "block.plushies.snow_golem_plushie": "Плюшевый снежный голем",
   "block.plushies.dolphin_plushie": "Плюшевый Дельфин",
-  "block.plushies.parrot_plushie": "Попугай плюшевый",
+  "block.plushies.parrot_plushie": "Плюшевый Попугай",
   "block.plushies.warden_plushie": "Смотритель плюш",
-  "block.plushie.frog_plushie": "лягушка плюшевая",
-  "block.plushies.goat_plushie": "Коза плюшевая",
+  "block.plushie.frog_plushie": "Плюшевый лягушка",
+  "block.plushies.goat_plushie": "Плюшевый Коза",
+  "block.plushies.cat_plushie": "Плюшевый кошка",
+  "block.plushies.enderman_plushie": "Плюшевый конец человек",
+  "block.plushies.sheep_plushie": "Плюшевый овца",
   "itemGroup.plushies.main": "Плюшевые"
 }
