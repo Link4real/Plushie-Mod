@@ -28,13 +28,13 @@ public class CatPlushie extends HorizontalFacingBlock {
         Direction dir = state.get(FACING);
         switch(dir) {
             case NORTH:
-                return VoxelShapes.cuboid(0.3f, 0f, 0f, 0.7f, 0.65f, 0.7f);
+                return VoxelShapes.cuboid(0.35f, 0f, 0f, 0.7f, 0.55f, 1f);
             case SOUTH:
-                return VoxelShapes.cuboid(0.25f, 0f, 0.3f, 0.7f, 0.65f, 1f);
+                return VoxelShapes.cuboid(0.35f, 0f, 0f, 0.7f, 0.551f, 1f);
             case EAST:
-                return VoxelShapes.cuboid(0.25f, 0f, 0.2f, 1f, 0.65f, 0.7f);
+                return VoxelShapes.cuboid(0f, 0f, 0.35f, 1f, 0.55f, 0.7f);
             case WEST:
-                return VoxelShapes.cuboid(0f, 0f, 0.2f, 0.73f, 0.65f, 0.7f);
+                return VoxelShapes.cuboid(0f, 0f, 0.35f, 1f, 0.551f, 0.7f);
             default:
                 return VoxelShapes.fullCube();
         }

@@ -28,13 +28,13 @@ public class TurtlePlushie extends HorizontalFacingBlock {
         Direction dir = state.get(FACING);
         switch(dir) {
             case NORTH:
-                return VoxelShapes.cuboid(0f, 0f, 0f, 1f, 0.55f, 1f);
+                return VoxelShapes.cuboid(0f, 0f, 0f, 1f, 0.41f, 1f);
             case SOUTH:
-                return VoxelShapes.cuboid(0f, 0f, 0f, 1f, 0.55111f, 1f);
+                return VoxelShapes.cuboid(0f, 0f, 0f, 1f, 0.411f, 1f);
             case EAST:
-                return VoxelShapes.cuboid(0f, 0f, 0f, 1f, 0.5511f, 1f);
+                return VoxelShapes.cuboid(0f, 0f, 0f, 1f, 0.4111f, 1f);
             case WEST:
-                return VoxelShapes.cuboid(0f, 0f, 0f, 1f, 0.551f, 1f);
+                return VoxelShapes.cuboid(0f, 0f, 0f, 1f, 0.41111f, 1f);
             default:
                 return VoxelShapes.fullCube();
         }

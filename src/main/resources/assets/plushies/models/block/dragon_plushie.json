@@ -2,7 +2,7 @@
 	"credit": "Made with Blockbench",
 	"textures": {
 		"0": "plushies:blocks/dragon_plushie",
-		"particle": "block/black_wool"
+		"particle": "minecraft:block/black_wool"
 	},
 	"elements": [
 		{
@@ -313,8 +313,8 @@
 			}
 		},
 		{
-			"from": [5.5, 8, -7],
-			"to": [6, 9, -6],
+			"from": [6.5, 8, -7.25],
+			"to": [7, 9, -6.25],
 			"faces": {
 				"north": {"uv": [11.0625, 6, 11.5625, 6.5], "texture": "#0"},
 				"east": {"uv": [11.0625, 6, 11.5625, 6.5], "texture": "#0"},
@@ -325,8 +325,8 @@
 			}
 		},
 		{
-			"from": [9, 8, -7],
-			"to": [9.5, 9, -6],
+			"from": [8.25, 8, -7],
+			"to": [8.75, 9, -6],
 			"faces": {
 				"north": {"uv": [11.0625, 6, 11.5625, 6.5], "texture": "#0"},
 				"east": {"uv": [11.0625, 6, 11.5625, 6.5], "texture": "#0"},
