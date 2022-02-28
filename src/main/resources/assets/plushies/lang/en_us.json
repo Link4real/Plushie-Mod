@@ -20,5 +20,8 @@
   "block.plushies.cat_plushie": "Cat Plushie",
   "block.plushies.enderman_plushie": "Enderman Plushie",
   "block.plushies.sheep_plushie": "Sheep Plushie",
-  "itemGroup.plushies.main": "Plushie-Mod"
+  "itemGroup.plushies.main": "Plushie-Mod",
+  "modmenu.curseforge": "Curseforge",
+  "modmenu.modrinth": "Modrinth",
+  "modmenu.wiki": "Official Wiki"
 }

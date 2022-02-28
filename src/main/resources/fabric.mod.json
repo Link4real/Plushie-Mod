@@ -9,8 +9,9 @@
     "Link4real"
   ],
   "contact": {
-    "homepage": "https://link4real.github.io/plushies",
-    "sources": "https://github.com/Link4real/Plushie-Mod"
+    "homepage": "https://link4real.github.io/plushie.html",
+    "sources": "https://github.com/Link4real/Plushie-Mod",
+    "issues": "https://github.com/Link4real/Plushie-Mod/issues"
   },
 
   "license": "MIT",
@@ -31,5 +32,14 @@
   },
   "suggests": {
     "cakemod": "Cake Mod by Link4real"
+  },
+  "custom": {
+    "modmenu": {
+      "links": {
+        "modmenu.wiki": "https://link4real.github.io/wiki/plushies.html",
+        "modmenu.curseforge": "https://www.curseforge.com/minecraft/mc-mods/plushie-mod",
+        "modmenu.modrinth": "https://modrinth.com/mod/plushie"
+      }
+    }
   }
 }
