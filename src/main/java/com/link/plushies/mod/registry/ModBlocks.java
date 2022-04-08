@@ -3,6 +3,7 @@ package com.link.plushies.mod.registry;
 import com.link.plushies.mod.Main;
 import com.link.plushies.mod.plushies.*;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
+import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.minecraft.block.Block;
 import net.minecraft.block.MagmaBlock;
 import net.minecraft.block.Material;
