@@ -10,9 +10,6 @@ import net.minecraft.util.Identifier;
 public class Main implements ModInitializer {
     public static final String MOD_ID = "plushies";
 
-
-    //ItemGroup!
-
     public static final ItemGroup ITEM_GROUP = FabricItemGroupBuilder.create(
             new Identifier("plushies", "main"))
             .icon(() -> new ItemStack(ModBlocks.PANDA_PLUSHIE))
@@ -40,7 +37,6 @@ public class Main implements ModInitializer {
              stacks.add(new ItemStack(ModBlocks.SHEEP_PLUSHIE));
             })
             .build();
-    // ...
 
     @Override
     public void onInitialize() {
