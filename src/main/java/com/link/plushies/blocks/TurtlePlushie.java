@@ -21,13 +21,13 @@ public class TurtlePlushie extends Plushie {
         Direction dir = state.getValue(FACING);
         switch(dir) {
             case NORTH:
-                return VoxelShapes.box(0f, 0f, 0f, 1f, 0.41f, 1f);
+                return VoxelShapes.box(0.1f, 0f, 0f, 0.9f, 0.41f, 1f);
             case SOUTH:
-                return VoxelShapes.box(0f, 0f, 0f, 1f, 0.411f, 1f);
+                return VoxelShapes.box(0.1f, 0f, 0f, 0.9f, 0.411f, 1f);
             case EAST:
-                return VoxelShapes.box(0f, 0f, 0f, 1f, 0.4111f, 1f);
+                return VoxelShapes.box(0f, 0f, 0.1f, 1f, 0.4111f, 0.9f);
             case WEST:
-                return VoxelShapes.box(0f, 0f, 0f, 1f, 0.41111f, 1f);
+                return VoxelShapes.box(0f, 0f, 0.1f, 1f, 0.41111f, 0.9f);
             default:
                 return VoxelShapes.block();
         }

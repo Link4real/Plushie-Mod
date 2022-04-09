@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "pattern": [
     "#E#",
-    "BDB",
+    "BCB",
     " B "
   ],
   "key": {
@@ -15,8 +15,8 @@
     "B": {
       "item": "minecraft:black_wool"
     },
-    "D": {
-      "item": "minecraft:deepslate"
+    "C": {
+      "item": "minecraft:cobblestone"
     }
   },
   "result": {
