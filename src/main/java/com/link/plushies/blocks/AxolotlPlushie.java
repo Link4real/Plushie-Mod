@@ -1,6 +1,5 @@
 package com.link.plushies.blocks;
 
-
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
 import net.minecraft.world.level.BlockGetter;
@@ -16,7 +15,6 @@ public class AxolotlPlushie extends Plushie {
     public AxolotlPlushie() {
         super(Properties.of(Material.WOOL).sound(SoundType.WOOL).strength(0.7F));
     }
-
 
     @Override
     public VoxelShape getShape(BlockState state, BlockGetter p_220053_2_, BlockPos p_220053_3_, CollisionContext p_220053_4_) {

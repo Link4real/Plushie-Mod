@@ -21,15 +21,15 @@ public class DragonPlushie extends Plushie {
     @Override
     public VoxelShape getShape(BlockState state, BlockGetter p_220053_2_, BlockPos p_220053_3_, CollisionContext p_220053_4_) {
         Direction dir = state.getValue(FACING);
-        switch (dir) {
+        switch(dir) {
             case NORTH:
-                return Shapes.box(0f, 0f, 0f, 1f, 0.85f, 1f);
+                return Shapes.box(0.1f, 0f, 0f, 0.9f, 1f, 1f);
             case SOUTH:
-                return Shapes.box(0f, 0f, 0f, 1f, 0.85111f, 1f);
+                return Shapes.box(0.1f, 0f, 0f, 0.9f, 1f, 1f);
             case EAST:
-                return Shapes.box(0f, 0f, 0f, 1f, 0.8511f, 1f);
+                return Shapes.box(0f, 0f, 0.1f, 1f, 1f, 0.9f);
             case WEST:
-                return Shapes.box(0f, 0f, 0f, 1f, 0.851f, 1f);
+                return Shapes.box(0f, 0f, 0.1f, 1f, 1f, 0.9f);
             default:
                 return Shapes.block();
         }
