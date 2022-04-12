@@ -20,13 +20,13 @@ public class FoxPlushie extends Plushie {
         Direction dir = state.getValue(FACING);
         switch (dir) {
             case NORTH:
-                return Shapes.box(0f, 0f, 0f, 1f, 0.45f, 1f);
+                return Shapes.box(0f, 0f, 0.2f, 1f, 0.45f, 0.8f);
             case SOUTH:
-                return Shapes.box(0f, 0f, 0f, 1f, 0.45111f, 1f);
+                return Shapes.box(0f, 0f, 0.2f, 1f, 0.45111f, 0.8f);
             case EAST:
-                return Shapes.box(0f, 0f, 0f, 1f, 0.4511f, 1f);
+                return Shapes.box(0.2f, 0f, 0f, 0.8f, 0.4511f, 1f);
             case WEST:
-                return Shapes.box(0f, 0f, 0f, 1f, 0.451f, 1f);
+                return Shapes.box(0.2f, 0f, 0f, 0.8f, 0.451f, 1f);
             default:
                 return Shapes.block();
         }

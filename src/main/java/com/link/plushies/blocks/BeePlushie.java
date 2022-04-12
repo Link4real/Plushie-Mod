@@ -19,15 +19,15 @@ public class BeePlushie extends Plushie {
     @Override
     public VoxelShape getShape(BlockState state, BlockGetter p_220053_2_, BlockPos p_220053_3_, CollisionContext p_220053_4_) {
         Direction dir = state.getValue(FACING);
-        switch (dir) {
+        switch(dir) {
             case NORTH:
-                return Shapes.box(0f, 0f, 0f, 1f, 0.55f, 1f);
+                return Shapes.box(0.1f, 0f, 0f, 0.9f, 0.41f, 1f);
             case SOUTH:
-                return Shapes.box(0f, 0f, 0f, 1f, 0.55111f, 1f);
+                return Shapes.box(0.1f, 0f, 0f, 0.9f, 0.411f, 1f);
             case EAST:
-                return Shapes.box(0f, 0f, 0f, 1f, 0.5511f, 1f);
+                return Shapes.box(0f, 0f, 0.1f, 1f, 0.4111f, 0.9f);
             case WEST:
-                return Shapes.box(0f, 0f, 0f, 1f, 0.551f, 1f);
+                return Shapes.box(0f, 0f, 0.1f, 1f, 0.41111f, 0.9f);
             default:
                 return Shapes.block();
         }
