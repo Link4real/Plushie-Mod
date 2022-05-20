@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "# #",
+    "BSB",
+    "BLB"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:yellow_wool"
+    },
+    "B": {
+      "item": "minecraft:brown_wool"
+    },
+    "S": {
+      "item": "minecraft:string"
+    },
+    "L": {
+      "item": "minecraft:light_gray_wool"
+    }
+  },
+  "result": {
+    "item": "plushies:cat",
+    "count": 1
+  }
+}

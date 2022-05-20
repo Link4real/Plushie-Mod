@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#R#",
+    "BYB",
+    "YBY"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:lead"
+    },
+    "R": {
+      "item": "minecraft:red_carpet"
+    },
+    "B": {
+      "item": "minecraft:black_wool"
+    },
+    "Y": {
+      "item": "minecraft:yellow_wool"
+    }
+  },
+  "result": {
+    "item": "plushies:llama",
+    "count": 1
+  }
+}

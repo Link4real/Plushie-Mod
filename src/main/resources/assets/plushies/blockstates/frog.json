@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "plushies:block/frog"},
+    "facing=east":  { "model": "plushies:block/frog", "y":  90},
+    "facing=south": { "model": "plushies:block/frog", "y": 180},
+    "facing=west":  { "model": "plushies:block/frog", "y": 270}
+  }
+}
