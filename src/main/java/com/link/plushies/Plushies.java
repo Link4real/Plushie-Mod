@@ -13,7 +13,7 @@ public class Plushies {
     public static final CreativeModeTab ITEM_GROUP = new CreativeModeTab(MOD_ID) {
         @Override
         public ItemStack makeIcon() {
-            return new ItemStack(Items.PANDA.get());
+            return new ItemStack(Items.SNOW_GOLEM.get());
         }
     };
 
