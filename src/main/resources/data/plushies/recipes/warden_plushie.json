@@ -10,13 +10,13 @@
       "item": "minecraft:cyan_wool"
     },
     "E": {
-      "item": "minecraft:ender_eye"
+      "item": "minecraft:echo_shard"
     },
     "B": {
       "item": "minecraft:black_wool"
     },
     "D": {
-      "item": "minecraft:deepslate"
+      "item": "minecraft:sculk"
     }
   },
   "result": {

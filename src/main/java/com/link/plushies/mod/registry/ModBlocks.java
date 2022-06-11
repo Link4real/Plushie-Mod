@@ -57,9 +57,6 @@ public class ModBlocks {
         //White Fox Plushie
         Registry.register(Registry.BLOCK, new Identifier(MOD_ID, "white_fox_plushie"), WHITE_FOX_PLUSHIE);
         Registry.register(Registry.ITEM, new Identifier(MOD_ID, "white_fox_plushie"), new BlockItem(WHITE_FOX_PLUSHIE, itemSettings));
-        //Dragon Plushie
-        Registry.register(Registry.BLOCK, new Identifier(MOD_ID, "dragon_plushie"), DRAGON_PLUSHIE);
-        Registry.register(Registry.ITEM, new Identifier(MOD_ID, "dragon_plushie"), new BlockItem(DRAGON_PLUSHIE, itemSettings.rarity(Rarity.EPIC)));
         //Cow Plushie
         Registry.register(Registry.BLOCK, new Identifier(MOD_ID,"cow_plushie"), COW_PLUSHIE);
         Registry.register(Registry.ITEM, new Identifier(MOD_ID, "cow_plushie"), new BlockItem(COW_PLUSHIE, itemSettings));
@@ -108,5 +105,8 @@ public class ModBlocks {
         //Sheep Plushie
         Registry.register(Registry.BLOCK, new Identifier(MOD_ID, "sheep_plushie"), SHEEP_PLUSHIE);
         Registry.register(Registry.ITEM, new Identifier(MOD_ID, "sheep_plushie"), new BlockItem(SHEEP_PLUSHIE, itemSettings));
+        //Dragon Plushie
+        Registry.register(Registry.BLOCK, new Identifier(MOD_ID, "dragon_plushie"), DRAGON_PLUSHIE);
+        Registry.register(Registry.ITEM, new Identifier(MOD_ID, "dragon_plushie"), new BlockItem(DRAGON_PLUSHIE, itemSettings.rarity(Rarity.EPIC)));
     }
 }
