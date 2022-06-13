@@ -6,14 +6,15 @@
   "name": "Plushie Mod",
   "description": "This mod adds cute plushies to the game!",
   "authors": [
-    "Link4real"
+    "Link4real",
+    "Knife-Moth"
   ],
   "contact": {
     "homepage": "https://link4real.github.io/plushies",
     "sources": "https://github.com/Link4real/Plushie-Mod"
   },
 
-  "license": "Cosmo",
+  "license": "MIT",
   "icon": "assets/plushies/icon.png",
 
   "environment": "*",

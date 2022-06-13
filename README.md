@@ -2,6 +2,8 @@
 
 <p style="font-size:25px" align="center">1.17.1 version!</p>
 
+<p style="font-size:25px" align="center">Now on v1.2!</p>
+
 <p style="font-size:25px" align="center">Contribute, by making a pull request!</p>
 
 <p style="font-size:36px;" align="center">This is a Minecraft Mod for Fabric</p>
