@@ -2,8 +2,6 @@
 
 <p style="font-size:25px" align="center">1.19 version!</p>
 
-<p style="font-size:25px" align="center">Contribute, by making a pull request!</p>
-
 <p style="font-size:36px;" align="center">This is a Minecraft Mod for Fabric</p>
 
 <p style="font-size:25px;" align="center"><img src="https://cf.way2muchnoise.eu/544197.svg"><a href="https://www.curseforge.com/minecraft/mc-mods/plushie-mod"></a></p>
@@ -23,3 +21,6 @@
 
 <p align="center"><img valign="middle" src="https://i.imgur.com/Yyc4r70.png"></p>
 <p style="font-size:25px" align="center">Please respect the license in any way!</p>
+
+<h2 style="font-size:60px;"align="center">Adding Languages via Pull request</h2>
+<p  style="font-size:25px" align="center"> Please don't make a pull request if you want to add a language! If i wanted to add new plushies etc. to the mod, I can't make new translations, because I am not native to such languages!</p>
