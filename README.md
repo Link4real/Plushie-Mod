@@ -1,6 +1,6 @@
 <h1 style="font-size:60px;"align="center">Plushie-Mod</h1>
 
-<p style="font-size:25px" align="center">Version 1.18.2!</p>
+<p style="font-size:25px" align="center">Version 1.19.2!</p>
 
 <p style="font-size:25px" align="center">Contribute, by making a pull request!</p>
 
