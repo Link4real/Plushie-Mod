@@ -12,8 +12,8 @@ import net.minecraft.util.shape.VoxelShape;
 import net.minecraft.util.shape.VoxelShapes;
 import net.minecraft.world.BlockView;
 
-public class PigPlushie extends HorizontalFacingBlock {
-    public PigPlushie() {
+public class TadpolePlushie extends HorizontalFacingBlock {
+    public TadpolePlushie() {
         super(FabricBlockSettings.of(Material.WOOL).nonOpaque().sounds(BlockSoundGroup.WOOL).strength(0.7f));
         setDefaultState(this.stateManager.getDefaultState().with(Properties.HORIZONTAL_FACING, Direction.NORTH));
     }
@@ -28,13 +28,13 @@ public class PigPlushie extends HorizontalFacingBlock {
         Direction dir = state.get(FACING);
         switch(dir) {
             case NORTH:
-                return VoxelShapes.cuboid(0.25f, 0f, 0f, 0.75f, 0.751f, 1f);
+                return VoxelShapes.cuboid(0.25f, 0f, 0f, 0.75f, 0.4f, 1f);
             case SOUTH:
-                return VoxelShapes.cuboid(0.25f, 0f, 0f, 0.7f, 0.75f, 1f);
+                return VoxelShapes.cuboid(0.25f, 0f, 0f, 0.75f, 0.41f, 1f);
             case EAST:
-                return VoxelShapes.cuboid(0f, 0f, 0.25f, 1f, 0.751, 0.75f);
+                return VoxelShapes.cuboid(0f, 0f, 0.25f, 1f, 0.4f, 0.75f);
             case WEST:
-                return VoxelShapes.cuboid(0f, 0f, 0.25f, 1f, 0.7511, 0.75f);
+                return VoxelShapes.cuboid(0f, 0f, 0.25f, 1f, 0.41f, 0.75f);
             default:
                 return VoxelShapes.fullCube();
         }
