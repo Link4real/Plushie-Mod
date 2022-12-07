@@ -1,8 +1,8 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "plushies:blocks/snow_golem_plushie",
-		"1": "plushies:blocks/snow_golem_plushie_pumpkin",
+		"0": "plushies:block/snow_golem_plushie",
+		"1": "plushies:block/snow_golem_plushie_pumpkin",
 		"particle": "minecraft:block/white_wool"
 	},
 	"elements": [

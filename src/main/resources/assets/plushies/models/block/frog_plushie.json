@@ -1,7 +1,7 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "plushies:blocks/frog_plushie",
+		"0": "plushies:block/frog_plushie",
 		"particle": "minecraft:block/orange_wool"
 	},
 	"elements": [

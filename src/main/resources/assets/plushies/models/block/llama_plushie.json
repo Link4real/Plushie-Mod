@@ -1,8 +1,8 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "plushies:blocks/llama_plushie",
-		"particle": "plushies:blocks/llama_plushie"
+		"0": "plushies:block/llama_plushie",
+		"particle": "plushies:block/llama_plushie"
 	},
 	"elements": [
 		{

@@ -1,7 +1,7 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "plushies:blocks/axolotl_plushie",
+		"0": "plushies:block/axolotl_plushie",
 		"particle": "minecraft:block/pink_wool"
 	},
 	"elements": [

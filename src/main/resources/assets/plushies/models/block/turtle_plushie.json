@@ -1,7 +1,7 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "plushies:blocks/turtle_plushie",
+		"0": "plushies:block/turtle_plushie",
 		"particle": "minecraft:block/green_wool"
 	},
 	"elements": [
