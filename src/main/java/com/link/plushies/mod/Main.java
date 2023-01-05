@@ -39,6 +39,15 @@ public class Main implements ModInitializer {
                 entries.add(ModBlocks.PIG_PLUSHIE);
                 entries.add(ModBlocks.TADPOLE_PLUSHIE);
                 entries.add(ModBlocks.ALLAY_PLUSHIE);
+                entries.add(ModBlocks.VEX_PLUSHIE);
+                entries.add(ModBlocks.BROWN_RABBIT_PLUSHIE);
+                entries.add(ModBlocks.WHITE_RABBIT_PLUSHIE);
+                entries.add(ModBlocks.BLACK_RABBIT_PLUSHIE);
+                entries.add(ModBlocks.WHITE_SPLOTCHED_RABBIT_PLUSHIE);
+                entries.add(ModBlocks.YELLOW_RABBIT_PLUSHIE);
+                entries.add(ModBlocks.SALT_RABBIT_PLUSHIE);
+                entries.add(ModBlocks.TOAST_RABBIT_PLUSHIE);
+                entries.add(ModBlocks.KILLER_BUNNY_PLUSHIE);
 
             })
             .build();
