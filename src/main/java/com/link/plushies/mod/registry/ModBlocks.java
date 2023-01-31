@@ -35,10 +35,11 @@ public class ModBlocks {
     public static final Block CAT_PLUSHIE = new CatPlushie();
     public static final Block ENDERMAN_PLUSHIE = new EndermanPlushie();
     public static final Block SHEEP_PLUSHIE = new SheepPlushie();
-    // Plushies since v1.3
+    // Plushies since v1.2.1
     public static final Block PIG_PLUSHIE = new PigPlushie();
     public static final Block TADPOLE_PLUSHIE = new TadpolePlushie();
     public static final Block ALLAY_PLUSHIE = new AllayVexPlushie();
+    // Plushies since v1.3
     public static final Block VEX_PLUSHIE = new AllayVexPlushie();
     public static final Block BROWN_RABBIT_PLUSHIE = new RabbitPlushie();
     public static final Block WHITE_RABBIT_PLUSHIE = new RabbitPlushie();
@@ -66,40 +67,40 @@ public class ModBlocks {
         Registry.register(Registries.BLOCK, new Identifier(MOD_ID, "white_fox_plushie"), WHITE_FOX_PLUSHIE);
         Registry.register(Registries.ITEM, new Identifier(MOD_ID, "white_fox_plushie"), new BlockItem(WHITE_FOX_PLUSHIE, itemSettings));
         //Cow Plushie
-        Registry.register(Registries.BLOCK, new Identifier(MOD_ID,"cow_plushie"), COW_PLUSHIE);
+        Registry.register(Registries.BLOCK, new Identifier(MOD_ID, "cow_plushie"), COW_PLUSHIE);
         Registry.register(Registries.ITEM, new Identifier(MOD_ID, "cow_plushie"), new BlockItem(COW_PLUSHIE, itemSettings));
         //Mooshroom Plushie
-        Registry.register(Registries.BLOCK, new Identifier(MOD_ID,"mooshroom_plushie"), MOOSHROOM_PLUSHIE);
+        Registry.register(Registries.BLOCK, new Identifier(MOD_ID, "mooshroom_plushie"), MOOSHROOM_PLUSHIE);
         Registry.register(Registries.ITEM, new Identifier(MOD_ID, "mooshroom_plushie"), new BlockItem(MOOSHROOM_PLUSHIE, itemSettings));
         //Bee Plushie
-        Registry.register(Registries.BLOCK, new Identifier(MOD_ID,"bee_plushie"), BEE_PLUSHIE);
+        Registry.register(Registries.BLOCK, new Identifier(MOD_ID, "bee_plushie"), BEE_PLUSHIE);
         Registry.register(Registries.ITEM, new Identifier(MOD_ID, "bee_plushie"), new BlockItem(BEE_PLUSHIE, itemSettings));
         //Llama Plushie
-        Registry.register(Registries.BLOCK, new Identifier(MOD_ID,"llama_plushie"), LLAMA_PLUSHIE);
+        Registry.register(Registries.BLOCK, new Identifier(MOD_ID, "llama_plushie"), LLAMA_PLUSHIE);
         Registry.register(Registries.ITEM, new Identifier(MOD_ID, "llama_plushie"), new BlockItem(LLAMA_PLUSHIE, itemSettings));
         //Magma Cube Plushie
-        Registry.register(Registries.BLOCK, new Identifier(MOD_ID,"magma_cube_plushie"), MAGMA_CUBE_PLUSHIE);
+        Registry.register(Registries.BLOCK, new Identifier(MOD_ID, "magma_cube_plushie"), MAGMA_CUBE_PLUSHIE);
         Registry.register(Registries.ITEM, new Identifier(MOD_ID, "magma_cube_plushie"), new BlockItem(MAGMA_CUBE_PLUSHIE, itemSettings));
         //Axolotl Plushie
-        Registry.register(Registries.BLOCK, new Identifier(MOD_ID,"axolotl_plushie"), AXOLOTL_PLUSHIE);
+        Registry.register(Registries.BLOCK, new Identifier(MOD_ID, "axolotl_plushie"), AXOLOTL_PLUSHIE);
         Registry.register(Registries.ITEM, new Identifier(MOD_ID, "axolotl_plushie"), new BlockItem(AXOLOTL_PLUSHIE, itemSettings));
         //Turtle Plushie
-        Registry.register(Registries.BLOCK, new Identifier(MOD_ID,"turtle_plushie"), TURTLE_PLUSHIE);
+        Registry.register(Registries.BLOCK, new Identifier(MOD_ID, "turtle_plushie"), TURTLE_PLUSHIE);
         Registry.register(Registries.ITEM, new Identifier(MOD_ID, "turtle_plushie"), new BlockItem(TURTLE_PLUSHIE, itemSettings));
         //Snow Golem Plushie
-        Registry.register(Registries.BLOCK, new Identifier(MOD_ID,"snow_golem_plushie"), SNOW_GOLEM_PLUSHIE);
+        Registry.register(Registries.BLOCK, new Identifier(MOD_ID, "snow_golem_plushie"), SNOW_GOLEM_PLUSHIE);
         Registry.register(Registries.ITEM, new Identifier(MOD_ID, "snow_golem_plushie"), new BlockItem(SNOW_GOLEM_PLUSHIE, itemSettings));
         //Dolphin Plushie
-        Registry.register(Registries.BLOCK, new Identifier(MOD_ID,"dolphin_plushie"), DOLPHIN_PLUSHIE);
+        Registry.register(Registries.BLOCK, new Identifier(MOD_ID, "dolphin_plushie"), DOLPHIN_PLUSHIE);
         Registry.register(Registries.ITEM, new Identifier(MOD_ID, "dolphin_plushie"), new BlockItem(DOLPHIN_PLUSHIE, itemSettings));
         //Parrot Plushie
-        Registry.register(Registries.BLOCK, new Identifier(MOD_ID,"parrot_plushie"), PARROT_PLUSHIE);
+        Registry.register(Registries.BLOCK, new Identifier(MOD_ID, "parrot_plushie"), PARROT_PLUSHIE);
         Registry.register(Registries.ITEM, new Identifier(MOD_ID, "parrot_plushie"), new BlockItem(PARROT_PLUSHIE, itemSettings));
         //Warden Plushie
-        Registry.register(Registries.BLOCK, new Identifier(MOD_ID,"warden_plushie"), WARDEN_PLUSHIE);
+        Registry.register(Registries.BLOCK, new Identifier(MOD_ID, "warden_plushie"), WARDEN_PLUSHIE);
         Registry.register(Registries.ITEM, new Identifier(MOD_ID, "warden_plushie"), new BlockItem(WARDEN_PLUSHIE, itemSettings));
         //Frog Plushie
-        Registry.register(Registries.BLOCK, new Identifier(MOD_ID,"frog_plushie"), FROG_PLUSHIE);
+        Registry.register(Registries.BLOCK, new Identifier(MOD_ID, "frog_plushie"), FROG_PLUSHIE);
         Registry.register(Registries.ITEM, new Identifier(MOD_ID, "frog_plushie"), new BlockItem(FROG_PLUSHIE, itemSettings));
         //Goat Plushie
         Registry.register(Registries.BLOCK, new Identifier(MOD_ID, "goat_plushie"), GOAT_PLUSHIE);
