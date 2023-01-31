@@ -49,6 +49,7 @@ public class ModBlocks {
     public static final Block SALT_RABBIT_PLUSHIE = new RabbitPlushie();
     public static final Block KILLER_BUNNY_PLUSHIE = new RabbitPlushie();
     public static final Block TOAST_RABBIT_PLUSHIE = new RabbitPlushie();
+    public static final Block CREEPER_PLUSHIE = new CreeperPlushie();
 
 
     public static void registerItems() {
@@ -150,6 +151,9 @@ public class ModBlocks {
         //Brown Rabbit Plushie    R
         Registry.register(Registries.BLOCK, new Identifier(MOD_ID, "killer_bunny_plushie"), KILLER_BUNNY_PLUSHIE);
         Registry.register(Registries.ITEM, new Identifier(MOD_ID, "killer_bunny_plushie"), new BlockItem(KILLER_BUNNY_PLUSHIE, itemSettings));
+        // Creeper Plushie
+        Registry.register(Registries.BLOCK, new Identifier(MOD_ID, "creeper_plushie"), CREEPER_PLUSHIE);
+        Registry.register(Registries.ITEM, new Identifier(MOD_ID, "creeper_plushie"), new BlockItem(CREEPER_PLUSHIE, itemSettings));
         //Dragon Plushie
         Registry.register(Registries.BLOCK, new Identifier(MOD_ID, "dragon_plushie"), DRAGON_PLUSHIE);
         Registry.register(Registries.ITEM, new Identifier(MOD_ID, "dragon_plushie"), new BlockItem(DRAGON_PLUSHIE, itemSettings.rarity(Rarity.EPIC)));
