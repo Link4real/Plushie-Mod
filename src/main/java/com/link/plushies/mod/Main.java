@@ -50,6 +50,7 @@ public class Main implements ModInitializer {
                 entries.add(ModBlocks.KILLER_BUNNY_PLUSHIE);
                 entries.add(ModBlocks.CREEPER_PLUSHIE);
                 entries.add(ModBlocks.STRIDER_PLUSHIE);
+                entries.add(ModBlocks.ENDERMITE_PLUSHIE);
 
             })
             .build();

@@ -51,6 +51,7 @@ public class ModBlocks {
     public static final Block TOAST_RABBIT_PLUSHIE = new RabbitPlushie();
     public static final Block CREEPER_PLUSHIE = new CreeperPlushie();
     public static final Block STRIDER_PLUSHIE = new StriderPlushie();
+    public static final Block ENDERMITE_PLUSHIE = new EndermitePlushie();
 
     public static void registerItems() {
         // Default item settings
@@ -157,6 +158,9 @@ public class ModBlocks {
         // Strider Plushie
         Registry.register(Registries.BLOCK, new Identifier(MOD_ID, "strider_plushie"), STRIDER_PLUSHIE);
         Registry.register(Registries.ITEM, new Identifier(MOD_ID, "strider_plushie"), new BlockItem(STRIDER_PLUSHIE, itemSettings));
+        // Endermite Plushie
+        Registry.register(Registries.BLOCK, new Identifier(MOD_ID, "endermite_plushie"), ENDERMITE_PLUSHIE);
+        Registry.register(Registries.ITEM, new Identifier(MOD_ID, "endermite_plushie"), new BlockItem(ENDERMITE_PLUSHIE, itemSettings));
         //Dragon Plushie
         Registry.register(Registries.BLOCK, new Identifier(MOD_ID, "dragon_plushie"), DRAGON_PLUSHIE);
         Registry.register(Registries.ITEM, new Identifier(MOD_ID, "dragon_plushie"), new BlockItem(DRAGON_PLUSHIE, itemSettings.rarity(Rarity.EPIC)));
