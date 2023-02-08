@@ -30,11 +30,11 @@ public class AxolotlPlushie extends HorizontalFacingBlock {
             case NORTH:
                 return VoxelShapes.cuboid(0.15f, 0f, 0f, 0.85f, 0.39f, 1f);
             case SOUTH:
-                return VoxelShapes.cuboid(0.15f, 0f, 0f, 0.85f, 0.391f, 1f);
+                return VoxelShapes.cuboid(0.15f, 0f, 0f, 0.85f, 0.39f, 1f);
             case EAST:
                 return VoxelShapes.cuboid(0f, 0f, 0.15f, 1f, 0.39f, 0.85f);
             case WEST:
-                return VoxelShapes.cuboid(0f, 0f, 0.15f, 1f, 0.391f, 0.85f);
+                return VoxelShapes.cuboid(0f, 0f, 0.15f, 1f, 0.39f, 0.85f);
             default:
                 return VoxelShapes.fullCube();
         }

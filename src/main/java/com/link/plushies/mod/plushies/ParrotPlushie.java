@@ -28,13 +28,13 @@ public class ParrotPlushie extends HorizontalFacingBlock {
         Direction dir = state.get(FACING);
         switch(dir) {
             case NORTH:
-                return VoxelShapes.cuboid(0.25f, 0f, 0.25f, 0.75f, 0.71f, 0.75f);
+                return VoxelShapes.cuboid(0.25f, 0f, 0.25f, 0.75f, 0.7f, 0.75f);
             case SOUTH:
-                return VoxelShapes.cuboid(0.25f, 0f, 0.25f, 0.75f, 0.711f, 0.75f);
+                return VoxelShapes.cuboid(0.25f, 0f, 0.25f, 0.75f, 0.7f, 0.75f);
             case EAST:
                 return VoxelShapes.cuboid(0.25f, 0f, 0.25f, 0.75f, 0.7f, 0.75f);
             case WEST:
-                return VoxelShapes.cuboid(0.25f, 0f, 0.25f, 0.75f, 0.7111f, 0.75f);
+                return VoxelShapes.cuboid(0.25f, 0f, 0.25f, 0.75f, 0.7f, 0.75f);
             default:
                 return VoxelShapes.fullCube();
         }

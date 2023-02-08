@@ -30,11 +30,11 @@ public class RabbitPlushie extends HorizontalFacingBlock {
             case NORTH:
                 return VoxelShapes.cuboid(0.25f, 0f, 0.25f, 0.75f, 0.8f, 0.75f);
             case SOUTH:
-                return VoxelShapes.cuboid(0.25f, 0f, 0.25f, 0.75f, 0.80f, 0.75f);
+                return VoxelShapes.cuboid(0.25f, 0f, 0.25f, 0.75f, 0.8f, 0.75f);
             case EAST:
-                return VoxelShapes.cuboid(0.25f, 0f, 0.25f, 0.75f, 0.800f, 0.75f);
+                return VoxelShapes.cuboid(0.25f, 0f, 0.25f, 0.75f, 0.8f, 0.75f);
             case WEST:
-                return VoxelShapes.cuboid(0.25f, 0f, 0.25f, 0.75f, 0.8000f, 0.75f);
+                return VoxelShapes.cuboid(0.25f, 0f, 0.25f, 0.75f, 0.8f, 0.75f);
             default:
                 return VoxelShapes.fullCube();
         }

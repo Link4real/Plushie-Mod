@@ -32,7 +32,7 @@ public class WardenPlushie extends HorizontalFacingBlock {
             case SOUTH:
                 return VoxelShapes.cuboid(0.15f, 0f, 0.45f, 0.95f, 1.15f, 0.7f);
             case EAST:
-                return VoxelShapes.cuboid(0.35f, 0f, 0.25f, 0.65f, 1.151f, 0.85f);
+                return VoxelShapes.cuboid(0.35f, 0f, 0.25f, 0.65f, 1.15f, 0.85f);
             case WEST:
                 return VoxelShapes.cuboid(0.25f, 0f, 0.1f, 0.65f, 1.15f, 0.85f);
             default:

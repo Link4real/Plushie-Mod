@@ -30,11 +30,11 @@ public class DolphinPlushie extends HorizontalFacingBlock {
             case NORTH:
                 return VoxelShapes.cuboid(0.25f, 0f, 0f, 0.75f, 0.45f, 1f);
             case SOUTH:
-                return VoxelShapes.cuboid(0.25f, 0f, 0f, 0.75f, 0.451f, 1f);
+                return VoxelShapes.cuboid(0.25f, 0f, 0f, 0.75f, 0.45f, 1f);
             case EAST:
                 return VoxelShapes.cuboid(0f, 0f, 0.25f, 1f, 0.45f, 0.75f);
             case WEST:
-                return VoxelShapes.cuboid(0f, 0f, 0.25f, 1f, 0.451f, 0.75f);
+                return VoxelShapes.cuboid(0f, 0f, 0.25f, 1f, 0.45f, 0.75f);
             default:
                 return VoxelShapes.fullCube();
         }

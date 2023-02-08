@@ -30,11 +30,11 @@ public class SnowgolemPlushie extends HorizontalFacingBlock {
             case NORTH:
                 return VoxelShapes.cuboid(0.25f, 0f, 0.25f, 0.75f, 1.2f, 0.75f);
             case SOUTH:
-                return VoxelShapes.cuboid(0.25f, 0f, 0.25f, 0.75f, 1.211f, 0.75f);
+                return VoxelShapes.cuboid(0.25f, 0f, 0.25f, 0.75f, 1.2f, 0.75f);
             case EAST:
-                return VoxelShapes.cuboid(0.25f, 0f, 0.25f, 0.75f, 1.22f, 0.75f);
+                return VoxelShapes.cuboid(0.25f, 0f, 0.25f, 0.75f, 1.2f, 0.75f);
             case WEST:
-                return VoxelShapes.cuboid(0.25f, 0f, 0.25f, 0.75f, 1.21f, 0.75f);
+                return VoxelShapes.cuboid(0.25f, 0f, 0.25f, 0.75f, 1.2f, 0.75f);
             default:
                 return VoxelShapes.fullCube();
         }

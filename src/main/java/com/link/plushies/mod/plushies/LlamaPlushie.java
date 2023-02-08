@@ -34,7 +34,7 @@ public class LlamaPlushie extends HorizontalFacingBlock {
             case EAST:
                 return VoxelShapes.cuboid(0.1f, 0f, 0.23f, 1f, 0.85f, 0.75f);
             case WEST:
-                return VoxelShapes.cuboid(0.1f, 0f, 0.23f, 1f, 0.851f, 0.75f);
+                return VoxelShapes.cuboid(0.1f, 0f, 0.23f, 1f, 0.85f, 0.75f);
             default:
                 return VoxelShapes.fullCube();
         }
