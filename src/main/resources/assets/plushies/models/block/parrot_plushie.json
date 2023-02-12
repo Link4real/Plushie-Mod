@@ -2,7 +2,7 @@
 	"credit": "Made with Blockbench",
 	"textures": {
 		"0": "plushies:block/parrot_plushie",
-		"particle": "minecraft:block/red_wool"
+		"particle": "block/red_wool"
 	},
 	"elements": [
 		{
@@ -241,7 +241,7 @@
 			"translation": [0, 1, 0]
 		},
 		"head": {
-			"translation": [-10, 1, 1]
+			"translation": [-0.5, 14.5, 1]
 		},
 		"fixed": {
 			"translation": [0, 1.75, 0]
