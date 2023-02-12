@@ -52,6 +52,7 @@ public class ModBlocks {
     public static final Block CREEPER_PLUSHIE = new CreeperPlushie();
     public static final Block STRIDER_PLUSHIE = new StriderPlushie();
     public static final Block ENDERMITE_PLUSHIE = new EndermitePlushie();
+    public static final Block CHICKEN_PLUSHIE = new ChickenPlushie();
 
     public static void registerItems() {
         // Default item settings
@@ -131,25 +132,25 @@ public class ModBlocks {
         //Brown Rabbit Plushie    R
         Registry.register(Registries.BLOCK, new Identifier(MOD_ID, "brown_rabbit_plushie"), BROWN_RABBIT_PLUSHIE);
         Registry.register(Registries.ITEM, new Identifier(MOD_ID, "brown_rabbit_plushie"), new BlockItem(BROWN_RABBIT_PLUSHIE, itemSettings));
-        //Brown Rabbit Plushie    R
+        //Black Rabbit Plushie    R
         Registry.register(Registries.BLOCK, new Identifier(MOD_ID, "black_rabbit_plushie"), BLACK_RABBIT_PLUSHIE);
         Registry.register(Registries.ITEM, new Identifier(MOD_ID, "black_rabbit_plushie"), new BlockItem(BLACK_RABBIT_PLUSHIE, itemSettings));
-        //Brown Rabbit Plushie    R
+        //White Rabbit Plushie    R
         Registry.register(Registries.BLOCK, new Identifier(MOD_ID, "white_rabbit_plushie"), WHITE_RABBIT_PLUSHIE);
         Registry.register(Registries.ITEM, new Identifier(MOD_ID, "white_rabbit_plushie"), new BlockItem(WHITE_RABBIT_PLUSHIE, itemSettings));
-        //Brown Rabbit Plushie    R
+        //White Splotched Rabbit Plushie    R
         Registry.register(Registries.BLOCK, new Identifier(MOD_ID, "white_splotched_rabbit_plushie"), WHITE_SPLOTCHED_RABBIT_PLUSHIE);
         Registry.register(Registries.ITEM, new Identifier(MOD_ID, "white_splotched_rabbit_plushie"), new BlockItem(WHITE_SPLOTCHED_RABBIT_PLUSHIE, itemSettings));
-        //Brown Rabbit Plushie    R
+        //Yellow Rabbit Plushie    R
         Registry.register(Registries.BLOCK, new Identifier(MOD_ID, "yellow_rabbit_plushie"), YELLOW_RABBIT_PLUSHIE);
         Registry.register(Registries.ITEM, new Identifier(MOD_ID, "yellow_rabbit_plushie"), new BlockItem(YELLOW_RABBIT_PLUSHIE, itemSettings));
-        //Brown Rabbit Plushie    R
+        //Salt Rabbit Plushie    R
         Registry.register(Registries.BLOCK, new Identifier(MOD_ID, "salt_rabbit_plushie"), SALT_RABBIT_PLUSHIE);
         Registry.register(Registries.ITEM, new Identifier(MOD_ID, "salt_rabbit_plushie"), new BlockItem(SALT_RABBIT_PLUSHIE, itemSettings));
-        //Brown Rabbit Plushie    R
+        //Toast Rabbit Plushie    R
         Registry.register(Registries.BLOCK, new Identifier(MOD_ID, "toast_rabbit_plushie"), TOAST_RABBIT_PLUSHIE);
         Registry.register(Registries.ITEM, new Identifier(MOD_ID, "toast_rabbit_plushie"), new BlockItem(TOAST_RABBIT_PLUSHIE, itemSettings));
-        //Brown Rabbit Plushie    R
+        //Killer Bunny Plushie    R
         Registry.register(Registries.BLOCK, new Identifier(MOD_ID, "killer_bunny_plushie"), KILLER_BUNNY_PLUSHIE);
         Registry.register(Registries.ITEM, new Identifier(MOD_ID, "killer_bunny_plushie"), new BlockItem(KILLER_BUNNY_PLUSHIE, itemSettings));
         // Creeper Plushie
@@ -161,6 +162,9 @@ public class ModBlocks {
         // Endermite Plushie
         Registry.register(Registries.BLOCK, new Identifier(MOD_ID, "endermite_plushie"), ENDERMITE_PLUSHIE);
         Registry.register(Registries.ITEM, new Identifier(MOD_ID, "endermite_plushie"), new BlockItem(ENDERMITE_PLUSHIE, itemSettings));
+        // Chicken Plushie
+        Registry.register(Registries.BLOCK, new Identifier(MOD_ID, "chicken_plushie"), CHICKEN_PLUSHIE);
+        Registry.register(Registries.ITEM, new Identifier(MOD_ID, "chicken_plushie"), new BlockItem(CHICKEN_PLUSHIE, itemSettings));
         //Dragon Plushie
         Registry.register(Registries.BLOCK, new Identifier(MOD_ID, "dragon_plushie"), DRAGON_PLUSHIE);
         Registry.register(Registries.ITEM, new Identifier(MOD_ID, "dragon_plushie"), new BlockItem(DRAGON_PLUSHIE, itemSettings.rarity(Rarity.EPIC)));
