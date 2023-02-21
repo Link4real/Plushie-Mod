@@ -53,6 +53,8 @@ public class ModBlocks {
     public static final Block STRIDER_PLUSHIE = new StriderPlushie();
     public static final Block ENDERMITE_PLUSHIE = new EndermitePlushie();
     public static final Block CHICKEN_PLUSHIE = new ChickenPlushie();
+    public static final Block EVOKER_PLUSHIE = new IllagerPlushies();
+    public static final Block VINDICATOR_PLUSHIE = new IllagerPlushies();
 
     public static void registerItems() {
         // Default item settings
@@ -165,6 +167,12 @@ public class ModBlocks {
         // Chicken Plushie
         Registry.register(Registries.BLOCK, new Identifier(MOD_ID, "chicken_plushie"), CHICKEN_PLUSHIE);
         Registry.register(Registries.ITEM, new Identifier(MOD_ID, "chicken_plushie"), new BlockItem(CHICKEN_PLUSHIE, itemSettings));
+        // Vindicataor Plushie
+        Registry.register(Registries.BLOCK, new Identifier(MOD_ID, "vindicator_plushie"), VINDICATOR_PLUSHIE);
+        Registry.register(Registries.ITEM, new Identifier(MOD_ID, "vindicator_plushie"), new BlockItem(VINDICATOR_PLUSHIE, itemSettings));
+        // Evoker Plushie
+        Registry.register(Registries.BLOCK, new Identifier(MOD_ID, "evoker_plushie"), EVOKER_PLUSHIE);
+        Registry.register(Registries.ITEM, new Identifier(MOD_ID, "evoker_plushie"), new BlockItem(EVOKER_PLUSHIE, itemSettings.rarity(Rarity.UNCOMMON)));
         //Dragon Plushie
         Registry.register(Registries.BLOCK, new Identifier(MOD_ID, "dragon_plushie"), DRAGON_PLUSHIE);
         Registry.register(Registries.ITEM, new Identifier(MOD_ID, "dragon_plushie"), new BlockItem(DRAGON_PLUSHIE, itemSettings.rarity(Rarity.EPIC)));

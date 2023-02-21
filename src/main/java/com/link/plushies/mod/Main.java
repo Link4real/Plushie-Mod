@@ -25,9 +25,9 @@ public class Main implements ModInitializer {
                 entries.add(ModBlocks.BEE_PLUSHIE);
                 entries.add(ModBlocks.LLAMA_PLUSHIE);
                 entries.add(ModBlocks.MAGMA_CUBE_PLUSHIE);
+                entries.add(ModBlocks.SNOW_GOLEM_PLUSHIE);
                 entries.add(ModBlocks.AXOLOTL_PLUSHIE);
                 entries.add(ModBlocks.TURTLE_PLUSHIE);
-                entries.add(ModBlocks.SNOW_GOLEM_PLUSHIE);
                 entries.add(ModBlocks.DOLPHIN_PLUSHIE);
                 entries.add(ModBlocks.PARROT_PLUSHIE);
                 entries.add(ModBlocks.WARDEN_PLUSHIE);
@@ -39,7 +39,10 @@ public class Main implements ModInitializer {
                 entries.add(ModBlocks.PIG_PLUSHIE);
                 entries.add(ModBlocks.TADPOLE_PLUSHIE);
                 entries.add(ModBlocks.ALLAY_PLUSHIE);
-                entries.add(ModBlocks.VEX_PLUSHIE);
+                entries.add(ModBlocks.CREEPER_PLUSHIE);
+                entries.add(ModBlocks.STRIDER_PLUSHIE);
+                entries.add(ModBlocks.ENDERMITE_PLUSHIE);
+                entries.add(ModBlocks.CHICKEN_PLUSHIE);
                 entries.add(ModBlocks.BROWN_RABBIT_PLUSHIE);
                 entries.add(ModBlocks.WHITE_RABBIT_PLUSHIE);
                 entries.add(ModBlocks.BLACK_RABBIT_PLUSHIE);
@@ -48,10 +51,9 @@ public class Main implements ModInitializer {
                 entries.add(ModBlocks.SALT_RABBIT_PLUSHIE);
                 entries.add(ModBlocks.TOAST_RABBIT_PLUSHIE);
                 entries.add(ModBlocks.KILLER_BUNNY_PLUSHIE);
-                entries.add(ModBlocks.CREEPER_PLUSHIE);
-                entries.add(ModBlocks.STRIDER_PLUSHIE);
-                entries.add(ModBlocks.ENDERMITE_PLUSHIE);
-                entries.add(ModBlocks.CHICKEN_PLUSHIE);
+                entries.add(ModBlocks.VINDICATOR_PLUSHIE);
+                entries.add(ModBlocks.EVOKER_PLUSHIE);
+                entries.add(ModBlocks.VEX_PLUSHIE);
 
             })
             .build();

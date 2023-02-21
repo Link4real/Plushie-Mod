@@ -36,5 +36,7 @@
   "block.plushies.strider_plushie": "Schreiter Stofftier",
   "block.plushies.endermite_plushie": "Endermite Stofftier",
   "block.plushies.chicken_plushie": "Hühnchen Stofftier",
+  "block.plushies.vindicator_plushie": "Diener Stofftier",
+  "block.plushies.evoker_plushie": "Magier Stofftier",
   "itemGroup.plushies.main": "Stofftier Mod"
 }
