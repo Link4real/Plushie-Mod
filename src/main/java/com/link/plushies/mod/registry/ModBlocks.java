@@ -55,6 +55,7 @@ public class ModBlocks {
     public static final Block CHICKEN_PLUSHIE = new ChickenPlushie();
     public static final Block EVOKER_PLUSHIE = new IllagerPlushies();
     public static final Block VINDICATOR_PLUSHIE = new IllagerPlushies();
+    public static final Block ZOMBIE_PLUSHIE = new ZombiePlushie();
 
     public static void registerItems() {
         // Default item settings
@@ -170,6 +171,9 @@ public class ModBlocks {
         // Vindicataor Plushie
         Registry.register(Registries.BLOCK, new Identifier(MOD_ID, "vindicator_plushie"), VINDICATOR_PLUSHIE);
         Registry.register(Registries.ITEM, new Identifier(MOD_ID, "vindicator_plushie"), new BlockItem(VINDICATOR_PLUSHIE, itemSettings));
+        // Zombie Plushie
+        Registry.register(Registries.BLOCK, new Identifier(MOD_ID, "zombie_plushie"), ZOMBIE_PLUSHIE);
+        Registry.register(Registries.ITEM, new Identifier(MOD_ID, "zombie_plushie"), new BlockItem(ZOMBIE_PLUSHIE, itemSettings));
         // Evoker Plushie
         Registry.register(Registries.BLOCK, new Identifier(MOD_ID, "evoker_plushie"), EVOKER_PLUSHIE);
         Registry.register(Registries.ITEM, new Identifier(MOD_ID, "evoker_plushie"), new BlockItem(EVOKER_PLUSHIE, itemSettings.rarity(Rarity.UNCOMMON)));
