@@ -1,8 +1,6 @@
 <h1 style="font-size:60px;"align="center">Plushie-Mod</h1>
 
-<p style="font-size:25px" align="center">1.19.3 version!</p>
-
-<p style="font-size:25px" align="center">Contribute, by making a pull request!</p>
+<p style="font-size:25px" align="center">v1.3!</p>
 
 <p style="font-size:36px;" align="center">This is a Minecraft Mod for Fabric</p>
 
@@ -21,5 +19,5 @@
 <p align="center"><a href="https://gist.github.com/Link4real/af545420163c11858c4f4640b00191cd"><img valign="middle" src="https://i.imgur.com/3jztcWc.png" width="330px" height="120"></a></p>
 
 
-<p align="center"><img valign="middle" src="https://i.imgur.com/Yyc4r70.png"></p>
+<p align="center"><img align="middle" src="https://i.imgur.com/pULT1Lv.png"></p>
 <p style="font-size:25px" align="center">Please respect the license in any way!</p>
