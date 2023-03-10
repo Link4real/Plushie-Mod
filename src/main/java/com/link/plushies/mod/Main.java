@@ -55,6 +55,7 @@ public class Main implements ModInitializer {
                 entries.add(ModBlocks.EVOKER_PLUSHIE);
                 entries.add(ModBlocks.VEX_PLUSHIE);
                 entries.add(ModBlocks.ZOMBIE_PLUSHIE);
+                entries.add(ModBlocks.WOLF_PLUSHIE);
             })
             .build();
     @Override

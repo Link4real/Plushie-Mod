@@ -2,7 +2,7 @@
 	"credit": "Made with Blockbench",
 	"textures": {
 		"0": "plushies:block/evoker_plushie",
-		"particle": "plushies:block/evoker_plushie"
+		"particle": "minecraft:block/gilded_blackstone"
 	},
 	"elements": [
 		{

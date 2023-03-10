@@ -12,8 +12,8 @@ import net.minecraft.util.shape.VoxelShape;
 import net.minecraft.util.shape.VoxelShapes;
 import net.minecraft.world.BlockView;
 
-public class SnowgolemPlushie extends HorizontalFacingBlock {
-    public SnowgolemPlushie() {
+public class WolfPlushie extends HorizontalFacingBlock {
+    public WolfPlushie() {
         super(FabricBlockSettings.of(Material.WOOL).nonOpaque().sounds(BlockSoundGroup.WOOL).strength(0.6f));
         setDefaultState(this.stateManager.getDefaultState().with(Properties.HORIZONTAL_FACING, Direction.NORTH));
     }
@@ -28,13 +28,13 @@ public class SnowgolemPlushie extends HorizontalFacingBlock {
         Direction dir = state.get(FACING);
         switch(dir) {
             case NORTH:
-                return VoxelShapes.cuboid(0.25f, 0f, 0.25f, 0.75f, 0.95f, 0.75f);
+                return VoxelShapes.cuboid(0.25f, 0f, 0f, 0.75f, 0.85f, 1f);
             case SOUTH:
-                return VoxelShapes.cuboid(0.25f, 0f, 0.25f, 0.75f, 0.95f, 0.75f);
+                return VoxelShapes.cuboid(0.25f, 0f, 0f, 0.75f, 0.85f, 1f);
             case EAST:
-                return VoxelShapes.cuboid(0.25f, 0f, 0.25f, 0.75f, 0.95f, 0.75f);
+                return VoxelShapes.cuboid(0f, 0f, 0.25f, 1f, 0.85f, 0.75f);
             case WEST:
-                return VoxelShapes.cuboid(0.25f, 0f, 0.25f, 0.75f, 0.95f, 0.75f);
+                return VoxelShapes.cuboid(0f, 0f, 0.25f, 1f, 0.85f, 0.75f);
             default:
                 return VoxelShapes.fullCube();
         }
