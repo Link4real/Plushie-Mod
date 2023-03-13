@@ -3,7 +3,7 @@
   "pattern": [
     "#L#",
     "LLL",
-    "QTQ"
+    "BCB"
   ],
   "key": {
     "#": {
@@ -12,15 +12,15 @@
     "L": {
       "item": "minecraft:light_gray_wool"
     },
-    "Q": {
-      "item": "minecraft:black_wool"
+    "B": {
+      "item": "minecraft:brown_wool"
     },
-    "T": {
-      "item": "minecraft:totem_of_undying"
+    "C": {
+      "item": "minecraft:crossbow"
     }
   },
   "result": {
-    "item": "plushies:evoker_plushie",
+    "item": "plushies:pillager_plushie",
     "count": 1
   }
 }

@@ -57,6 +57,9 @@ public class ModBlocks {
     public static final Block VINDICATOR_PLUSHIE = new IllagerPlushies();
     public static final Block ZOMBIE_PLUSHIE = new ZombiePlushie();
     public static final Block WOLF_PLUSHIE = new WolfPlushie();
+    public static final Block SQUID_PLUSHIE = new SquidPlushie();
+    public static final Block GLOW_SQUID_PLUSHIE = new SquidPlushie();
+    public static final Block PILLAGER_PLUSHIE = new PillagerPlushie();
 
     public static void registerItems() {
         // Default item settings
@@ -178,6 +181,15 @@ public class ModBlocks {
         //Wolf Plushie
         Registry.register(Registries.BLOCK, new Identifier(MOD_ID, "wolf_plushie"), WOLF_PLUSHIE);
         Registry.register(Registries.ITEM, new Identifier(MOD_ID, "wolf_plushie"), new BlockItem(WOLF_PLUSHIE, itemSettings));
+        // Squid Plushie
+        Registry.register(Registries.BLOCK, new Identifier(MOD_ID, "squid_plushie"), SQUID_PLUSHIE);
+        Registry.register(Registries.ITEM, new Identifier(MOD_ID, "squid_plushie"), new BlockItem(SQUID_PLUSHIE, itemSettings));
+        //Glow Squid Plushie
+        Registry.register(Registries.BLOCK, new Identifier(MOD_ID, "glow_squid_plushie"), GLOW_SQUID_PLUSHIE);
+        Registry.register(Registries.ITEM, new Identifier(MOD_ID, "glow_squid_plushie"), new BlockItem(GLOW_SQUID_PLUSHIE, itemSettings));
+        //Pillager Plushie
+        Registry.register(Registries.BLOCK, new Identifier(MOD_ID, "pillager_plushie"), PILLAGER_PLUSHIE);
+        Registry.register(Registries.ITEM, new Identifier(MOD_ID, "pillager_plushie"), new BlockItem(PILLAGER_PLUSHIE, itemSettings));
         // Evoker Plushie
         Registry.register(Registries.BLOCK, new Identifier(MOD_ID, "evoker_plushie"), EVOKER_PLUSHIE);
         Registry.register(Registries.ITEM, new Identifier(MOD_ID, "evoker_plushie"), new BlockItem(EVOKER_PLUSHIE, itemSettings.rarity(Rarity.UNCOMMON)));

@@ -40,5 +40,8 @@
   "block.plushies.evoker_plushie": "Magier Stofftier",
   "block.plushies.zombie_plushie": "Zombie Stofftier",
   "block.plushies.wolf_plushie": "Wolf Stofftier",
+  "block.plushies.squid_plushie": "Tintenfisch Stofftier",
+  "block.plushies.glow_squid_plushie": "Leuchttintenfisch Stofftier",
+  "block.plushies.pillager_plushie": "Plünderer Stofftier",
   "itemGroup.plushies.main": "Stofftier Mod"
 }

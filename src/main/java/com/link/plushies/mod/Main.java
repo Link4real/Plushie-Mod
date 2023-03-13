@@ -51,11 +51,14 @@ public class Main implements ModInitializer {
                 entries.add(ModBlocks.SALT_RABBIT_PLUSHIE);
                 entries.add(ModBlocks.TOAST_RABBIT_PLUSHIE);
                 entries.add(ModBlocks.KILLER_BUNNY_PLUSHIE);
+                entries.add(ModBlocks.PILLAGER_PLUSHIE);
                 entries.add(ModBlocks.VINDICATOR_PLUSHIE);
                 entries.add(ModBlocks.EVOKER_PLUSHIE);
                 entries.add(ModBlocks.VEX_PLUSHIE);
                 entries.add(ModBlocks.ZOMBIE_PLUSHIE);
                 entries.add(ModBlocks.WOLF_PLUSHIE);
+                entries.add(ModBlocks.SQUID_PLUSHIE);
+                entries.add(ModBlocks.GLOW_SQUID_PLUSHIE);
             })
             .build();
     @Override
