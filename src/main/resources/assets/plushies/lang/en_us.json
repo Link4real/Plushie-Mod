@@ -43,7 +43,8 @@
   "block.plushies.squid_plushie": "Squid Plushie",
   "block.plushies.glow_squid_plushie": "Glow Squid Plushie",
   "block.plushies.pillager_plushie": "Pillager Plushie",
-  "itemGroup.plushies.main": "Plushie-Mod",
+  "block.plushies.illusioner_plushie": "Illusioner Plushie",
+  "itemGroup.plushies.main": "Plushie Mod",
   "modmenu.curseforge": "Curseforge",
   "modmenu.modrinth": "Modrinth",
   "modmenu.wiki": "Official Wiki"
