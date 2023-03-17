@@ -61,6 +61,7 @@ public class ModBlocks {
     public static final Block GLOW_SQUID_PLUSHIE = new SquidPlushie();
     public static final Block PILLAGER_PLUSHIE = new PillagerPlushie();
     public static final Block ILLUSIONER_PLUSHIE = new IllagerPlushies();
+    public static final Block CAMEL_PLUSHIE = new CamelPlushie();
 
     public static void registerItems() {
         // Default item settings
@@ -194,6 +195,9 @@ public class ModBlocks {
         //Illusioner Plushie
         Registry.register(Registries.BLOCK, new Identifier(MOD_ID, "illusioner_plushie"), ILLUSIONER_PLUSHIE);
         Registry.register(Registries.ITEM, new Identifier(MOD_ID, "illusioner_plushie"), new BlockItem(ILLUSIONER_PLUSHIE, itemSettings));
+        //Camel Plushie
+        Registry.register(Registries.BLOCK, new Identifier(MOD_ID, "camel_plushie"), CAMEL_PLUSHIE);
+        Registry.register(Registries.ITEM, new Identifier(MOD_ID, "camel_plushie"), new BlockItem(CAMEL_PLUSHIE, itemSettings));
         // Evoker Plushie
         Registry.register(Registries.BLOCK, new Identifier(MOD_ID, "evoker_plushie"), EVOKER_PLUSHIE);
         Registry.register(Registries.ITEM, new Identifier(MOD_ID, "evoker_plushie"), new BlockItem(EVOKER_PLUSHIE, itemSettings.rarity(Rarity.UNCOMMON)));
