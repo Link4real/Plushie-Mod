@@ -27,8 +27,8 @@
   "block.plushies.black_rabbit_plushie": "Schwarzes Kaninchen Stofftier",
   "block.plushies.brown_rabbit_plushie": "Braunes Kaninchen Stofftier",
   "block.plushies.killer_bunny_plushie": "Killer Bunny Stofftier",
-  "block.plushies.salt_rabbit_plushie": "Salt Kaninchen Stofftier",
-  "block.plushies.toast_rabbit_plushie": "Toast Kaninchen Stofftier",
+  "block.plushies.salt_rabbit_plushie": "'Salt' Kaninchen Stofftier",
+  "block.plushies.toast_rabbit_plushie": "'Toast' Kaninchen Stofftier",
   "block.plushies.white_rabbit_plushie": "Weißes Kaninchen Stofftier",
   "block.plushies.white_splotched_rabbit_plushie": "Weißes geflecktes Kaninchen Stofftier",
   "block.plushies.yellow_rabbit_plushie": "Gelbes Kaninchen Stofftier",
@@ -46,5 +46,7 @@
   "block.plushies.illusioner_plushie": "Illusionist Stofftier",
   "block.plushies.camel_plushie": "Dromedar Stofftier",
   "block.plushies.guardian_plushie": "Wächter Stofftier",
+  "block.plushies.elder_guardian_plushie": "Großer Wächter Stofftier",
+  "block.plushies.sniffer_plushie": "Schnüffler Stofftier",
   "itemGroup.plushies.main": "Stofftiere"
 }

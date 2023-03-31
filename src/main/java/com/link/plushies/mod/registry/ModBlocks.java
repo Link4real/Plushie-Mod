@@ -63,6 +63,8 @@ public class ModBlocks {
     public static final Block ILLUSIONER_PLUSHIE = new IllagerPlushies();
     public static final Block CAMEL_PLUSHIE = new CamelPlushie();
     public static final Block GUARDIAN_PLUSHIE = new GuardianPlushie();
+    public static final Block ELDER_GUARDIAN_PLUSHIE = new GuardianPlushie();
+    public static final Block SNIFFER_PLUSHIE = new SnifferPlushie();
 
     public static void registerItems() {
         // Default item settings
@@ -202,6 +204,12 @@ public class ModBlocks {
         //Guardian Plushie
         Registry.register(Registries.BLOCK, new Identifier(MOD_ID, "guardian_plushie"), GUARDIAN_PLUSHIE);
         Registry.register(Registries.ITEM, new Identifier(MOD_ID, "guardian_plushie"), new BlockItem(GUARDIAN_PLUSHIE, itemSettings));
+        //Elder Guardian Plushie
+        Registry.register(Registries.BLOCK, new Identifier(MOD_ID, "elder_guardian_plushie"), ELDER_GUARDIAN_PLUSHIE);
+        Registry.register(Registries.ITEM, new Identifier(MOD_ID, "elder_guardian_plushie"), new BlockItem(ELDER_GUARDIAN_PLUSHIE, itemSettings));
+        //Sniffer Plushie
+        Registry.register(Registries.BLOCK, new Identifier(MOD_ID, "sniffer_plushie"), SNIFFER_PLUSHIE);
+        Registry.register(Registries.ITEM, new Identifier(MOD_ID, "sniffer_plushie"), new BlockItem(SNIFFER_PLUSHIE, itemSettings));
         // Evoker Plushie
         Registry.register(Registries.BLOCK, new Identifier(MOD_ID, "evoker_plushie"), EVOKER_PLUSHIE);
         Registry.register(Registries.ITEM, new Identifier(MOD_ID, "evoker_plushie"), new BlockItem(EVOKER_PLUSHIE, itemSettings.rarity(Rarity.UNCOMMON)));

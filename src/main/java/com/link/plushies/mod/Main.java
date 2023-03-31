@@ -62,6 +62,8 @@ public class Main implements ModInitializer {
                 entries.add(ModBlocks.GLOW_SQUID_PLUSHIE);
                 entries.add(ModBlocks.CAMEL_PLUSHIE);
                 entries.add(ModBlocks.GUARDIAN_PLUSHIE);
+                entries.add(ModBlocks.ELDER_GUARDIAN_PLUSHIE);
+                entries.add(ModBlocks.SNIFFER_PLUSHIE);
             })
             .build();
     @Override
