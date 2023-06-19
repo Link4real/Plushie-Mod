@@ -30,9 +30,6 @@
     "minecraft": "1.19.x",
     "java": ">=17"
   },
-  "suggests": {
-    "cakemod": "Cake Mod by Link4real"
-  },
   "custom": {
     "modmenu": {
       "links": {
