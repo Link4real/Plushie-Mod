@@ -31,7 +31,7 @@
     "java": ">=17"
   },
   "suggests": {
-    "cakemod": "Cake Mod by Link4real"
+    "cakemod": "*"
   },
   "custom": {
     "modmenu": {
