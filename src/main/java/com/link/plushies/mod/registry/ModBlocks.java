@@ -65,6 +65,7 @@ public class ModBlocks {
     public static final Block GUARDIAN_PLUSHIE = new GuardianPlushie();
     public static final Block ELDER_GUARDIAN_PLUSHIE = new GuardianPlushie();
     public static final Block SNIFFER_PLUSHIE = new SnifferPlushie();
+    public static final Block POLAR_BEAR_PLUSHIE = new PolarBearPlushie();
 
     public static void registerItems() {
         // Default item settings
@@ -210,6 +211,9 @@ public class ModBlocks {
         //Sniffer Plushie
         Registry.register(Registries.BLOCK, new Identifier(MOD_ID, "sniffer_plushie"), SNIFFER_PLUSHIE);
         Registry.register(Registries.ITEM, new Identifier(MOD_ID, "sniffer_plushie"), new BlockItem(SNIFFER_PLUSHIE, itemSettings));
+        //Polar Bear Plushie
+        Registry.register(Registries.BLOCK, new Identifier(MOD_ID, "polar_bear_plushie"), POLAR_BEAR_PLUSHIE);
+        Registry.register(Registries.ITEM, new Identifier(MOD_ID, "polar_bear_plushie"), new BlockItem(POLAR_BEAR_PLUSHIE, itemSettings));
         // Evoker Plushie
         Registry.register(Registries.BLOCK, new Identifier(MOD_ID, "evoker_plushie"), EVOKER_PLUSHIE);
         Registry.register(Registries.ITEM, new Identifier(MOD_ID, "evoker_plushie"), new BlockItem(EVOKER_PLUSHIE, itemSettings.rarity(Rarity.UNCOMMON)));
