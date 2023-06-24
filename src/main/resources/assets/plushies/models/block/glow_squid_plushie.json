@@ -2,7 +2,7 @@
 	"credit": "Made with Blockbench",
 	"textures": {
 		"0": "plushies:block/glow_squid_plushie",
-		"particle": "minecraft:block/cyan_wool"
+		"particle": "block/cyan_wool"
 	},
 	"elements": [
 		{
@@ -96,7 +96,7 @@
 			}
 		},
 		{
-			"from": [2, 0, 12.05],
+			"from": [2, 0, 13.75],
 			"to": [3.5, 1.5, 18.05],
 			"rotation": {"angle": 22.5, "axis": "y", "origin": [0, 0, 0]},
 			"faces": {

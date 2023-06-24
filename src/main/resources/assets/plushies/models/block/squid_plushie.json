@@ -2,7 +2,7 @@
 	"credit": "Made with Blockbench",
 	"textures": {
 		"0": "plushies:block/squid_plushie",
-		"particle": "minecraft:block/blue_wool"
+		"particle": "block/blue_wool"
 	},
 	"elements": [
 		{
@@ -109,7 +109,7 @@
 			}
 		},
 		{
-			"from": [2, 0, 11.85],
+			"from": [2, 0, 13.85],
 			"to": [3.5, 1.5, 18.05],
 			"rotation": {"angle": 22.5, "axis": "y", "origin": [0, 0, 0]},
 			"faces": {
