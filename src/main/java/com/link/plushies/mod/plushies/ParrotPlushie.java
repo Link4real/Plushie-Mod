@@ -14,7 +14,7 @@ import net.minecraft.world.BlockView;
 
 public class ParrotPlushie extends HorizontalFacingBlock {
     public ParrotPlushie() {
-        super(FabricBlockSettings.of(Material.WOOL).nonOpaque().sounds(BlockSoundGroup.WOOL).strength(0.6f));
+        super(FabricBlockSettings.create().nonOpaque().sounds(BlockSoundGroup.WOOL).strength(0.7f));
         setDefaultState(this.stateManager.getDefaultState().with(Properties.HORIZONTAL_FACING, Direction.NORTH));
     }
 
@@ -28,13 +28,13 @@ public class ParrotPlushie extends HorizontalFacingBlock {
         Direction dir = state.get(FACING);
         switch(dir) {
             case NORTH:
-                return VoxelShapes.cuboid(0.25f, 0f, 0.25f, 0.75f, 0.7f, 0.75f);
+                return VoxelShapes.cuboid(0.25f, 0f, 0.25f, 0.75f, 0.9f, 0.75f);
             case SOUTH:
-                return VoxelShapes.cuboid(0.25f, 0f, 0.25f, 0.75f, 0.7f, 0.75f);
+                return VoxelShapes.cuboid(0.25f, 0f, 0.25f, 0.75f, 0.9f, 0.75f);
             case EAST:
-                return VoxelShapes.cuboid(0.25f, 0f, 0.25f, 0.75f, 0.7f, 0.75f);
+                return VoxelShapes.cuboid(0.25f, 0f, 0.25f, 0.75f, 0.9f, 0.75f);
             case WEST:
-                return VoxelShapes.cuboid(0.25f, 0f, 0.25f, 0.75f, 0.7f, 0.75f);
+                return VoxelShapes.cuboid(0.25f, 0f, 0.25f, 0.75f, 0.9f, 0.75f);
             default:
                 return VoxelShapes.fullCube();
         }
@@ -42,6 +42,6 @@ public class ParrotPlushie extends HorizontalFacingBlock {
 
     @Override
     public BlockState getPlacementState(ItemPlacementContext ctx) {
-        return (BlockState)this.getDefaultState().with(Properties.HORIZONTAL_FACING, ctx.getPlayerFacing().getOpposite());
+        return super.getPlacementState(ctx).with(Properties.HORIZONTAL_FACING, ctx.getHorizontalPlayerFacing().getOpposite());
     }
 }

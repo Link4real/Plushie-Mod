@@ -14,7 +14,7 @@ import net.minecraft.world.BlockView;
 
 public class PandaPlushie extends HorizontalFacingBlock {
     public PandaPlushie() {
-        super(FabricBlockSettings.of(Material.WOOL).nonOpaque().sounds(BlockSoundGroup.WOOL).strength(0.7f));
+        super(FabricBlockSettings.create().nonOpaque().sounds(BlockSoundGroup.WOOL).strength(0.7f));
         setDefaultState(this.stateManager.getDefaultState().with(Properties.HORIZONTAL_FACING, Direction.NORTH));
     }
 
@@ -28,11 +28,11 @@ public class PandaPlushie extends HorizontalFacingBlock {
         Direction dir = state.get(FACING);
         switch(dir) {
             case NORTH:
-                return VoxelShapes.cuboid(0.2f, 0f, 0.325f, 0.8f, 0.6f, 0.7f);
+                return VoxelShapes.cuboid(0.2f, 0f, 0.25f, 0.8f, 0.6f, 0.75f);
             case SOUTH:
-                return VoxelShapes.cuboid(0.23f, 0f, 0.2f, 0.8f, 0.6f, 0.7f);
+                return VoxelShapes.cuboid(0.2f, 0f, 0.25f, 0.8f, 0.6f, 0.75f);
             case EAST:
-                return VoxelShapes.cuboid(0.22f, 0f, 0.3f, 0.7f, 0.6f, 0.8f);
+                return VoxelShapes.cuboid(0.3f, 0f, 0.25f, 0.7f, 0.6f, 0.75f);
             case WEST:
                 return VoxelShapes.cuboid(0.3f, 0f, 0.25f, 0.7f, 0.6f, 0.75f);
             default:
@@ -42,6 +42,6 @@ public class PandaPlushie extends HorizontalFacingBlock {
 
     @Override
     public BlockState getPlacementState(ItemPlacementContext ctx) {
-        return (BlockState)this.getDefaultState().with(Properties.HORIZONTAL_FACING, ctx.getPlayerFacing().getOpposite());
+        return super.getPlacementState(ctx).with(Properties.HORIZONTAL_FACING, ctx.getHorizontalPlayerFacing().getOpposite());
     }
 }

@@ -14,7 +14,7 @@ import net.minecraft.world.BlockView;
 
 public class HorsePlushie extends HorizontalFacingBlock {
     public HorsePlushie() {
-        super(FabricBlockSettings.of(Material.WOOL).nonOpaque().sounds(BlockSoundGroup.WOOL).strength(0.7f));
+        super(FabricBlockSettings.create().nonOpaque().sounds(BlockSoundGroup.WOOL).strength(0.7f));
         setDefaultState(this.stateManager.getDefaultState().with(Properties.HORIZONTAL_FACING, Direction.NORTH));
     }
 
@@ -28,13 +28,13 @@ public class HorsePlushie extends HorizontalFacingBlock {
         Direction dir = state.get(FACING);
         switch(dir) {
             case NORTH:
-                return VoxelShapes.cuboid(0.2f, 0f, 0f, 0.8f, 0.85f, 0.9f);
+                return VoxelShapes.cuboid(0.3f, 0f, 0f, 0.7f, 0.85f, 1f);
             case SOUTH:
-                return VoxelShapes.cuboid(0.21f, 0f, 0f, 0.8f, 0.85f, 0.9f);
+                return VoxelShapes.cuboid(0.3f, 0f, 0f, 0.7f, 0.85f, 1f);
             case EAST:
-                return VoxelShapes.cuboid(0.1f, 0f, 0.23f, 1f, 0.85f, 0.75f);
+                return VoxelShapes.cuboid(0f, 0f, 0.3f, 1f, 0.85f, 0.7f);
             case WEST:
-                return VoxelShapes.cuboid(0.1f, 0f, 0.23f, 1f, 0.85f, 0.75f);
+                return VoxelShapes.cuboid(0f, 0f, 0.3f, 1f, 0.85f, 0.7f);
             default:
                 return VoxelShapes.fullCube();
         }
@@ -42,6 +42,6 @@ public class HorsePlushie extends HorizontalFacingBlock {
 
     @Override
     public BlockState getPlacementState(ItemPlacementContext ctx) {
-        return (BlockState)this.getDefaultState().with(Properties.HORIZONTAL_FACING, ctx.getPlayerFacing().getOpposite());
+        return super.getPlacementState(ctx).with(Properties.HORIZONTAL_FACING, ctx.getHorizontalPlayerFacing().getOpposite());
     }
 }

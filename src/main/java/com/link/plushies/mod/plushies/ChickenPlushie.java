@@ -14,7 +14,7 @@ import net.minecraft.world.BlockView;
 
 public class ChickenPlushie extends HorizontalFacingBlock {
     public ChickenPlushie() {
-        super(FabricBlockSettings.of(Material.WOOL).nonOpaque().sounds(BlockSoundGroup.WOOL).strength(0.6f));
+        super(FabricBlockSettings.create().nonOpaque().sounds(BlockSoundGroup.WOOL).strength(0.7f));
         setDefaultState(this.stateManager.getDefaultState().with(Properties.HORIZONTAL_FACING, Direction.NORTH));
     }
 
@@ -28,13 +28,13 @@ public class ChickenPlushie extends HorizontalFacingBlock {
         Direction dir = state.get(FACING);
         switch(dir) {
             case NORTH:
-                return VoxelShapes.cuboid(0.25f, 0f, 0.25f, 0.75f, 0.9f, 0.75f);
+                return VoxelShapes.cuboid(0.25f, 0f, 0.125f, 0.75f, 0.8f, 0.875f);
             case SOUTH:
-                return VoxelShapes.cuboid(0.25f, 0f, 0.25f, 0.75f, 0.9f, 0.75f);
-            case EAST:
-                return VoxelShapes.cuboid(0.25f, 0f, 0.25f, 0.75f, 0.9f, 0.75f);
+                return VoxelShapes.cuboid(0.25f, 0f, 0.125f, 0.75f, 0.8f, 0.875f);
             case WEST:
-                return VoxelShapes.cuboid(0.25f, 0f, 0.25f, 0.75f, 0.9f, 0.75f);
+                return VoxelShapes.cuboid(0.125f, 0f, 0.25f, 0.875f, 0.8f, 0.75f);
+            case EAST:
+                return VoxelShapes.cuboid(0.125f, 0f, 0.25f, 0.875f, 0.8f, 0.75f);
             default:
                 return VoxelShapes.fullCube();
         }
@@ -42,6 +42,6 @@ public class ChickenPlushie extends HorizontalFacingBlock {
 
     @Override
     public BlockState getPlacementState(ItemPlacementContext ctx) {
-        return (BlockState)this.getDefaultState().with(Properties.HORIZONTAL_FACING, ctx.getPlayerFacing().getOpposite());
+        return super.getPlacementState(ctx).with(Properties.HORIZONTAL_FACING, ctx.getHorizontalPlayerFacing().getOpposite());
     }
 }
