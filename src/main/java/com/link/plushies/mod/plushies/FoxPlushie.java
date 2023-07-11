@@ -28,13 +28,13 @@ public class FoxPlushie extends HorizontalFacingBlock {
         Direction dir = state.get(FACING);
         switch(dir) {
             case NORTH:
-                return VoxelShapes.cuboid(0f, 0f, 0.2f, 1f, 0.45f, 0.8f);
+                return VoxelShapes.cuboid(0f, 0f, 0.1f, 1f, 0.45f, 0.82f);
             case SOUTH:
-                return VoxelShapes.cuboid(0f, 0f, 0.2f, 1f, 0.45f, 0.8f);
+                return VoxelShapes.cuboid(0f, 0f, 0.18f, 1f, 0.45f, 0.9f);
             case EAST:
-                return VoxelShapes.cuboid(0.2f, 0f, 0f, 0.8f, 0.45f, 1f);
+                return VoxelShapes.cuboid(0.18f, 0f, 0f, 0.9f, 0.45f, 1f);
             case WEST:
-                return VoxelShapes.cuboid(0.2f, 0f, 0f, 0.8f, 0.45f, 1f);
+                return VoxelShapes.cuboid(0.1f, 0f, 0f, 0.82f, 0.45f, 1f);
             default:
                 return VoxelShapes.fullCube();
         }

@@ -28,13 +28,13 @@ public class SnifferPlushie  extends HorizontalFacingBlock {
         Direction dir = state.get(FACING);
         switch(dir) {
             case NORTH:
-                return VoxelShapes.cuboid(0.2f, 0f, 0f, 0.8f, 0.75f, 0.9f);
+                return VoxelShapes.cuboid(0.2f, 0f, 0.05f, 0.8f, 0.55f, 0.95f);
             case SOUTH:
-                return VoxelShapes.cuboid(0.21f, 0f, 0f, 0.8f, 0.75f, 0.9f);
+                return VoxelShapes.cuboid(0.2f, 0f, 0.05f, 0.8f, 0.55f, 0.95f);
             case EAST:
-                return VoxelShapes.cuboid(0.1f, 0f, 0.23f, 1f, 0.75f, 0.75f);
+                return VoxelShapes.cuboid(0.05f, 0f, 0.2f, 0.95f, 0.55f, 0.8f);
             case WEST:
-                return VoxelShapes.cuboid(0.1f, 0f, 0.23f, 1f, 0.75f, 0.75f);
+                return VoxelShapes.cuboid(0.05f, 0f, 0.2f, 0.95f, 0.55f, 0.8f);
             default:
                 return VoxelShapes.fullCube();
         }

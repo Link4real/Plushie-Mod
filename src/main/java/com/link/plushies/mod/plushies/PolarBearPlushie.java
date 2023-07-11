@@ -28,13 +28,13 @@ public class PolarBearPlushie extends HorizontalFacingBlock {
         Direction dir = state.get(FACING);
         switch(dir) {
             case NORTH:
-                return VoxelShapes.cuboid(0.2f, 0f, 0f, 0.8f, 0.75f, 0.9f);
+                return VoxelShapes.cuboid(0.3f, 0f, 0.09f, 0.7f, 0.5f, 0.91f);
             case SOUTH:
-                return VoxelShapes.cuboid(0.21f, 0f, 0f, 0.8f, 0.75f, 0.9f);
+                return VoxelShapes.cuboid(0.3f, 0f, 0.09f, 0.7f, 0.5f, 0.91f);
             case EAST:
-                return VoxelShapes.cuboid(0.1f, 0f, 0.23f, 1f, 0.75f, 0.75f);
+                return VoxelShapes.cuboid(0.09f, 0f, 0.3f, 0.91f, 0.5f, 0.7f);
             case WEST:
-                return VoxelShapes.cuboid(0.1f, 0f, 0.23f, 1f, 0.75f, 0.75f);
+                return VoxelShapes.cuboid(0.09f, 0f, 0.3f, 0.91f, 0.5f, 0.7f);
             default:
                 return VoxelShapes.fullCube();
         }
