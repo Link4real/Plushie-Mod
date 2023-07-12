@@ -28,13 +28,13 @@ public class WitchPlushie extends HorizontalFacingBlock {
         Direction dir = state.get(FACING);
         switch(dir) {
             case NORTH:
-                return VoxelShapes.cuboid(0.25f, 0f, 0.25f, 0.6f, 0.98f, 0.75f);
+                return VoxelShapes.cuboid(0.25f, 0f, 0.25f, 0.75f, 0.85f, 0.75f);
             case SOUTH:
-                return VoxelShapes.cuboid(0.25f, 0f, 0.25f, 0.6f, 0.98f, 0.75f);
+                return VoxelShapes.cuboid(0.25f, 0f, 0.25f, 0.75f, 0.85f, 0.75f);
             case EAST:
-                return VoxelShapes.cuboid(0.25f, 0f, 0.25f, 0.6f, 0.98f, 0.75f);
+                return VoxelShapes.cuboid(0.25f, 0f, 0.25f, 0.75f, 0.85f, 0.75f);
             case WEST:
-                return VoxelShapes.cuboid(0.25f, 0f, 0.25f, 0.6f, 0.98f, 0.75f);
+                return VoxelShapes.cuboid(0.25f, 0f, 0.25f, 0.75f, 0.85f, 0.75f);
             default:
                 return VoxelShapes.fullCube();
         }

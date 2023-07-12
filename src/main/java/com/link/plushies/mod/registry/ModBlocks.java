@@ -38,9 +38,9 @@ public class ModBlocks {
     // Plushies since v1.2.1
     public static final Block PIG_PLUSHIE = new PigPlushie();
     public static final Block TADPOLE_PLUSHIE = new TadpolePlushie();
-    public static final Block ALLAY_PLUSHIE = new AllayVexPlushie();
+    public static final Block ALLAY_PLUSHIE = new AllayPlushie();
     // Plushies since v1.3
-    public static final Block VEX_PLUSHIE = new AllayVexPlushie();
+    public static final Block VEX_PLUSHIE = new VexPlushie();
     public static final Block BROWN_RABBIT_PLUSHIE = new RabbitPlushie();
     public static final Block WHITE_RABBIT_PLUSHIE = new RabbitPlushie();
     public static final Block BLACK_RABBIT_PLUSHIE = new RabbitPlushie();

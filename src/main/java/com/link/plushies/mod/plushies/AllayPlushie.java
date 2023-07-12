@@ -12,8 +12,8 @@ import net.minecraft.util.shape.VoxelShape;
 import net.minecraft.util.shape.VoxelShapes;
 import net.minecraft.world.BlockView;
 
-public class AllayVexPlushie extends HorizontalFacingBlock {
-    public AllayVexPlushie() {
+public class AllayPlushie extends HorizontalFacingBlock {
+    public AllayPlushie() {
         super(FabricBlockSettings.create().nonOpaque().sounds(BlockSoundGroup.WOOL).strength(0.7f));
         setDefaultState(this.stateManager.getDefaultState().with(Properties.HORIZONTAL_FACING, Direction.NORTH));
     }
@@ -28,13 +28,13 @@ public class AllayVexPlushie extends HorizontalFacingBlock {
         Direction dir = state.get(FACING);
         switch(dir) {
             case NORTH:
-                return VoxelShapes.cuboid(0.15f, 0f, 0.25f, 0.85f, 0.6f, 0.75f);
+                return VoxelShapes.cuboid(0.18f, 0f, 0.25f, 0.82f, 0.6f, 0.75f);
             case SOUTH:
-                return VoxelShapes.cuboid(0.15f, 0f, 0.25f, 0.85f, 0.6f, 0.75f);
+                return VoxelShapes.cuboid(0.18f, 0f, 0.25f, 0.82f, 0.6f, 0.75f);
             case EAST:
-                return VoxelShapes.cuboid(0.25f, 0f, 0.15f, 0.75f, 0.6f, 0.85f);
+                return VoxelShapes.cuboid(0.25f, 0f, 0.18f, 0.75f, 0.6f, 0.82f);
             case WEST:
-                return VoxelShapes.cuboid(0.25f, 0f, 0.15f, 0.75f, 0.6f, 0.85f);
+                return VoxelShapes.cuboid(0.25f, 0f, 0.18f, 0.75f, 0.6f, 0.82f);
             default:
                 return VoxelShapes.fullCube();
         }

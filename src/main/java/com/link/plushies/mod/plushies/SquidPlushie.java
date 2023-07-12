@@ -28,13 +28,13 @@ public class SquidPlushie extends HorizontalFacingBlock {
         Direction dir = state.get(FACING);
         switch(dir) {
             case NORTH:
-                return VoxelShapes.cuboid(0.15f, 0f, 0.15f, 0.85f, 0.75f, 0.85f);
+                return VoxelShapes.cuboid(0f, 0f, 0f, 1f, 0.6f, 1f);
             case SOUTH:
-                return VoxelShapes.cuboid(0.15f, 0f, 0.15f, 0.85f, 0.75f, 0.85f);
+                return VoxelShapes.cuboid(0f, 0f, 0f, 1f, 0.6f, 1f);
             case EAST:
-                return VoxelShapes.cuboid(0.15f, 0f, 0.15f, 0.85f, 0.75f, 0.85f);
+                return VoxelShapes.cuboid(0f, 0f, 0f, 1f, 0.6f, 1f);
             case WEST:
-                return VoxelShapes.cuboid(0.15f, 0f, 0.15f, 0.85f, 0.75f, 0.85f);
+                return VoxelShapes.cuboid(0f, 0f, 0f, 1f, 0.6f, 1f);
             default:
                 return VoxelShapes.fullCube();
         }

@@ -28,13 +28,13 @@ public class ZombiePlushie extends HorizontalFacingBlock {
         Direction dir = state.get(FACING);
         switch(dir) {
             case NORTH:
-                return VoxelShapes.cuboid(0.25f, 0f, 0.25f, 0.75f, 0.9f, 0.75f);
+                return VoxelShapes.cuboid(0.12f, 0f, 0.15f, 0.88f, 0.95f, 0.9f);
             case SOUTH:
-                return VoxelShapes.cuboid(0.25f, 0f, 0.25f, 0.75f, 0.9f, 0.75f);
+                return VoxelShapes.cuboid(0.12f, 0f, 0.15f, 0.88f, 0.95f, 0.9f);
             case EAST:
-                return VoxelShapes.cuboid(0.25f, 0f, 0.25f, 0.75f, 0.9f, 0.75f);
+                return VoxelShapes.cuboid(0.15f, 0f, 0.12f, 0.9f, 0.95f, 0.88f);
             case WEST:
-                return VoxelShapes.cuboid(0.25f, 0f, 0.25f, 0.75f, 0.9f, 0.75f);
+                return VoxelShapes.cuboid(0.15f, 0f, 0.12f, 0.9f, 0.95f, 0.88f);
             default:
                 return VoxelShapes.fullCube();
         }

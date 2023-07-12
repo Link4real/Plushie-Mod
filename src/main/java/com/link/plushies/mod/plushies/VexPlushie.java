@@ -12,8 +12,8 @@ import net.minecraft.util.shape.VoxelShape;
 import net.minecraft.util.shape.VoxelShapes;
 import net.minecraft.world.BlockView;
 
-public class StriderPlushie extends HorizontalFacingBlock {
-    public StriderPlushie() {
+public class VexPlushie extends HorizontalFacingBlock {
+    public VexPlushie() {
         super(FabricBlockSettings.create().nonOpaque().sounds(BlockSoundGroup.WOOL).strength(0.7f));
         setDefaultState(this.stateManager.getDefaultState().with(Properties.HORIZONTAL_FACING, Direction.NORTH));
     }
@@ -28,13 +28,13 @@ public class StriderPlushie extends HorizontalFacingBlock {
         Direction dir = state.get(FACING);
         switch(dir) {
             case NORTH:
-                return VoxelShapes.cuboid(0.25f, 0f, 0.25f, 0.75f, 0.95f, 0.75f);
+                return VoxelShapes.cuboid(0f, 0f, 0.25f, 1f, 0.6f, 0.9f);
             case SOUTH:
-                return VoxelShapes.cuboid(0.25f, 0f, 0.25f, 0.75f, 0.95f, 0.75f);
+                return VoxelShapes.cuboid(0f, 0f, 0.1f, 1f, 0.6f, 0.75f);
             case EAST:
-                return VoxelShapes.cuboid(0.25f, 0f, 0.25f, 0.75f, 0.95f, 0.75f);
+                return VoxelShapes.cuboid(0.1f, 0f, 0f, 0.75f, 0.6f, 1f);
             case WEST:
-                return VoxelShapes.cuboid(0.25f, 0f, 0.25f, 0.75f, 0.95f, 0.75f);
+                return VoxelShapes.cuboid(0.25f, 0f, 0f, 0.9f, 0.6f, 1f);
             default:
                 return VoxelShapes.fullCube();
         }

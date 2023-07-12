@@ -28,13 +28,13 @@ public class FrogPlushie extends HorizontalFacingBlock {
         Direction dir = state.get(FACING);
         switch(dir) {
             case NORTH:
-                return VoxelShapes.cuboid(0.25f, 0f, 0.25f, 0.75f, 0.6f, 0.75f);
+                return VoxelShapes.cuboid(0.05f, 0f, 0.15f, 0.95f, 0.6f, 0.85f);
             case SOUTH:
-                return VoxelShapes.cuboid(0.25f, 0f, 0.25f, 0.75f, 0.6f, 0.75f);
+                return VoxelShapes.cuboid(0.05f, 0f, 0.15f, 0.95f, 0.6f, 0.85f);
             case EAST:
-                return VoxelShapes.cuboid(0.25f, 0f, 0.25f, 0.75f, 0.6f, 0.75f);
+                return VoxelShapes.cuboid(0.15f, 0f, 0.05f, 0.85f, 0.6f, 0.95f);
             case WEST:
-                return VoxelShapes.cuboid(0.25f, 0f, 0.25f, 0.75f, 0.6f, 0.75f);
+                return VoxelShapes.cuboid(0.15f, 0f, 0.05f, 0.85f, 0.6f, 0.95f);
             default:
                 return VoxelShapes.fullCube();
         }

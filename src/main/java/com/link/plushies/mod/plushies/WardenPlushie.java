@@ -28,13 +28,13 @@ public class WardenPlushie extends HorizontalFacingBlock {
         Direction dir = state.get(FACING);
         switch(dir) {
             case NORTH:
-                return VoxelShapes.cuboid(0.15f, 0f, 0.25f, 0.85f, 1.15f, 0.6f);
+                return VoxelShapes.cuboid(0.05f, 0f, 0.35f, 0.95f, 1f, 0.65f);
             case SOUTH:
-                return VoxelShapes.cuboid(0.15f, 0f, 0.45f, 0.95f, 1.15f, 0.7f);
+                return VoxelShapes.cuboid(0.05f, 0f, 0.35f, 0.95f, 1f, 0.65f);
             case EAST:
-                return VoxelShapes.cuboid(0.35f, 0f, 0.25f, 0.65f, 1.15f, 0.85f);
+                return VoxelShapes.cuboid(0.35f, 0f, 0.05f, 0.65f, 1f, 0.95f);
             case WEST:
-                return VoxelShapes.cuboid(0.25f, 0f, 0.1f, 0.65f, 1.15f, 0.85f);
+                return VoxelShapes.cuboid(0.35f, 0f, 0.05f, 0.65f, 1f, 0.95f);
             default:
                 return VoxelShapes.fullCube();
         }
