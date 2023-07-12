@@ -2,7 +2,7 @@
 	"credit": "Made with Blockbench",
 	"textures": {
 		"0": "plushies:block/strider_plushie",
-		"particle": "minecraft:block/red_wool"
+		"particle": "block/red_wool"
 	},
 	"elements": [
 		{
@@ -1816,20 +1816,25 @@
 	"display": {
 		"thirdperson_righthand": {
 			"rotation": [67.75, 0, 0],
-			"translation": [0, 1.5, 2.75]
+			"translation": [0, 1.5, 2.75],
+			"scale": [0.66, 0.66, 0.66]
 		},
 		"thirdperson_lefthand": {
 			"rotation": [67.75, 0, 0],
-			"translation": [0, 1.5, 2.75]
+			"translation": [0, 1.5, 2.75],
+			"scale": [0.66, 0.66, 0.66]
 		},
 		"firstperson_righthand": {
-			"translation": [0, 1.5, 1.75]
+			"translation": [0, 1.5, 1.75],
+			"scale": [0.66, 0.66, 0.66]
 		},
 		"firstperson_lefthand": {
-			"translation": [0, 1.5, 1.75]
+			"translation": [0, 1.5, 1.75],
+			"scale": [0.66, 0.66, 0.66]
 		},
 		"ground": {
-			"translation": [0, 4.75, 0]
+			"translation": [0, 3.5, 0],
+			"scale": [0.8, 0.8, 0.8]
 		},
 		"gui": {
 			"rotation": [-165.18, -25.9, -179.94],

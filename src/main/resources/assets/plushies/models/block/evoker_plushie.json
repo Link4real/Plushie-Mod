@@ -2,7 +2,7 @@
 	"credit": "Made with Blockbench",
 	"textures": {
 		"0": "plushies:block/evoker_plushie",
-		"particle": "minecraft:block/gilded_blackstone"
+		"particle": "block/gilded_blackstone"
 	},
 	"elements": [
 		{
@@ -120,7 +120,8 @@
 	"display": {
 		"thirdperson_righthand": {
 			"rotation": [67, 0, 0],
-			"translation": [0, 1.75, 1.25]
+			"translation": [0, 1.75, 1.25],
+			"scale": [0.8, 0.8, 0.8]
 		},
 		"thirdperson_lefthand": {
 			"rotation": [67, 0, 0],
@@ -133,7 +134,8 @@
 			"translation": [0, 1.5, 0.5]
 		},
 		"ground": {
-			"translation": [0, 4.25, 0]
+			"translation": [0, 4.25, 0],
+			"scale": [0.8, 0.8, 0.8]
 		},
 		"gui": {
 			"rotation": [-163.75, -27.25, -180],

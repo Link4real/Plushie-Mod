@@ -2,7 +2,7 @@
 	"credit": "Made with Blockbench",
 	"textures": {
 		"0": "plushies:block/pillager_plushie",
-		"particle": "minecraft:block/light_gray_wool"
+		"particle": "block/light_gray_wool"
 	},
 	"elements": [
 		{
@@ -242,7 +242,8 @@
 			"translation": [0, 1.5, 2]
 		},
 		"ground": {
-			"translation": [0, 4.75, 0]
+			"translation": [0, 3.25, 0],
+			"scale": [0.8, 0.8, 0.8]
 		},
 		"gui": {
 			"rotation": [-163.75, -27.25, -180],

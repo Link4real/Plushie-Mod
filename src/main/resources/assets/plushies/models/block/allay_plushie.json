@@ -2,7 +2,7 @@
 	"credit": "Made with Blockbench",
 	"textures": {
 		"0": "plushies:block/allay_plushie",
-		"particle": "minecraft:block/light_blue_wool"
+		"particle": "block/light_blue_wool"
 	},
 	"elements": [
 		{
@@ -1665,12 +1665,12 @@
 	],
 	"display": {
 		"thirdperson_righthand": {
-			"rotation": [52.5, 0, 0],
-			"translation": [-0.25, 3.75, 4.5]
+			"rotation": [64, 0, 0],
+			"translation": [-0.25, 2.75, 4.5]
 		},
 		"thirdperson_lefthand": {
-			"rotation": [52.5, 0, 0],
-			"translation": [-0.25, 3.75, 4.5]
+			"rotation": [64, 0, 0],
+			"translation": [-0.25, 2.75, 4.5]
 		},
 		"firstperson_righthand": {
 			"translation": [0, 8.25, 2.25]

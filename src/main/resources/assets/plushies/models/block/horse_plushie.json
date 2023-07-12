@@ -2,7 +2,7 @@
 	"credit": "Made with Blockbench",
 	"textures": {
 		"0": "plushies:block/horse_plushie",
-		"particle": "plushies:block/horse_plushie"
+		"particle": "block/white_wool"
 	},
 	"elements": [
 		{
@@ -685,11 +685,11 @@
 	"display": {
 		"thirdperson_righthand": {
 			"rotation": [72.75, 0, 0],
-			"scale": [0.7, 0.7, 0.7]
+			"scale": [0.8, 0.8, 0.8]
 		},
 		"thirdperson_lefthand": {
 			"rotation": [72.75, 0, 0],
-			"scale": [0.7, 0.7, 0.7]
+			"scale": [0.8, 0.8, 0.8]
 		},
 		"firstperson_righthand": {
 			"translation": [0, 2.25, 3.25],
@@ -701,7 +701,7 @@
 		},
 		"ground": {
 			"translation": [0, 2.25, 0],
-			"scale": [0.7, 0.7, 0.7]
+			"scale": [0.8, 0.8, 0.8]
 		},
 		"gui": {
 			"rotation": [-163.12, -25.17, 180],

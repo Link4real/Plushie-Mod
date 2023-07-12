@@ -2,7 +2,7 @@
 	"credit": "Made with Blockbench",
 	"textures": {
 		"0": "plushies:block/illusioner_plushie",
-		"particle": "plushies:block/illusioner_plushie"
+		"particle": "block/light_blue_wool"
 	},
 	"elements": [
 		{
@@ -480,11 +480,13 @@
 	"display": {
 		"thirdperson_righthand": {
 			"rotation": [67, 0, 0],
-			"translation": [0, 1.75, 1.25]
+			"translation": [0, 1.75, 1.25],
+			"scale": [0.8, 0.8, 0.8]
 		},
 		"thirdperson_lefthand": {
 			"rotation": [67, 0, 0],
-			"translation": [0, 1.75, 1.25]
+			"translation": [0, 1.75, 1.25],
+			"scale": [0.8, 0.8, 0.8]
 		},
 		"firstperson_righthand": {
 			"translation": [0, 1.5, 0.5]
@@ -493,7 +495,8 @@
 			"translation": [0, 1.5, 0.5]
 		},
 		"ground": {
-			"translation": [0, 4.25, 0]
+			"translation": [0, 3.25, 0],
+			"scale": [0.8, 0.8, 0.8]
 		},
 		"gui": {
 			"rotation": [-163.75, -27.25, -180],

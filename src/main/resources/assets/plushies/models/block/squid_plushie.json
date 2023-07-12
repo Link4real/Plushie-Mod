@@ -2,7 +2,7 @@
 	"credit": "Made with Blockbench",
 	"textures": {
 		"0": "plushies:block/squid_plushie",
-		"particle": "block/blue_wool"
+		"particle": "minecraft:block/blue_wool"
 	},
 	"elements": [
 		{

@@ -140,7 +140,8 @@
 			"translation": [0, 5.75, 1]
 		},
 		"ground": {
-			"translation": [0, 4.75, 0]
+			"translation": [0, 3.25, 0],
+			"scale": [0.8, 0.8, 0.8]
 		},
 		"gui": {
 			"rotation": [-155, -26.75, 180],

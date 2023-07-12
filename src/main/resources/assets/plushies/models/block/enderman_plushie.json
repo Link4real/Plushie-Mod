@@ -2,7 +2,7 @@
 	"credit": "Made with Blockbench",
 	"textures": {
 		"0": "plushies:block/enderman_plushie",
-		"particle": "minecraft:block/black_wool"
+		"particle": "block/black_wool"
 	},
 	"elements": [
 		{
@@ -92,10 +92,12 @@
 	],
 	"display": {
 		"thirdperson_righthand": {
-			"rotation": [68.5, 0, 0]
+			"rotation": [68.5, 0, 0],
+			"scale": [0.8, 0.8, 0.8]
 		},
 		"thirdperson_lefthand": {
-			"rotation": [68.5, 0, 0]
+			"rotation": [68.5, 0, 0],
+			"scale": [0.8, 0.8, 0.8]
 		},
 		"firstperson_righthand": {
 			"translation": [0, -0.5, 2.75]
@@ -104,7 +106,8 @@
 			"translation": [0, 0.5, 2.75]
 		},
 		"ground": {
-			"translation": [0, 4, 0]
+			"translation": [0, 3.25, 0],
+			"scale": [0.8, 0.8, 0.8]
 		},
 		"gui": {
 			"rotation": [-173.38, -19.93, -179.62],

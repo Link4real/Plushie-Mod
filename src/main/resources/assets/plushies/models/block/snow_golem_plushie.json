@@ -3,7 +3,7 @@
 	"textures": {
 		"0": "plushies:block/snow_golem_plushie",
 		"1": "plushies:block/snow_golem_plushie_pumpkin",
-		"particle": "minecraft:block/white_wool"
+		"particle": "block/white_wool"
 	},
 	"elements": [
 		{
@@ -140,20 +140,25 @@
 	"display": {
 		"thirdperson_righthand": {
 			"rotation": [67.5, 0, 0],
-			"translation": [-0.5, 0.75, 2]
+			"translation": [-0.5, 0.75, 2],
+			"scale": [0.66, 0.66, 0.66]
 		},
 		"thirdperson_lefthand": {
 			"rotation": [67.5, 0, 0],
-			"translation": [-0.5, 0.75, 2]
+			"translation": [-0.5, 0.75, 2],
+			"scale": [0.66, 0.66, 0.66]
 		},
 		"firstperson_righthand": {
-			"translation": [0, 4.25, 1.5]
+			"translation": [0, 4.25, 1.5],
+			"scale": [0.66, 0.66, 0.66]
 		},
 		"firstperson_lefthand": {
-			"translation": [0, 4.25, 1.5]
+			"translation": [0, 4.25, 1.5],
+			"scale": [0.66, 0.66, 0.66]
 		},
 		"ground": {
-			"translation": [0, 4.25, 0]
+			"translation": [0, 4.25, 0],
+			"scale": [0.8, 0.8, 0.8]
 		},
 		"gui": {
 			"rotation": [-170, -23, -180],

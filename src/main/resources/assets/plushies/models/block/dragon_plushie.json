@@ -2,7 +2,7 @@
 	"credit": "Made with Blockbench",
 	"textures": {
 		"0": "plushies:block/dragon_plushie",
-		"particle": "minecraft:block/black_wool"
+		"particle": "block/black_wool"
 	},
 	"elements": [
 		{
@@ -1202,12 +1202,12 @@
 		"thirdperson_righthand": {
 			"rotation": [70.25, 0, 0],
 			"translation": [0, 2.5, 0],
-			"scale": [0.83, 0.83, 0.83]
+			"scale": [0.66, 0.66, 0.66]
 		},
 		"thirdperson_lefthand": {
 			"rotation": [70.25, 0, 0],
 			"translation": [0, 2.5, 0],
-			"scale": [0.83, 0.83, 0.83]
+			"scale": [0.66, 0.66, 0.66]
 		},
 		"firstperson_righthand": {
 			"translation": [2.75, 1, 2.25],
@@ -1218,7 +1218,7 @@
 			"scale": [0.83, 0.83, 0.83]
 		},
 		"ground": {
-			"translation": [0, 1.25, 0],
+			"translation": [0, 2, 0],
 			"scale": [0.66, 0.66, 0.66]
 		},
 		"gui": {

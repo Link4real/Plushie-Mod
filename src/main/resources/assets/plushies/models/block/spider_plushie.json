@@ -2,7 +2,7 @@
 	"credit": "Made with Blockbench",
 	"textures": {
 		"0": "plushies:block/spider_plushie",
-		"particle": "plushies:block/spider_plushie"
+		"particle": "block/black_wool"
 	},
 	"elements": [
 		{
@@ -152,13 +152,11 @@
 	"display": {
 		"thirdperson_righthand": {
 			"rotation": [75, 0, 0],
-			"translation": [0, 2, 4.5],
-			"scale": [0.8, 0.8, 0.8]
+			"translation": [0, 2.75, 5.25]
 		},
 		"thirdperson_lefthand": {
 			"rotation": [75, 0, 0],
-			"translation": [0, 2, 4.5],
-			"scale": [0.8, 0.8, 0.8]
+			"translation": [0, 2.75, 5.25]
 		},
 		"firstperson_righthand": {
 			"translation": [0, 8, 3.25]
