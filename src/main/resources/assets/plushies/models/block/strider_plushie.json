@@ -2,7 +2,7 @@
 	"credit": "Made with Blockbench",
 	"textures": {
 		"0": "plushies:block/strider_plushie",
-		"particle": "block/red_wool"
+		"particle": "minecraft:block/red_wool"
 	},
 	"elements": [
 		{

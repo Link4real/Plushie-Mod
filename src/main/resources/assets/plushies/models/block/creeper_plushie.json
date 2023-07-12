@@ -2,7 +2,7 @@
 	"credit": "Made with Blockbench",
 	"textures": {
 		"0": "plushies:block/creeper_plushie",
-		"particle": "block/lime_wool"
+		"particle": "minecraft:block/lime_wool"
 	},
 	"elements": [
 		{

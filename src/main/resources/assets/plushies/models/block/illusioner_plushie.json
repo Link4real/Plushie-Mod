@@ -2,7 +2,7 @@
 	"credit": "Made with Blockbench",
 	"textures": {
 		"0": "plushies:block/illusioner_plushie",
-		"particle": "block/light_blue_wool"
+		"particle": "minecraft:block/light_blue_wool"
 	},
 	"elements": [
 		{

@@ -2,7 +2,7 @@
 	"credit": "Made with Blockbench",
 	"textures": {
 		"0": "plushies:block/killer_bunny_plushie",
-		"particle": "block/white_wool"
+		"particle": "minecraft:block/white_wool"
 	},
 	"elements": [
 		{
