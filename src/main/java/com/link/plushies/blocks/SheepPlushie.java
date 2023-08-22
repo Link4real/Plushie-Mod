@@ -10,11 +10,6 @@ import net.minecraft.world.phys.shapes.Shapes;
 import net.minecraft.world.phys.shapes.VoxelShape;
 
 public class SheepPlushie extends Plushie {
-    public SheepPlushie() {
-        super();
-    }
-
-
     @Override
     public VoxelShape getShape(BlockState state, BlockGetter p_220053_2_, BlockPos p_220053_3_, CollisionContext p_220053_4_) {
         Direction dir = state.getValue(FACING);
@@ -31,6 +26,4 @@ public class SheepPlushie extends Plushie {
                 return Shapes.block();
         }
     }
-
-
 }
