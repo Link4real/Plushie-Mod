@@ -1,6 +1,8 @@
 package com.link.plushies;
 
 import com.link.plushies.blocks.*;
+import net.minecraft.world.entity.GlowSquid;
+import net.minecraft.world.entity.monster.ElderGuardian;
 import net.minecraft.world.level.block.Block;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -34,4 +36,40 @@ public class Blocks {
     public static final RegistryObject<Block> ALLAY_BLOCK = BLOCKS.register("allay_plushie", AllayPlushie::new);
     public static final RegistryObject<Block> TADPOLE_BLOCK = BLOCKS.register("tadpole_plushie", TadpolePlushie::new);
     public static final RegistryObject<Block> PIG_BLOCK = BLOCKS.register("pig_plushie", PigPlushie::new);
+
+    /* NEW IN v1.3.0 */
+    public static final RegistryObject<Block> VEX_BLOCK = BLOCKS.register("vex_plushie", VexPlushie::new);
+
+    public static final RegistryObject<Block> BROWN_RABBIT_BLOCK = BLOCKS.register("brown_rabbit_plushie", RabbitPlushie::new);
+    public static final RegistryObject<Block> WHITE_RABBIT_BLOCK = BLOCKS.register("white_rabbit_plushie", RabbitPlushie::new);
+    public static final RegistryObject<Block> BLACK_RABBIT_BLOCK = BLOCKS.register("black_rabbit_plushie", RabbitPlushie::new);
+    public static final RegistryObject<Block> WHITE_SPLOTCHED_RABBIT_BLOCK = BLOCKS.register("white_splotched_rabbit_plushie", RabbitPlushie::new);
+    public static final RegistryObject<Block> YELLOW_RABBIT_BLOCK = BLOCKS.register("yellow_rabbit_plushie", RabbitPlushie::new);
+    public static final RegistryObject<Block> SALT_RABBIT_BLOCK = BLOCKS.register("salt_rabbit_plushie", RabbitPlushie::new);
+    public static final RegistryObject<Block> KILLER_RABBIT_BLOCK = BLOCKS.register("killer_bunny_plushie", RabbitPlushie::new);
+    public static final RegistryObject<Block> TOAST_RABBIT_BLOCK = BLOCKS.register("toast_rabbit_plushie", RabbitPlushie::new);
+
+    public static final RegistryObject<Block> STRIDER_BLOCK = BLOCKS.register("strider_plushie", StriderPlushie::new);
+    public static final RegistryObject<Block> ENDERMITE_BLOCK = BLOCKS.register("endermite_plushie", EndermitePlushie::new);
+    public static final RegistryObject<Block> CHICKEN_BLOCK = BLOCKS.register("chicken_plushie", ChickenPlushie::new);
+    public static final RegistryObject<Block> EVOKER_BLOCK = BLOCKS.register("evoker_plushie", IllagerPlushies::new);
+    public static final RegistryObject<Block> VINDICATOR_BLOCK = BLOCKS.register("vindicator_plushie", IllagerPlushies::new);
+    public static final RegistryObject<Block> ZOMBIE_BLOCK = BLOCKS.register("zombie_plushie", ZombiePlushie::new);
+    public static final RegistryObject<Block> WOLF_BLOCK = BLOCKS.register("wolf_plushie", WolfPlushie::new);
+    public static final RegistryObject<Block> SQUID_BLOCK = BLOCKS.register("squid_plushie", SquidPlushie::new);
+    public static final RegistryObject<Block> GLOW_SQUID_BLOCK = BLOCKS.register("glow_squid_plushie", SquidPlushie::new);
+    public static final RegistryObject<Block> PILLAGER_BLOCK = BLOCKS.register("pillager_plushie", PillagerPlushie::new);
+    public static final RegistryObject<Block> ILLUSIONER_BLOCK  = BLOCKS.register("illusioner_plushie", IllagerPlushies::new);
+    public static final RegistryObject<Block> CAMEL_BLOCK = BLOCKS.register("camel_plushie", CamelPlushie::new);
+    public static final RegistryObject<Block> GUARDIAN_BLOCK = BLOCKS.register("guardian_plushie", GuardianPlushie::new);
+    public static final RegistryObject<Block> ELDER_GUARDIAN_BLOCK = BLOCKS.register("elder_guardian_plushie", GuardianPlushie::new);
+    public static final RegistryObject<Block> SNIFFER_BLOCK = BLOCKS.register("sniffer_plushie", SnifferPlushie::new);
+    public static final RegistryObject<Block> POLAR_BEAR_BLOCK = BLOCKS.register("polar_bear_plushie", PolarBearPlushie::new);
+    public static final RegistryObject<Block> WITCH_BLOCK = BLOCKS.register("witch_plushie", WitchPlushie::new);
+    public static final RegistryObject<Block> RAVAGER_BLOCK = BLOCKS.register("ravager_plushie", RavagerPlushie::new);
+    public static final RegistryObject<Block> HORSE_BLOCK = BLOCKS.register("horse_plushie", HorsePlushie::new);
+    public static final RegistryObject<Block> SPIDER_BLOCK = BLOCKS.register("spider_plushie", SpiderPlushie::new);
+
+
+    public static final RegistryObject<Block> CREEPER_BLOCK = BLOCKS.register("creeper_plushie", CreeperPlushie::new);
 }
