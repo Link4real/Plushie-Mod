@@ -1,8 +1,0 @@
-{
-  "variants": {
-    "facing=north": { "model": "plushies:block/goat"},
-    "facing=east":  { "model": "plushies:block/goat", "y":  90},
-    "facing=south": { "model": "plushies:block/goat", "y": 180},
-    "facing=west":  { "model": "plushies:block/goat", "y": 270}
-  }
-}

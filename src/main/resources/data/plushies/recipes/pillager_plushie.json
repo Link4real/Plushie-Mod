@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#L#",
+    "LLL",
+    "BCB"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:green_wool"
+    },
+    "L": {
+      "item": "minecraft:light_gray_wool"
+    },
+    "B": {
+      "item": "minecraft:brown_wool"
+    },
+    "C": {
+      "item": "minecraft:crossbow"
+    }
+  },
+  "result": {
+    "item": "plushies:pillager_plushie",
+    "count": 1
+  }
+}

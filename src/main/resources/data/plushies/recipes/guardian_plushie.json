@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#C#",
+    "CRC",
+    "#C#"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:orange_wool"
+    },
+    "C": {
+      "item": "minecraft:cyan_wool"
+    },
+    "R": {
+      "item": "minecraft:red_wool"
+    }
+  },
+  "result": {
+    "item": "plushies:guardian_plushie",
+    "count": 1
+  }
+}

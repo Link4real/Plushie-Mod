@@ -5,8 +5,11 @@ import net.minecraft.core.Direction;
 import net.minecraft.world.item.context.BlockPlaceContext;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.HorizontalDirectionalBlock;
+import net.minecraft.world.level.block.SoundType;
+import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.StateDefinition;
+import net.minecraft.world.level.material.MapColor;
 
 import javax.annotation.Nullable;
 
@@ -14,12 +17,14 @@ import static net.minecraft.world.level.block.FaceAttachedHorizontalDirectionalB
 import static net.minecraft.world.level.block.state.properties.BlockStateProperties.HORIZONTAL_FACING;
 
 public class Plushie extends HorizontalDirectionalBlock {
-    public Plushie(Properties properties) {
+    public Plushie(BlockBehaviour.Properties properties) {
         super(properties);
-        registerDefaultState(
-                this.stateDefinition.any()
-                        .setValue(HORIZONTAL_FACING, Direction.NORTH)
-        );
+        registerDefaultState(this.stateDefinition.any().setValue(HORIZONTAL_FACING, Direction.NORTH));
+    }
+
+    public Plushie() {
+        super(BlockBehaviour.Properties.of().ignitedByLava().mapColor(MapColor.WOOL).sound(SoundType.WOOL).strength(0.7f));
+        registerDefaultState(this.stateDefinition.any().setValue(HORIZONTAL_FACING, Direction.NORTH));
     }
 
     @Override

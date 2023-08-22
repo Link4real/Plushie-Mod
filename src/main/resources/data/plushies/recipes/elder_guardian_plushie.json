@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#L#",
+    "LWL",
+    "#L#"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:blue_wool"
+    },
+    "L": {
+      "item": "minecraft:light_gray_wool"
+    },
+    "W": {
+      "item": "minecraft:white_wool"
+    }
+  },
+  "result": {
+    "item": "plushies:elder_guardian_plushie",
+    "count": 1
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#W#",
+    "WPB",
+    "RBR"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:light_gray_wool"
+    },
+    "W": {
+      "item": "minecraft:white_wool"
+    },
+    "P": {
+      "item": "minecraft:pink_wool"
+    },
+    "B": {
+      "item": "minecraft:black_wool"
+    },
+    "R": {
+      "item": "minecraft:rabbit_foot"
+    }
+  },
+  "result": {
+    "item": "plushies:white_splotched_rabbit_plushie",
+    "count": 1
+  }
+}
