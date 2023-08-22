@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "plushies",
+  "version": "${version}",
+  "name": "Plushie Mod",
+  "description": "Adds a lot of cute Plushies to the game :)",
+  "authors": [
+    "Link4real",
+    "Vento"
+  ],
+  "contact": {
+    "homepage": "https://link4real.github.io/plushie.html",
+    "sources": "https://github.com/Link4real/Plushie-Mod",
+    "issues": "https://github.com/Link4real/Plushie-Mod/issues"
+  },
+  "license": "MIT",
+  "icon": "assets/plushies/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.link.plushies.fabric.PlushiesModFabric"
+    ]
+  },
+  "depends": {
+    "fabric": "*",
+    "fabricloader": ">=0.14.12",
+    "minecraft": "1.20.x",
+    "architectury": ">=8.1.79"
+  },
+  "custom": {
+    "modmenu": {
+      "links": {
+        "modmenu.wiki": "https://link4real.github.io/wiki/plushies.html",
+        "modmenu.curseforge": "https://www.curseforge.com/minecraft/mc-mods/plushie-mod",
+        "modmenu.modrinth": "https://modrinth.com/mod/plushie"
+      }
+    }
+  }
+}
