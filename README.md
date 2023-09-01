@@ -21,5 +21,5 @@
 <p align="center"><a href="https://gist.github.com/Link4real/af545420163c11858c4f4640b00191cd"><img valign="middle" src="https://i.imgur.com/3jztcWc.png" width="330px" height="120"></a></p>
 
 
-<p align="center"><img valign="middle" src="https://i.imgur.com/Yyc4r70.png"></p>
+<p align="center"><img valign="middle" src="https://i.imgur.com/Isi0c3W.png"></p>
 <p style="font-size:25px" align="center">Please respect the license in any way!</p>
