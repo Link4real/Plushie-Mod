@@ -15,14 +15,10 @@ public class CatPlushie extends Plushie {
     public VoxelShape getShape(BlockState state, BlockGetter p_220053_2_, BlockPos p_220053_3_, CollisionContext p_220053_4_) {
         Direction dir = state.getValue(FACING);
         switch (dir) {
-            case NORTH:
-                return Shapes.box(0.35f, 0f, 0f, 0.7f, 0.55f, 1f);
-            case SOUTH:
-                return Shapes.box(0.35f, 0f, 0f, 0.7f, 0.551f, 1f);
-            case EAST:
-                return Shapes.box(0f, 0f, 0.35f, 1f, 0.55f, 0.7f);
-            case WEST:
-                return Shapes.box(0f, 0f, 0.35f, 1f, 0.551f, 0.7f);
+            case NORTH, SOUTH:
+                return Shapes.box(0.3f, 0f, 0f, 0.7f, 0.55f, 1f);
+            case EAST, WEST:
+                return Shapes.box(0f, 0f, 0.3f, 1f, 0.55f, 0.7f);
             default:
                 return Shapes.block();
         }
