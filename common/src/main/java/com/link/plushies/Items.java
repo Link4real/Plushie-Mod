@@ -78,5 +78,5 @@ public class Items {
     public static final RegistrySupplier<Item> RAVAGER = ITEMS.register("ravager_plushie", () -> new BlockItem(Blocks.RAVAGER_BLOCK.get(), props.rarity(Rarity.COMMON)));
     private static final RegistrySupplier<Item> VEX = ITEMS.register("vex_plushie", () -> new BlockItem(Blocks.VEX_BLOCK.get(), props.rarity(Rarity.COMMON)));
 
-
+    private static final RegistrySupplier<Item> HUSK = ITEMS.register("husk_plushie", () -> new BlockItem(Blocks.HUSK_BLOCK.get(), props.rarity(Rarity.COMMON)));
 }

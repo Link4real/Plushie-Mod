@@ -20,7 +20,6 @@ import net.minecraft.world.level.material.MapColor;
 
 import static net.minecraft.world.level.block.FaceAttachedHorizontalDirectionalBlock.FACE;
 import static net.minecraft.world.level.block.state.properties.BlockStateProperties.HORIZONTAL_FACING;
-import static net.minecraft.world.level.block.state.properties.BlockStateProperties.WATERLOGGED;
 
 public class Plushie extends HorizontalDirectionalBlock implements SimpleWaterloggedBlock {
     public Plushie(BlockBehaviour.Properties properties) {
