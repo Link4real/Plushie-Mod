@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#L#",
+    "LTL",
+    "S S"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:black_wool"
+    },
+    "L": {
+      "item": "minecraft:light_gray_wool"
+    },
+    "T": {
+      "item": "minecraft:lily_pad"
+    },
+    "S": {
+      "item": "minecraft:slime_ball"
+    }
+  },
+  "result": {
+    "item": "plushies:warm_frog_plushie",
+    "count": 1
+  }
+}

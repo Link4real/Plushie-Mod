@@ -7,6 +7,7 @@ import net.minecraft.core.registries.Registries;
 import net.minecraft.world.level.block.Block;
 public class Blocks {
     public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(PlushiesMod.MOD_ID, Registries.BLOCK);
+    /* LEGACY PLUSHIES */
     public static final RegistrySupplier<Block> SNOW_GOLEM_BLOCK = BLOCKS.register("snow_golem_plushie", SnowGolemPlushie::new);
     public static final RegistrySupplier<Block> AXOLOTL_BLOCK = BLOCKS.register("axolotl_plushie", AxolotlPlushie::new);
     public static final RegistrySupplier<Block> BEE_BLOCK = BLOCKS.register("bee_plushie", BeePlushie::new);
@@ -71,4 +72,7 @@ public class Blocks {
     /* NEW IN v1.4.0 */
 
     public static final RegistrySupplier<Block> HUSK_BLOCK = BLOCKS.register("husk_plushie", ZombiePlushie::new);
+    public static final RegistrySupplier<Block> WARM_FROG = BLOCKS.register("warm_frog_plushie", FrogPlushie::new);
+    public static final RegistrySupplier<Block> COLD_FROG = BLOCKS.register("cold_frog_plushie", FrogPlushie::new);
+
 }

@@ -15,7 +15,7 @@
   "block.plushies.dolphin_plushie": "Delfin Stofftier",
   "block.plushies.parrot_plushie": "Papagei Stofftier",
   "block.plushies.warden_plushie": "Warden Stofftier",
-  "block.plushies.frog_plushie": "Frosch Stofftier",
+  "block.plushies.frog_plushie": "Gemäßiger Frosch Stofftier",
   "block.plushies.goat_plushie": "Ziegen Stofftier",
   "block.plushies.cat_plushie": "Katzen Stofftier",
   "block.plushies.enderman_plushie": "Enderman Stofftier",
@@ -54,5 +54,7 @@
   "block.plushies.horse_plushie": "Pferde Stofftier",
   "block.plushies.spider_plushie": "Spinnen Stofftier",
   "block.plushies.husk_plushie": "Wüstenzombie Stofftier",
+  "block.plushies.warm_frog_plushie": "Warmer Frosch Stofftier",
+  "block.plushies.cold_frog_plushie": "Kalter Frosch Stofftier",
   "itemGroup.plushies.main": "Stofftiere"
 }

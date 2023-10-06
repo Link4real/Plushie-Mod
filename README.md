@@ -1,6 +1,6 @@
 <h1 style="font-size:60px;"align="center">Plushie-Mod</h1>
 
-<p style="font-size:25px" align="center">1.20.1 version! Now using <a href="https://docs.architectury.dev/api/introduction">Architectury!</a></p>
+<p style="font-size:25px" align="center">1.20.2 version! Now using <a href="https://docs.architectury.dev/api/introduction">Architectury!</a></p>
 
 <p style="font-size:25px" align="center">Contribute, by opening a pull request!</p>
 
