@@ -74,5 +74,6 @@ public class Blocks {
     public static final RegistrySupplier<Block> HUSK_BLOCK = BLOCKS.register("husk_plushie", ZombiePlushie::new);
     public static final RegistrySupplier<Block> WARM_FROG = BLOCKS.register("warm_frog_plushie", FrogPlushie::new);
     public static final RegistrySupplier<Block> COLD_FROG = BLOCKS.register("cold_frog_plushie", FrogPlushie::new);
+    public static final RegistrySupplier<Block> PUFFERFISH = BLOCKS.register("pufferfish_plushie", PufferfishPlushie::new);
 
 }

@@ -29,7 +29,7 @@ public class Plushie extends HorizontalDirectionalBlock implements SimpleWaterlo
     public static final BooleanProperty WATERLOGGED = BlockStateProperties.WATERLOGGED;
     public Plushie() {
         super(BlockBehaviour.Properties.of().ignitedByLava().mapColor(MapColor.WOOL).sound(SoundType.WOOL).strength(0.7f));
-        registerDefaultState(this.stateDefinition.any().setValue(HORIZONTAL_FACING, Direction.NORTH));
+        registerDefaultState(this.stateDefinition.any().setValue(HORIZONTAL_FACING, Direction.NORTH).setValue(WATERLOGGED, Boolean.FALSE));
     }
 
     @Override
