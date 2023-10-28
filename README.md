@@ -1,10 +1,10 @@
 <h1 style="font-size:60px;"align="center">Plushie-Mod</h1>
 
-<p style="font-size:25px" align="center">1.20.2 version! Now using <a href="https://docs.architectury.dev/api/introduction">Architectury!</a></p>
+<p style="font-size:25px" align="center">Version 1.4.0!</p>
 
 <p style="font-size:25px" align="center">Contribute, by opening a pull request!</p>
 
-<p style="font-size:36px;" align="center">This is a Minecraft Mod for both Forge and Fabric, adding over 40 cute plushies to the game!</p>
+<p style="font-size:36px;" align="center">This is a Minecraft Mod for both Forge and Fabric, adding over 50 cute plushies to the game!</p>
 
 <p style="font-size:25px;" align="center"><img src="https://cf.way2muchnoise.eu/544197.svg"><a href="https://www.curseforge.com/minecraft/mc-mods/plushie-mod"></a></p>
 

@@ -79,9 +79,9 @@ public class Items {
     private static final RegistrySupplier<Item> VEX = ITEMS.register("vex_plushie", () -> new BlockItem(Blocks.VEX_BLOCK.get(), props.rarity(Rarity.COMMON)));
 
     private static final RegistrySupplier<Item> HUSK = ITEMS.register("husk_plushie", () -> new BlockItem(Blocks.HUSK_BLOCK.get(), props.rarity(Rarity.COMMON)));
-    private static final RegistrySupplier<Item> WARM_FROG = ITEMS.register("warm_frog_plushie", () -> new BlockItem(Blocks.WARM_FROG.get(), props.rarity(Rarity.COMMON)));
-    private static final RegistrySupplier<Item> COLD_FROG = ITEMS.register("cold_frog_plushie", () -> new BlockItem(Blocks.COLD_FROG.get(), props.rarity(Rarity.COMMON)));
-    private static final RegistrySupplier<Item> PUFFERFISH = ITEMS.register("pufferfish_plushie", () -> new BlockItem(Blocks.PUFFERFISH.get(), props.rarity(Rarity.COMMON)));
-    private static final RegistrySupplier<Item> HOGLIN = ITEMS.register("hoglin_plushie", () -> new BlockItem(Blocks.HOGLIN.get(), props.rarity(Rarity.COMMON)));
+    private static final RegistrySupplier<Item> WARM_FROG = ITEMS.register("warm_frog_plushie", () -> new BlockItem(Blocks.WARM_FROG_BLOCK.get(), props.rarity(Rarity.COMMON)));
+    private static final RegistrySupplier<Item> COLD_FROG = ITEMS.register("cold_frog_plushie", () -> new BlockItem(Blocks.COLD_FROG_BLOCK.get(), props.rarity(Rarity.COMMON)));
+    private static final RegistrySupplier<Item> PUFFERFISH = ITEMS.register("pufferfish_plushie", () -> new BlockItem(Blocks.PUFFERFISH_BLOCK.get(), props.rarity(Rarity.COMMON)));
+    private static final RegistrySupplier<Item> HOGLIN = ITEMS.register("hoglin_plushie", () -> new BlockItem(Blocks.HOGLIN_BLOCK.get(), props.rarity(Rarity.COMMON)));
 
 }

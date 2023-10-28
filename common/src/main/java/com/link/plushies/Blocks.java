@@ -65,16 +65,16 @@ public class Blocks {
     public static final RegistrySupplier<Block> POLAR_BEAR_BLOCK = BLOCKS.register("polar_bear_plushie", PolarBearPlushie::new);
     public static final RegistrySupplier<Block> WITCH_BLOCK = BLOCKS.register("witch_plushie", WitchPlushie::new);
     public static final RegistrySupplier<Block> RAVAGER_BLOCK = BLOCKS.register("ravager_plushie", RavagerPlushie::new);
-    public static final RegistrySupplier<Block> HORSE_BLOCK = BLOCKS.register("horse_plushie", HorsePlushie::new);
+    public static final RegistrySupplier<Block> HORSE_BLOCK = BLOCKS.register("horse_plushie", HorseHoglinPlushie::new);
     public static final RegistrySupplier<Block> SPIDER_BLOCK = BLOCKS.register("spider_plushie", SpiderPlushie::new);
     public static final RegistrySupplier<Block> CREEPER_BLOCK = BLOCKS.register("creeper_plushie", CreeperPlushie::new);
 
     /* NEW IN v1.4.0 */
 
     public static final RegistrySupplier<Block> HUSK_BLOCK = BLOCKS.register("husk_plushie", ZombiePlushie::new);
-    public static final RegistrySupplier<Block> WARM_FROG = BLOCKS.register("warm_frog_plushie", FrogPlushie::new);
-    public static final RegistrySupplier<Block> COLD_FROG = BLOCKS.register("cold_frog_plushie", FrogPlushie::new);
-    public static final RegistrySupplier<Block> PUFFERFISH = BLOCKS.register("pufferfish_plushie", PufferfishPlushie::new);
-    public static final RegistrySupplier<Block> HOGLIN = BLOCKS.register("hoglin_plushie", HoglinPlushie::new);
+    public static final RegistrySupplier<Block> WARM_FROG_BLOCK = BLOCKS.register("warm_frog_plushie", FrogPlushie::new);
+    public static final RegistrySupplier<Block> COLD_FROG_BLOCK = BLOCKS.register("cold_frog_plushie", FrogPlushie::new);
+    public static final RegistrySupplier<Block> PUFFERFISH_BLOCK = BLOCKS.register("pufferfish_plushie", PufferfishPlushie::new);
+    public static final RegistrySupplier<Block> HOGLIN_BLOCK = BLOCKS.register("hoglin_plushie", HorseHoglinPlushie::new);
 
 }
