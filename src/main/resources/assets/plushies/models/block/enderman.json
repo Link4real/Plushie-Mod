@@ -1,7 +1,7 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "plushies:blocks/enderman",
+		"0": "plushies:block/enderman",
 		"particle": "minecraft:block/black_wool"
 	},
 	"elements": [
