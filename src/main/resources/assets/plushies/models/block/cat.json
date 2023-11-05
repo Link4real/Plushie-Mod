@@ -1,8 +1,8 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "plushies:blocks/cat",
-		"particle": "plushies:blocks/cat"
+		"0": "plushies:block/cat",
+		"particle": "plushies:block/cat"
 	},
 	"elements": [
 		{

@@ -1,8 +1,8 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "plushies:blocks/magma_cube",
-		"particle": "plushies:blocks/magma_cube"
+		"0": "plushies:block/magma_cube",
+		"particle": "plushies:block/magma_cube"
 	},
 	"elements": [
 		{

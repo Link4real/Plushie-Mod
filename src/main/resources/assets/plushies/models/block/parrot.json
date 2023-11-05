@@ -1,7 +1,7 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "plushies:blocks/parrot",
+		"0": "plushies:block/parrot",
 		"particle": "minecraft:block/red_wool"
 	},
 	"elements": [
