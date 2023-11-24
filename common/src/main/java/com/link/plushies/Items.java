@@ -83,5 +83,9 @@ public class Items {
     private static final RegistrySupplier<Item> COLD_FROG = ITEMS.register("cold_frog_plushie", () -> new BlockItem(Blocks.COLD_FROG_BLOCK.get(), props.rarity(Rarity.COMMON)));
     private static final RegistrySupplier<Item> PUFFERFISH = ITEMS.register("pufferfish_plushie", () -> new BlockItem(Blocks.PUFFERFISH_BLOCK.get(), props.rarity(Rarity.COMMON)));
     private static final RegistrySupplier<Item> HOGLIN = ITEMS.register("hoglin_plushie", () -> new BlockItem(Blocks.HOGLIN_BLOCK.get(), props.rarity(Rarity.COMMON)));
+    private static final RegistrySupplier<Item> OCELOT = ITEMS.register("ocelot_plushie", () -> new BlockItem(Blocks.OCELOT_BLOCK.get(), props.rarity(Rarity.COMMON)));
+    private static final RegistrySupplier<Item> BAT = ITEMS.register("bat_plushie", () -> new BlockItem(Blocks.BAT_BLOCK.get(), props.rarity(Rarity.COMMON)));
+    private static final RegistrySupplier<Item> SALMON = ITEMS.register("salmon_plushie", () -> new BlockItem(Blocks.SALMON_BLOCK.get(), props.rarity(Rarity.COMMON)));
+
 
 }
