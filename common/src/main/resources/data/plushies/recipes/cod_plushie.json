@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#B#",
+    "BCB",
+    "BWB"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:black_wool"
+    },
+    "B": {
+      "item": "minecraft:brown_wool"
+    },
+    "C": {
+      "item": "minecraft:cod"
+    },
+    "W": {
+      "item": "minecraft:white_wool"
+    }
+  },
+  "result": {
+    "item": "plushies:cod_plushie",
+    "count": 1
+  }
+}
