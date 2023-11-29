@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " # ",
+    "LRG",
+    " O "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:piglin_head"
+    },
+    "L": {
+      "item": "minecraft:lime_wool"
+    },
+    "R": {
+      "item": "minecraft:rotten_flesh"
+    },
+    "G": {
+      "item": "minecraft:green_wool"
+    },
+    "O": {
+      "item": "minecraft:orange_wool"
+    }
+  },
+  "result": {
+    "item": "plushies:zombiefied_piglin_plushie",
+    "count": 1
+  }
+}

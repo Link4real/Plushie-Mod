@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " # ",
+    "OOO",
+    " O "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:piglin_head"
+    },
+    "O": {
+      "item": "minecraft:orange_wool"
+    }
+  },
+  "result": {
+    "item": "plushies:piglin_plushie",
+    "count": 1
+  }
+}

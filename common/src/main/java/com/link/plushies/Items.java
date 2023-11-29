@@ -88,6 +88,10 @@ public class Items {
     private static final RegistrySupplier<Item> SALMON = ITEMS.register("salmon_plushie", () -> new BlockItem(Blocks.SALMON_BLOCK.get(), props.rarity(Rarity.COMMON)));
     private static final RegistrySupplier<Item> ZOGLIN = ITEMS.register("zoglin_plushie", () -> new BlockItem(Blocks.ZOGLIN_BLOCK.get(), props.rarity(Rarity.COMMON)));
     private static final RegistrySupplier<Item> COD = ITEMS.register("cod_plushie", () -> new BlockItem(Blocks.COD_BLOCK.get(), props.rarity(Rarity.COMMON)));
+    private static final RegistrySupplier<Item> PIGLIN = ITEMS.register("piglin_plushie", () -> new BlockItem(Blocks.PIGLIN_BLOCK.get(), props.rarity(Rarity.UNCOMMON)));
+    private static final RegistrySupplier<Item> PIGLIN_BRUTE = ITEMS.register("piglin_brute_plushie", () -> new BlockItem(Blocks.BRUTE_BLOCK.get(), props.rarity(Rarity.UNCOMMON)));
+    private static final RegistrySupplier<Item> ZOMBIEIFED_PIGLIN = ITEMS.register("zombiefied_piglin_plushie", () -> new BlockItem(Blocks.ZOMPIGLIN_BLOCK.get(), props.rarity(Rarity.UNCOMMON)));
+
 
 
 }

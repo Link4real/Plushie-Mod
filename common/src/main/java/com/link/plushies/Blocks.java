@@ -81,6 +81,10 @@ public class Blocks {
     public static final RegistrySupplier<Block> SALMON_BLOCK = BLOCKS.register("salmon_plushie", SalmonPlushie::new);
     public static final RegistrySupplier<Block> ZOGLIN_BLOCK = BLOCKS.register("zoglin_plushie", HorseHoglinZoglinPlushie::new);
     public static final RegistrySupplier<Block> COD_BLOCK = BLOCKS.register("cod_plushie", CodPlushie::new);
+    public static final RegistrySupplier<Block> PIGLIN_BLOCK = BLOCKS.register("piglin_plushie", PiglinPlushie::new);
+    public static final RegistrySupplier<Block> BRUTE_BLOCK = BLOCKS.register("piglin_brute_plushie", PiglinPlushie::new);
+    public static final RegistrySupplier<Block> ZOMPIGLIN_BLOCK = BLOCKS.register("zombiefied_piglin_plushie", PiglinPlushie::new);
+
 
 
 

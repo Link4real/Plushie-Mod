@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " #G",
+    "OCO",
+    " O "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:piglin_head"
+    },
+    "G": {
+      "item": "minecraft:golden_axe"
+    },
+    "O": {
+      "item": "minecraft:orange_wool"
+    },
+    "C": {
+      "item": "minecraft:chain"
+    }
+  },
+  "result": {
+    "item": "plushies:piglin_brute_plushie",
+    "count": 1
+  }
+}
