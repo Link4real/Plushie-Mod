@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#C#",
+    "CCC",
+    "BRB"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:black_wool"
+    },
+    "C": {
+      "item": "minecraft:cyan_wool"
+    },
+    "B": {
+      "item": "minecraft:brown_wool"
+    },
+    "R": {
+      "item": "minecraft:rotten_flesh"
+    }
+  },
+  "result": {
+    "item": "plushies:drowned_plushie",
+    "count": 1
+  }
+}
