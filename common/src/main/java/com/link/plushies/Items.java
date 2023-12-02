@@ -91,6 +91,8 @@ public class Items {
     private static final RegistrySupplier<Item> PIGLIN = ITEMS.register("piglin_plushie", () -> new BlockItem(Blocks.PIGLIN_BLOCK.get(), props.rarity(Rarity.UNCOMMON)));
     private static final RegistrySupplier<Item> PIGLIN_BRUTE = ITEMS.register("piglin_brute_plushie", () -> new BlockItem(Blocks.BRUTE_BLOCK.get(), props.rarity(Rarity.UNCOMMON)));
     private static final RegistrySupplier<Item> ZOMBIEIFED_PIGLIN = ITEMS.register("zombiefied_piglin_plushie", () -> new BlockItem(Blocks.ZOMPIGLIN_BLOCK.get(), props.rarity(Rarity.UNCOMMON)));
+    private static final RegistrySupplier<Item> VILLAGER = ITEMS.register("villager_plushie", () -> new BlockItem(Blocks.VILLAGER_BLOCK.get(), props.rarity(Rarity.COMMON)));
+    private static final RegistrySupplier<Item> WANDERING_TRADER = ITEMS.register("wandering_trader_plushie", () -> new BlockItem(Blocks.WANDERING_TRADER_BLOCK.get(), props.rarity(Rarity.COMMON)));
 
 
 

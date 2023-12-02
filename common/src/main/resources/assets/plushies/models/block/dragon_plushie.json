@@ -2,7 +2,7 @@
 	"credit": "Made with Blockbench",
 	"textures": {
 		"0": "plushies:block/dragon_plushie",
-		"particle": "minecraft:block/black_wool"
+		"particle": "block/black_wool"
 	},
 	"elements": [
 		{
@@ -1222,9 +1222,9 @@
 			"scale": [0.66, 0.66, 0.66]
 		},
 		"gui": {
-			"rotation": [-167.2, -22.98, -176.56],
-			"translation": [0, 0.75, 0],
-			"scale": [0.47, 0.47, 0.47]
+			"rotation": [-163.75, -27.25, -180],
+			"translation": [-0.5, 0.25, 0],
+			"scale": [0.43, 0.43, 0.44]
 		},
 		"head": {
 			"translation": [0, 14.5, 0]
