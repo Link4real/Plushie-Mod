@@ -97,6 +97,8 @@ public class Items {
     private static final RegistrySupplier<Item> SHULKER = ITEMS.register("shulker_plushie", () -> new BlockItem(Blocks.SHULKER_BLOCK.get(), props.rarity(Rarity.COMMON)));
     private static final RegistrySupplier<Item> ZOMBIE_VILLAGER = ITEMS.register("zombie_villager_plushie", () -> new BlockItem(Blocks.ZOMBIE_VILLAGER_BLOCK.get(), props.rarity(Rarity.COMMON)));
     private static final RegistrySupplier<Item> GOLEM = ITEMS.register("iron_golem_plushie", () -> new BlockItem(Blocks.GOLEM_BLOCK.get(), props.rarity(Rarity.COMMON)));
+    private static final RegistrySupplier<Item> SKELETON = ITEMS.register("skeleton_plushie", () -> new BlockItem(Blocks.SKELETON_BLOCK.get(), props.rarity(Rarity.UNCOMMON)));
+    private static final RegistrySupplier<Item> WITHER_SKELETON = ITEMS.register("wither_skeleton_plushie", () -> new BlockItem(Blocks.WITHER_SKELETON_BLOCK.get(), props.rarity(Rarity.UNCOMMON)));
 
 
 
