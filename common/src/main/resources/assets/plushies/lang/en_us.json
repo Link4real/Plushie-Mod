@@ -68,7 +68,7 @@
     "block.plushies.cave_spider_plushie": "Cave Spider Plushie",
     "block.plushies.iron_golem_plushie": "Iron Golem Plushie",
     "block.plushies.piglin_plushie": "Piglin Plushie",
-    "block.plushies.zombified_piglin_plushie": "Zombified Piglin Plushie",
+    "block.plushies.zombiefied_piglin_plushie": "Zombiefied Piglin Plushie",
     "block.plushies.blaze_plushie": "Blaze Plushie",
     "block.plushies.drowned_plushie": "Drowned Plushie",
     "block.plushies.ghast_plushie": "Ghast Plushie",
@@ -83,11 +83,11 @@
     "block.plushies.zombie_villager_plushie": "Zombie Villager Plushie",
     "block.plushies.wither_plushie": "Wither Plushie",
     "block.plushies.armadillo_plushie": "Armadillo Plushie",
-    "block.plushies.breeze_plushie": "Breeze Plushie"
+    "block.plushies.breeze_plushie": "Breeze Plushie",
     "block.plushies.hoglin_plushie": "Hoglin Plushie",
     "itemGroup.plushies.main": "Plushies",
     "category.plushies.main": "Plushies",
     "modmenu.curseforge": "Curseforge",
     "modmenu.modrinth": "Modrinth",
-    "modmenu.wiki": "Official Wiki",
+    "modmenu.wiki": "Official Wiki"
 }
