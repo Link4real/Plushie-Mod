@@ -100,6 +100,7 @@ public class Items {
     private static final RegistrySupplier<Item> SKELETON = ITEMS.register("skeleton_plushie", () -> new BlockItem(Blocks.SKELETON_BLOCK.get(), props.rarity(Rarity.UNCOMMON)));
     private static final RegistrySupplier<Item> WITHER_SKELETON = ITEMS.register("wither_skeleton_plushie", () -> new BlockItem(Blocks.WITHER_SKELETON_BLOCK.get(), props.rarity(Rarity.UNCOMMON)));
     private static final RegistrySupplier<Item> CAVE_SPIDER = ITEMS.register("cave_spider_plushie", () -> new BlockItem(Blocks.CAVE_SPIDER_BLOCK.get(), props.rarity(Rarity.COMMON)));
+    private static final RegistrySupplier<Item> SKELETON_HORSE = ITEMS.register("skeleton_horse_plushie", () -> new BlockItem(Blocks.SKELETON_HORSE_BLOCK.get(), props.rarity(Rarity.COMMON)));
 
 
 
