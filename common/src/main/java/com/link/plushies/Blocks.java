@@ -94,6 +94,7 @@ public class Blocks {
     public static final RegistrySupplier<Block> WITHER_SKELETON_BLOCK = BLOCKS.register("wither_skeleton_plushie", SkeletonPlushies::new);
     public static final RegistrySupplier<Block> CAVE_SPIDER_BLOCK = BLOCKS.register("cave_spider_plushie", CaveSpiderPlushie::new);
     public static final RegistrySupplier<Block> SKELETON_HORSE_BLOCK = BLOCKS.register("skeleton_horse_plushie", HorseHoglinZoglinPlushie::new);
+    public static final RegistrySupplier<Block> STRAY_BLOCK = BLOCKS.register("stray_plushie", SkeletonPlushies::new);
 
 
 
