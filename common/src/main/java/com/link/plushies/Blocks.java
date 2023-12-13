@@ -98,5 +98,6 @@ public class Blocks {
     public static final RegistrySupplier<Block> SILVERFISH_BLOCK = BLOCKS.register("silverfish_plushie", SilverfishPlushie::new);
     public static final RegistrySupplier<Block> BLAZE_BLOCK = BLOCKS.register("blaze_plushie", BlazePlushie::new);
     public static final RegistrySupplier<Block> GHAST_BLOCK = BLOCKS.register("ghast_plushie", GhastPlushie::new);
+    public static final RegistrySupplier<Block> WITHER_BLOCK = BLOCKS.register("wither_plushie", WitherPlushie::new);
 
 }
