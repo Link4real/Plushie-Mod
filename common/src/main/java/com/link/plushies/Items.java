@@ -106,5 +106,6 @@ public class Items {
     private static final RegistrySupplier<Item> BLAZE = ITEMS.register("blaze_plushie", () -> new BlockItem(Blocks.BLAZE_BLOCK.get(), props.rarity(Rarity.COMMON)));
     private static final RegistrySupplier<Item> GHAST = ITEMS.register("ghast_plushie", () -> new BlockItem(Blocks.GHAST_BLOCK.get(), props.rarity(Rarity.COMMON)));
     private static final RegistrySupplier<Item> WITHER = ITEMS.register("wither_plushie", () -> new BlockItem(Blocks.WITHER_BLOCK.get(), props.rarity(Rarity.EPIC)));
+    private static final RegistrySupplier<Item> PHANTOM = ITEMS.register("phantom_plushie", () -> new BlockItem(Blocks.PHANTOM_BLOCK.get(), props.rarity(Rarity.COMMON)));
 
 }
