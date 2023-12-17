@@ -13,8 +13,10 @@ public class SpiderPlushie extends Plushie {
     public VoxelShape getShape(BlockState state, BlockGetter p_220053_2_, BlockPos p_220053_3_, CollisionContext p_220053_4_) {
         Direction dir = state.getValue(FACING);
         switch (dir) {
-            case NORTH, EAST, WEST, SOUTH:
-                return Shapes.box(0.25f, 0f, 0.25f, 0.75f, 0.3f, 0.75f);
+            case NORTH, SOUTH:
+                return Shapes.box(0.15f, 0f, 0.05f, 0.85f, 0.3f, 0.95f);
+            case EAST, WEST:
+                return Shapes.box(0.05f, 0f, 0.15f, 0.95f, 0.3f, 0.85f);
             default:
                 return Shapes.block();
         }

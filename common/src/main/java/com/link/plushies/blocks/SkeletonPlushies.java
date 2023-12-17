@@ -14,7 +14,7 @@ public class SkeletonPlushies extends Plushie{
         Direction dir = state.getValue(FACING);
         switch (dir) {
             case NORTH, SOUTH, EAST, WEST:
-                return Shapes.box(0.25f, 0f, 0.25f, 0.75f, 0.98f, 0.75f);
+                return Shapes.box(0.35f, 0f, 0.35f, 0.65f, 0.85f, 0.65f);
             default:
                 return Shapes.block();
         }

@@ -13,10 +13,10 @@ public class PhantomPlushie extends Plushie {
     public VoxelShape getShape(BlockState state, BlockGetter p_220053_2_, BlockPos p_220053_3_, CollisionContext p_220053_4_) {
         Direction dir = state.getValue(FACING);
         switch (dir) {
-            case NORTH, SOUTH:
-                return Shapes.box(0.05f, 0f, 0f, 0.95f, 0.2f, 1f);
             case EAST, WEST:
-                return Shapes.box(0f, 0f, 0.05f, 1f, 0.2f, 0.95f);
+                return Shapes.box(0.2f, 0f, 0f, 0.8f, 0.2f, 1f);
+            case NORTH, SOUTH:
+                return Shapes.box(0f, 0f, 0.2f, 1f, 0.2f, 0.8f);
             default:
                 return Shapes.block();
         }

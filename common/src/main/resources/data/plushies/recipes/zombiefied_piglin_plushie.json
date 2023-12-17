@@ -3,7 +3,7 @@
   "pattern": [
     " # ",
     "LRG",
-    " O "
+    " P "
   ],
   "key": {
     "#": {
@@ -18,8 +18,8 @@
     "G": {
       "item": "minecraft:green_wool"
     },
-    "O": {
-      "item": "minecraft:orange_wool"
+    "P": {
+      "item": "minecraft:pink_wool"
     }
   },
   "result": {

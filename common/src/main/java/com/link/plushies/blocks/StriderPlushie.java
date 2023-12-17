@@ -14,7 +14,7 @@ public class StriderPlushie extends Plushie{
         Direction dir = state.getValue(FACING);
         switch (dir) {
             case NORTH, SOUTH, EAST, WEST:
-                return Shapes.box(0.25f, 0f, 0.25f, 0.75f, 0.95f, 0.75f);
+                return Shapes.box(0.25f, 0f, 0.25f, 0.75f, 0.951f, 0.75f);
             default:
                 return Shapes.block();
         }

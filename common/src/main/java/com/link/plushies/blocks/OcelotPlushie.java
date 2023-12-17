@@ -14,9 +14,9 @@ public class OcelotPlushie extends Plushie {
         Direction dir = state.getValue(FACING);
         switch (dir) {
             case NORTH, SOUTH:
-                return Shapes.box(0.3f, 0f, 0f, 0.7f, 0.5f, 1f);
+                return Shapes.box(0.35f, 0f, 0f, 0.65f, 0.5f, 1f);
             case EAST, WEST:
-                return Shapes.box(0f, 0f, 0.3f, 1f, 0.5f, 0.7f);
+                return Shapes.box(0f, 0f, 0.35f, 1f, 0.5f, 0.65f);
                 default:
                 return Shapes.block();
         }

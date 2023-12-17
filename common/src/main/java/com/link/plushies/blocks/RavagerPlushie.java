@@ -15,13 +15,13 @@ public class RavagerPlushie extends Plushie {
         Direction dir = state.getValue(FACING);
         switch (dir) {
             case NORTH:
-                return Shapes.box(0.25f, 0f, 0f, 0.75f, 0.78f, 0.85f);
+                return Shapes.box(0.25f, 0f, 0f, 0.75f, 0.6f, 0.85f);
             case SOUTH:
-                return Shapes.box(0.25f, 0f, 0.18f, 0.75f, 0.78f, 1f);
+                return Shapes.box(0.25f, 0f, 0.18f, 0.75f, 0.6f, 1f);
             case EAST:
-                return Shapes.box(0.15f, 0f, 0.25f, 1f, 0.78f, 0.75f);
+                return Shapes.box(0.15f, 0f, 0.25f, 1f, 0.6f, 0.75f);
             case WEST:
-                return Shapes.box(0f, 0f, 0.25f, 0.83f, 0.78f, 0.75f);
+                return Shapes.box(0f, 0f, 0.25f, 0.83f, 0.6f, 0.75f);
             default:
                 return Shapes.block();
         }

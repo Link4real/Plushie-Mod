@@ -2,15 +2,15 @@
   "type": "minecraft:crafting_shaped",
   "pattern": [
     " # ",
-    "OOO",
-    " O "
+    "PPP",
+    " P "
   ],
   "key": {
     "#": {
       "item": "minecraft:piglin_head"
     },
-    "O": {
-      "item": "minecraft:orange_wool"
+    "P": {
+      "item": "minecraft:pink_wool"
     }
   },
   "result": {

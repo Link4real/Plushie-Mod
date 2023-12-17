@@ -14,7 +14,7 @@ public class PiglinPlushie extends Plushie {
         Direction dir = state.getValue(FACING);
         switch (dir) {
             case NORTH, SOUTH, EAST, WEST:
-            return Shapes.box(0.25f, 0f, 0.25f, 0.75f, 0.98f, 0.75f);
+            return Shapes.box(0.25f, 0f, 0.25f, 0.75f, 0.9f, 0.75f);
             default:
                 return Shapes.block();
         }

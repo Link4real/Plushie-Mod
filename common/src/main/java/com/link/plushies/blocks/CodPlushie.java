@@ -14,9 +14,9 @@ public class CodPlushie extends Plushie {
         Direction dir = state.getValue(FACING);
         switch (dir) {
             case NORTH, SOUTH:
-                return Shapes.box(0.4f, 0f, 0f, 0.6f, 0.4f, 1f);
+                return Shapes.box(0.4f, 0f, 0f, 0.6f, 0.35f, 1f);
             case EAST, WEST:
-                return Shapes.box(0f, 0f, 0.4f, 1f, 0.4f, 0.6f);
+                return Shapes.box(0f, 0f, 0.4f, 1f, 0.35f, 0.6f);
 
             default:
                 return Shapes.block();
