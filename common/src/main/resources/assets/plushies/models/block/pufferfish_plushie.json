@@ -2,7 +2,7 @@
 	"credit": "Made with Blockbench",
 	"textures": {
 		"0": "plushies:block/pufferfish_plushie",
-		"particle": "plushies:block/pufferfish_plushie"
+		"particle": "minecraft:block/yellow_wool"
 	},
 	"elements": [
 		{

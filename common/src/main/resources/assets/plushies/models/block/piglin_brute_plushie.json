@@ -2,7 +2,7 @@
 	"credit": "Made with Blockbench",
 	"textures": {
 		"0": "plushies:block/piglin_brute_plushie",
-		"particle": "plushies:block/piglin_brute_plushie"
+		"particle": "minecraft:block/pink_wool"
 	},
 	"elements": [
 		{

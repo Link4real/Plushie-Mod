@@ -2,7 +2,7 @@
 	"credit": "Made with Blockbench",
 	"textures": {
 		"0": "plushies:block/warm_frog_plushie",
-		"particle": "plushies:block/warm_frog_plushie"
+		"particle": "minecraft:block/light_gray_wool"
 	},
 	"elements": [
 		{

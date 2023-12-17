@@ -2,7 +2,7 @@
 	"credit": "Made with Blockbench",
 	"textures": {
 		"0": "plushies:block/shulker_plushie",
-		"particle": "plushies:block/shulker_plushie"
+		"particle": "minecraft:block/pink_wool"
 	},
 	"elements": [
 		{

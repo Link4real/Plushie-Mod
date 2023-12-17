@@ -2,7 +2,7 @@
 	"credit": "Made with Blockbench",
 	"textures": {
 		"0": "plushies:block/wandering_trader_plushie",
-		"particle": "plushies:block/wandering_trader_plushie"
+		"particle": "minecraft:block/blue_wool"
 	},
 	"elements": [
 		{
