@@ -106,5 +106,7 @@ public class Items {
     public static final RegistrySupplier<Item> ENDERMITE = ITEMS.register("endermite_plushie", () -> new BlockItem(Blocks.ENDERMITE_BLOCK.get(), props.rarity(Rarity.COMMON)));
     private static final RegistrySupplier<Item> SHULKER = ITEMS.register("shulker_plushie", () -> new BlockItem(Blocks.SHULKER_BLOCK.get(), props.rarity(Rarity.COMMON)));
     private static final RegistrySupplier<Item> DRAGON = ITEMS.register("dragon_plushie", () -> new BlockItem(Blocks.DRAGON_BLOCK.get(), props.rarity(Rarity.EPIC)));
+   // new
+   // private static final RegistrySupplier<Item> SMALL_TROP = ITEMS.register("small_tropical_fish_plushie", () -> new BlockItem(Blocks.SMALL_TROP_BLOCK.get(), props.rarity(Rarity.COMMON)));
 
 }
