@@ -22,10 +22,11 @@
     ]
   },
   "depends": {
-    "fabric": "*",
-    "fabricloader": ">=0.14.12",
-    "minecraft": "1.20.x",
-    "architectury": ">=8.1.79"
+    "fabric-api": "*",
+    "fabricloader": ">=0.15.11",
+    "minecraft": "~1.21",
+    "architectury": ">=13.0.2",
+    "java": ">=21"
   },
   "custom": {
     "modmenu": {

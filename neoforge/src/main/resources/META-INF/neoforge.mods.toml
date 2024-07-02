@@ -1,5 +1,5 @@
 modLoader = "javafml"
-loaderVersion = "[47,)"
+loaderVersion = "[4,)"
 issueTrackerURL = "https://github.com/Link4real/Plushie-Mod/issues"
 license = "MIT"
 
@@ -14,22 +14,22 @@ Adds a lot of cute Plushies to the game :)
 logoFile = "assets/plushies/icon.png"
 
 [[dependencies.plushies]]
-modId = "forge"
-mandatory = true
-versionRange = "[47,)"
+modId = "neoforge"
+type = "required"
+versionRange = "[21.0,)"
 ordering = "NONE"
 side = "BOTH"
 
 [[dependencies.plushies]]
 modId = "minecraft"
-mandatory = true
-versionRange = "[1.20.1, 1.21)"
+type = "required"
+versionRange = "[1.21,)"
 ordering = "NONE"
 side = "BOTH"
 
 [[dependencies.plushies]]
 modId = "architectury"
-mandatory = true
-versionRange = "[8.1.79,)"
+type = "required"
+versionRange = "[13.0.2,)"
 ordering = "AFTER"
 side = "BOTH"

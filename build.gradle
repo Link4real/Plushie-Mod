@@ -1,6 +1,7 @@
 plugins {
-    id "architectury-plugin" version "3.4-SNAPSHOT"
     id "dev.architectury.loom" version "1.6-SNAPSHOT" apply false
+    id "architectury-plugin" version "3.4-SNAPSHOT"
+    id 'com.github.johnrengelman.shadow' version '8.1.1' apply false
 }
 
 architectury {
@@ -9,6 +10,13 @@ architectury {
 
 subprojects {
     apply plugin: "dev.architectury.loom"
+    apply plugin: 'architectury-plugin'
+    apply plugin: 'maven-publish'
+
+    base {
+        // Set up a suffixed format for the mod jar names, e.g. `example-fabric`.
+        archivesName = "$rootProject.archives_name-$project.name"
+    }
 
     loom {
         silentMojangMappingsLicense()
@@ -16,33 +24,38 @@ subprojects {
 
     dependencies {
         minecraft "com.mojang:minecraft:${rootProject.minecraft_version}"
-        // The following line declares the mojmap mappings, you may use other mappings as well
         mappings loom.officialMojangMappings()
-        // The following line declares the yarn mappings you may select this one as well.
-        // mappings "net.fabricmc:yarn:1.19.4+build.2:v2"
+    }
+
+    java {
+        // Loom will automatically attach sourcesJar to a RemapSourcesJar task and to the "build" task
+        // if it is present.
+        // If you remove this line, sources will not be generated.
+        withSourcesJar()
+
+        sourceCompatibility = JavaVersion.VERSION_21
+        targetCompatibility = JavaVersion.VERSION_21
+    }
+
+     tasks.withType(JavaCompile).configureEach {
+        it.options.release = 21
+        it.options.encoding = "UTF-8"
+    }
+
+    // Configure Maven publishing.
+    publishing {
+        publications {
+            mavenJava(MavenPublication) {
+                artifactId = base.archivesName.get()
+                from components.java
+            }
+        }
+        repositories {
+        }
     }
 }
 
 allprojects {
-    apply plugin: "java"
-    apply plugin: "architectury-plugin"
-    apply plugin: "maven-publish"
-
-    archivesBaseName = rootProject.archives_base_name
     version = rootProject.mod_version
     group = rootProject.maven_group
-
-    repositories {
-        maven { url "https://maven.neoforged.net/releases" }
-
-    }
-
-    tasks.withType(JavaCompile) {
-        options.encoding = "UTF-8"
-        options.release = 17
-    }
-
-    java {
-        withSourcesJar()
-    }
 }
