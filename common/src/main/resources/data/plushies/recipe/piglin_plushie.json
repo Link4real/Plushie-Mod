@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " # ",
+    "PPP",
+    " P "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:piglin_head"
+    },
+    "P": {
+      "item": "minecraft:pink_wool"
+    }
+  },
+  "result": {
+    "id": "plushies:piglin_plushie",
+    "count": 1
+  }
+}

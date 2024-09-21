@@ -37,7 +37,6 @@ public class Blocks {
 
     /* NEW IN v1.3.0 */
     public static final RegistrySupplier<Block> VEX_BLOCK = BLOCKS.register("vex_plushie", VexPlushie::new);
-
     public static final RegistrySupplier<Block> BROWN_RABBIT_BLOCK = BLOCKS.register("brown_rabbit_plushie", RabbitPlushie::new);
     public static final RegistrySupplier<Block> WHITE_RABBIT_BLOCK = BLOCKS.register("white_rabbit_plushie", RabbitPlushie::new);
     public static final RegistrySupplier<Block> BLACK_RABBIT_BLOCK = BLOCKS.register("black_rabbit_plushie", RabbitPlushie::new);
@@ -46,7 +45,6 @@ public class Blocks {
     public static final RegistrySupplier<Block> SALT_RABBIT_BLOCK = BLOCKS.register("salt_rabbit_plushie", RabbitPlushie::new);
     public static final RegistrySupplier<Block> KILLER_RABBIT_BLOCK = BLOCKS.register("killer_bunny_plushie", RabbitPlushie::new);
     public static final RegistrySupplier<Block> TOAST_RABBIT_BLOCK = BLOCKS.register("toast_rabbit_plushie", RabbitPlushie::new);
-
     public static final RegistrySupplier<Block> STRIDER_BLOCK = BLOCKS.register("strider_plushie", StriderPlushie::new);
     public static final RegistrySupplier<Block> ENDERMITE_BLOCK = BLOCKS.register("endermite_plushie", EndermitePlushie::new);
     public static final RegistrySupplier<Block> CHICKEN_BLOCK = BLOCKS.register("chicken_plushie", ChickenPlushie::new);
@@ -103,5 +101,11 @@ public class Blocks {
 
     /* NEW IN v1.5.0 */
     public static final RegistrySupplier<Block> SMALL_TROP_BLOCK = BLOCKS.register("small_tropical_fish_plushie", SmallTropPlushie::new);
-
+    public static final RegistrySupplier<Block> LARGE_TROP_BLOCK = BLOCKS.register("large_tropical_fish_plushie", LargeTropPlushie::new);
+    public static final RegistrySupplier<Block> ARMADILLO_BLOCK = BLOCKS.register("armadillo_plushie", ArmadilloPlushie::new);
+    public static final RegistrySupplier<Block> BREEZE_BLOCK = BLOCKS.register("breeze_plushie", BreezePlushie::new);
+    public static final RegistrySupplier<Block> ZOMBIE_HORSE_BLOCK = BLOCKS.register("zombie_horse_plushie", HorseHoglinPlushie::new);
+    public static final RegistrySupplier<Block> BOGGED_BLOCK = BLOCKS.register("bogged_plushie", SkeletonPlushies::new);
+    public static final RegistrySupplier<Block> MULE_BLOCK = BLOCKS.register("mule_plushie", HorseHoglinPlushie::new);
+    public static final RegistrySupplier<Block> DONKEY_BLOCK = BLOCKS.register("donkey_plushie", HorseHoglinPlushie::new);
 }

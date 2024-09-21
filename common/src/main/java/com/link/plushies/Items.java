@@ -108,5 +108,12 @@ public class Items {
     private static final RegistrySupplier<Item> DRAGON = ITEMS.register("dragon_plushie", () -> new BlockItem(Blocks.DRAGON_BLOCK.get(), props.rarity(Rarity.EPIC)));
    // new
     private static final RegistrySupplier<Item> SMALL_TROP = ITEMS.register("small_tropical_fish_plushie", () -> new BlockItem(Blocks.SMALL_TROP_BLOCK.get(), props.rarity(Rarity.COMMON)));
+    private static final RegistrySupplier<Item> LARGE_TROP = ITEMS.register("large_tropical_fish_plushie", () -> new BlockItem(Blocks.LARGE_TROP_BLOCK.get(), props.rarity(Rarity.COMMON)));
+    private static final RegistrySupplier<Item> ARMADILLO = ITEMS.register("armadillo_plushie", () -> new BlockItem(Blocks.ARMADILLO_BLOCK.get(), props.rarity(Rarity.COMMON)));
+    private static final RegistrySupplier<Item> BREEZE = ITEMS.register("breeze_plushie", () -> new BlockItem(Blocks.BREEZE_BLOCK.get(), props.rarity(Rarity.UNCOMMON)));
+    private static final RegistrySupplier<Item> ZOMBIE_HORSE = ITEMS.register("zombie_horse_plushie", () -> new BlockItem(Blocks.ZOMBIE_HORSE_BLOCK.get(), props.rarity(Rarity.COMMON)));
+    private static final RegistrySupplier<Item> BOGGED = ITEMS.register("bogged_plushie", () -> new BlockItem(Blocks.BOGGED_BLOCK.get(), props.rarity(Rarity.UNCOMMON)));
+    private static final RegistrySupplier<Item> MULE = ITEMS.register("mule_plushie", () -> new BlockItem(Blocks.MULE_BLOCK.get(), props.rarity(Rarity.COMMON)));
+    private static final RegistrySupplier<Item> DONKEY = ITEMS.register("donkey_plushie", () -> new BlockItem(Blocks.DONKEY_BLOCK.get(), props.rarity(Rarity.COMMON)));
 
 }
