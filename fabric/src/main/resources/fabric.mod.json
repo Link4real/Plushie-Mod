@@ -31,7 +31,6 @@
   "custom": {
     "modmenu": {
       "links": {
-        "modmenu.wiki": "https://link4real.github.io/wiki/plushies.html",
         "modmenu.curseforge": "https://www.curseforge.com/minecraft/mc-mods/plushie-mod",
         "modmenu.modrinth": "https://modrinth.com/mod/plushie"
       }
