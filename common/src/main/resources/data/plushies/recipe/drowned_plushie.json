@@ -20,7 +20,7 @@
     }
   },
   "result": {
-    "item": "plushies:drowned_plushie",
+    "id": "plushies:drowned_plushie",
     "count": 1
   }
 }
