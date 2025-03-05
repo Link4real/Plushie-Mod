@@ -1,8 +1,7 @@
 package com.link.plushies.forge;
 
-import net.neoforged.fml.common.Mod;
-
 import com.link.plushies.PlushiesMod;
+import net.neoforged.fml.common.Mod;
 
 @Mod(PlushiesMod.MOD_ID)
 public class PlushiesModForge {
