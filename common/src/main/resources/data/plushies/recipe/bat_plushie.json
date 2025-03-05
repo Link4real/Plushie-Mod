@@ -6,15 +6,9 @@
     "WWW"
   ],
   "key": {
-    "#": {
-      "item": "minecraft:purple_wool"
-    },
-    "B": {
-      "item": "minecraft:black_wool"
-    },
-    "W": {
-      "item": "minecraft:brown_wool"
-    }
+    "#": "minecraft:purple_wool",
+    "B": "minecraft:black_wool",
+    "W": "minecraft:brown_wool"
   },
   "result": {
     "id": "plushies:bat_plushie",

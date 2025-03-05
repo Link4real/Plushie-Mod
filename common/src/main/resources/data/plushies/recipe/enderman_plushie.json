@@ -6,12 +6,8 @@
     " B "
   ],
   "key": {
-    "#": {
-      "item": "minecraft:magenta_wool"
-    },
-    "B": {
-      "item": "minecraft:black_wool"
-    }
+    "#":  "minecraft:magenta_wool",
+    "B":  "minecraft:black_wool"
   },
   "result": {
     "id": "plushies:enderman_plushie",

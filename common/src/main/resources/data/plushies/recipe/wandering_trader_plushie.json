@@ -6,21 +6,11 @@
     "BgB"
   ],
   "key": {
-    "#": {
-      "item": "minecraft:lime_wool"
-    },
-    "Y": {
-      "item": "minecraft:yellow_wool"
-    },
-    "B": {
-      "item": "minecraft:blue_wool"
-    },
-    "E": {
-      "item": "minecraft:emerald"
-    },
-    "g": {
-      "item": "minecraft:gold_ingot"
-    }
+    "#":  "minecraft:lime_wool",
+    "Y":  "minecraft:yellow_wool",
+    "B":  "minecraft:blue_wool",
+    "E":  "minecraft:emerald",
+    "g":  "minecraft:gold_ingot"
   },
   "result": {
     "id": "plushies:wandering_trader_plushie",

@@ -6,18 +6,10 @@
     "YBY"
   ],
   "key": {
-    "#": {
-      "item": "minecraft:lead"
-    },
-    "R": {
-      "item": "minecraft:red_carpet"
-    },
-    "B": {
-      "item": "minecraft:black_wool"
-    },
-    "Y": {
-      "item": "minecraft:yellow_wool"
-    }
+    "#":  "minecraft:lead",
+    "R":  "minecraft:red_carpet",
+    "B":  "minecraft:black_wool",
+    "Y":  "minecraft:yellow_wool"
   },
   "result": {
     "id": "plushies:llama_plushie",

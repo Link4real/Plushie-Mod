@@ -6,18 +6,10 @@
     "YRY"
   ],
   "key": {
-    "#": {
-      "item": "minecraft:black_wool"
-    },
-    "B": {
-      "item": "minecraft:brown_wool"
-    },
-    "Y": {
-      "item": "minecraft:yellow_wool"
-    },
-    "R": {
-      "item": "minecraft:rotten_flesh"
-    }
+    "#":  "minecraft:black_wool",
+    "B":  "minecraft:brown_wool",
+    "Y":  "minecraft:yellow_wool",
+    "R":  "minecraft:rotten_flesh"
   },
   "result": {
     "id": "plushies:husk_plushie",

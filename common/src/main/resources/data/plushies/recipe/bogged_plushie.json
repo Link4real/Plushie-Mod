@@ -6,18 +6,10 @@
     " G "
   ],
   "key": {
-    "#": {
-      "item": "minecraft:brown_mushroom"
-    },
-    "S": {
-      "item": "minecraft:skeleton_skull"
-    },
-    "R": {
-      "item": "minecraft:red_mushroom"
-    },
-    "G": {
-      "item": "minecraft:green_wool"
-    }
+    "#":  "minecraft:brown_mushroom",
+    "S":  "minecraft:skeleton_skull",
+    "R":  "minecraft:red_mushroom",
+    "G":  "minecraft:green_wool"
   },
   "result": {
     "id": "plushies:bogged_plushie",

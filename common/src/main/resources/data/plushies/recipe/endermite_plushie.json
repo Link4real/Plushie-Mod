@@ -5,12 +5,8 @@
     "PP"
   ],
   "key": {
-    "#": {
-      "item": "minecraft:ender_eye"
-    },
-    "P": {
-      "item": "minecraft:purple_wool"
-    }
+    "#":  "minecraft:ender_eye",
+    "P":  "minecraft:purple_wool"
   },
   "result": {
     "id": "plushies:endermite_plushie",

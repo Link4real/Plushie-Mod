@@ -6,15 +6,9 @@
     "###"
   ],
   "key": {
-    "#": {
-      "item": "minecraft:magenta_wool"
-    },
-    "S": {
-      "item": "minecraft:shulker_shell"
-    },
-    "W": {
-      "item": "minecraft:white_wool"
-    }
+    "#":  "minecraft:magenta_wool",
+    "S":  "minecraft:shulker_shell",
+    "W":  "minecraft:white_wool"
   },
   "result": {
     "id": "plushies:shulker_plushie",

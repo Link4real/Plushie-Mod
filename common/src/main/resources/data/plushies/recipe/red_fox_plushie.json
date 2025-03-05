@@ -6,12 +6,8 @@
     "###"
   ],
   "key": {
-    "#": {
-      "item": "minecraft:orange_wool"
-    },
-    "B": {
-      "item": "minecraft:black_wool"
-    }
+    "#":  "minecraft:orange_wool",
+    "B":  "minecraft:black_wool"
   },
   "result": {
     "id": "plushies:red_fox_plushie",

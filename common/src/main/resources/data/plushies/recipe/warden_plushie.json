@@ -6,18 +6,10 @@
     " B "
   ],
   "key": {
-    "#": {
-      "item": "minecraft:cyan_wool"
-    },
-    "E": {
-      "item": "minecraft:echo_shard"
-    },
-    "B": {
-      "item": "minecraft:black_wool"
-    },
-    "D": {
-      "item": "minecraft:sculk"
-    }
+    "#":  "minecraft:cyan_wool",
+    "E":  "minecraft:echo_shard",
+    "B":  "minecraft:black_wool",
+    "D":  "minecraft:sculk"
   },
   "result": {
     "id": "plushies:warden_plushie",

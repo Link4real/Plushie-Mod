@@ -6,18 +6,10 @@
     " P "
   ],
   "key": {
-    "#": {
-      "item": "minecraft:piglin_head"
-    },
-    "G": {
-      "item": "minecraft:golden_axe"
-    },
-    "P": {
-      "item": "minecraft:pink_wool"
-    },
-    "C": {
-      "item": "minecraft:chain"
-    }
+    "#":  "minecraft:piglin_head",
+    "G":  "minecraft:golden_axe",
+    "P":  "minecraft:pink_wool",
+    "C":  "minecraft:chain"
   },
   "result": {
     "id": "plushies:piglin_brute_plushie",

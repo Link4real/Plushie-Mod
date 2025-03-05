@@ -5,12 +5,8 @@
     "BBB"
   ],
   "key": {
-    "#": {
-      "item": "minecraft:black_wool"
-    },
-    "B": {
-      "item": "minecraft:brown_wool"
-    }
+    "#":  "minecraft:black_wool",
+    "B":  "minecraft:brown_wool"
   },
   "result": {
     "id": "plushies:tadpole_plushie",

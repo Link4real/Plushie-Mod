@@ -6,15 +6,9 @@
     "BLB"
   ],
   "key": {
-    "#": {
-      "item": "minecraft:light_blue_wool"
-    },
-    "L": {
-      "item": "minecraft:light_gray_wool"
-    },
-    "B": {
-      "item": "minecraft:black_wool"
-    }
+    "#":  "minecraft:light_blue_wool",
+    "L":  "minecraft:light_gray_wool",
+    "B":  "minecraft:black_wool"
   },
   "result": {
     "id": "plushies:illusioner_plushie",

@@ -6,15 +6,9 @@
     "LCL"
   ],
   "key": {
-    "#": {
-      "item": "minecraft:white_wool"
-    },
-    "L": {
-      "item": "minecraft:light_blue_wool"
-    },
-    "C": {
-      "item": "minecraft:cookie"
-    }
+    "#": "minecraft:white_wool",
+    "L": "minecraft:light_blue_wool",
+    "C": "minecraft:cookie"
   },
   "result": {
     "id": "plushies:allay_plushie",

@@ -6,15 +6,9 @@
     " W "
   ],
   "key": {
-    "#": {
-      "item": "minecraft:carved_pumpkin"
-    },
-    "/": {
-      "item": "minecraft:stick"
-    },
-    "W": {
-      "item": "minecraft:white_wool"
-    }
+    "#":  "minecraft:carved_pumpkin",
+    "/":  "minecraft:stick",
+    "W":  "minecraft:white_wool"
   },
   "result": {
     "id": "plushies:snow_golem_plushie",

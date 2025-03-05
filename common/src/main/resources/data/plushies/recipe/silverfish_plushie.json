@@ -5,12 +5,8 @@
     "LLL"
   ],
   "key": {
-    "#": {
-      "item": "minecraft:black_wool"
-    },
-    "L": {
-      "item": "minecraft:light_gray_wool"
-    }
+    "#":  "minecraft:black_wool",
+    "L":  "minecraft:light_gray_wool"
   },
   "result": {
     "id": "plushies:silverfish_plushie",

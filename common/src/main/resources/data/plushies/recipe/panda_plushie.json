@@ -6,15 +6,9 @@
     " W "
   ],
   "key": {
-    "#": {
-      "item": "minecraft:bamboo"
-    },
-    "B": {
-      "item": "minecraft:black_wool"
-    },
-    "W": {
-      "item": "minecraft:white_wool"
-    }
+    "#":  "minecraft:bamboo",
+    "B":  "minecraft:black_wool",
+    "W":  "minecraft:white_wool"
   },
   "result": {
     "id": "plushies:panda_plushie",

@@ -6,21 +6,11 @@
     "RBR"
   ],
   "key": {
-    "#": {
-      "item": "minecraft:light_gray_wool"
-    },
-    "W": {
-      "item": "minecraft:white_wool"
-    },
-    "P": {
-      "item": "minecraft:pink_wool"
-    },
-    "B": {
-      "item": "minecraft:black_wool"
-    },
-    "R": {
-      "item": "minecraft:rabbit_foot"
-    }
+    "#":  "minecraft:light_gray_wool",
+    "W":  "minecraft:white_wool",
+    "P":  "minecraft:pink_wool",
+    "B":  "minecraft:black_wool",
+    "R":  "minecraft:rabbit_foot"
   },
   "result": {
     "id": "plushies:white_splotched_rabbit_plushie",

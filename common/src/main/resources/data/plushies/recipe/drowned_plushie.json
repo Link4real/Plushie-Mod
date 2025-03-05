@@ -6,18 +6,10 @@
     "BRB"
   ],
   "key": {
-    "#": {
-      "item": "minecraft:black_wool"
-    },
-    "C": {
-      "item": "minecraft:cyan_wool"
-    },
-    "B": {
-      "item": "minecraft:brown_wool"
-    },
-    "R": {
-      "item": "minecraft:rotten_flesh"
-    }
+    "#":  "minecraft:black_wool",
+    "C":  "minecraft:cyan_wool",
+    "B":  "minecraft:brown_wool",
+    "R":  "minecraft:rotten_flesh"
   },
   "result": {
     "id": "plushies:drowned_plushie",

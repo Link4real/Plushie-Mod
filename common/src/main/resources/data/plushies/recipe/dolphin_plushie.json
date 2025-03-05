@@ -6,15 +6,9 @@
     " S "
   ],
   "key": {
-    "#": {
-      "item": "minecraft:cyan_wool"
-    },
-    "B": {
-      "item": "minecraft:black_wool"
-    },
-    "S": {
-      "item": "minecraft:seagrass"
-    }
+    "#":  "minecraft:cyan_wool",
+    "B":  "minecraft:black_wool",
+    "S":  "minecraft:seagrass"
   },
   "result": {
     "id": "plushies:dolphin_plushie",

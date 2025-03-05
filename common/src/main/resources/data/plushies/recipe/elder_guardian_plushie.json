@@ -6,15 +6,9 @@
     "#L#"
   ],
   "key": {
-    "#": {
-      "item": "minecraft:blue_wool"
-    },
-    "L": {
-      "item": "minecraft:light_gray_wool"
-    },
-    "W": {
-      "item": "minecraft:white_wool"
-    }
+    "#":  "minecraft:blue_wool",
+    "L":  "minecraft:light_gray_wool",
+    "W":  "minecraft:white_wool"
   },
   "result": {
     "id": "plushies:elder_guardian_plushie",

@@ -6,12 +6,8 @@
     " P "
   ],
   "key": {
-    "#": {
-      "item": "minecraft:piglin_head"
-    },
-    "P": {
-      "item": "minecraft:pink_wool"
-    }
+    "#":  "minecraft:piglin_head",
+    "P":  "minecraft:pink_wool"
   },
   "result": {
     "id": "plushies:piglin_plushie",

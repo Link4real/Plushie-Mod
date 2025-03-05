@@ -6,15 +6,9 @@
     "R #"
   ],
   "key": {
-    "#": {
-      "item": "minecraft:green_wool"
-    },
-    "S": {
-      "item": "minecraft:saddle"
-    },
-    "R": {
-      "item": "minecraft:rotten_flesh"
-    }
+    "#":  "minecraft:green_wool",
+    "S":  "minecraft:saddle",
+    "R":  "minecraft:rotten_flesh"
   },
   "result": {
     "id": "plushies:zombie_horse_plushie",

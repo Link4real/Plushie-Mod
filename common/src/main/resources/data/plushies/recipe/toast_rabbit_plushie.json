@@ -6,21 +6,11 @@
     "RWR"
   ],
   "key": {
-    "#": {
-      "item": "minecraft:gray_wool"
-    },
-    "W": {
-      "item": "minecraft:white_wool"
-    },
-    "B": {
-      "item": "minecraft:black_wool"
-    },
-    "P": {
-      "item": "minecraft:pink_wool"
-    },
-    "R": {
-      "item": "minecraft:rabbit_foot"
-    }
+    "#":  "minecraft:gray_wool",
+    "W":  "minecraft:white_wool",
+    "B":  "minecraft:black_wool",
+    "P":  "minecraft:pink_wool",
+    "R":  "minecraft:rabbit_foot"
   },
   "result": {
     "id": "plushies:toast_rabbit_plushie",

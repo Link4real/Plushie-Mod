@@ -6,12 +6,8 @@
     "###"
   ],
   "key": {
-    "#": {
-      "item": "minecraft:white_wool"
-    },
-    "F": {
-      "item": "minecraft:fire_charge"
-    }
+    "#":  "minecraft:white_wool",
+    "F":  "minecraft:fire_charge"
   },
   "result": {
     "id": "plushies:ghast_plushie",

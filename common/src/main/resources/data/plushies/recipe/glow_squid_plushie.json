@@ -6,15 +6,9 @@
     "CGC"
   ],
   "key": {
-    "#": {
-      "item": "minecraft:black_wool"
-    },
-    "C": {
-      "item": "minecraft:cyan_wool"
-    },
-    "G": {
-      "item": "minecraft:glow_ink_sac"
-    }
+    "#":  "minecraft:black_wool",
+    "C":  "minecraft:cyan_wool",
+    "G":  "minecraft:glow_ink_sac"
   },
   "result": {
     "id": "plushies:glow_squid_plushie",

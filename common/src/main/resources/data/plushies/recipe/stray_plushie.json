@@ -6,15 +6,9 @@
     " W "
   ],
   "key": {
-    "#": {
-      "item": "minecraft:skeleton_skull"
-    },
-    "W": {
-      "item": "minecraft:white_wool"
-    },
-    "P": {
-      "item": "minecraft:packed_ice"
-    }
+    "#":  "minecraft:skeleton_skull",
+    "W":  "minecraft:white_wool",
+    "P":  "minecraft:packed_ice"
   },
   "result": {
     "id": "plushies:stray_plushie",

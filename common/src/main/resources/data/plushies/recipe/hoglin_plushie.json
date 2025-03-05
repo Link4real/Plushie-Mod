@@ -6,21 +6,11 @@
     "O O"
   ],
   "key": {
-    "#": {
-      "item": "minecraft:bone_block"
-    },
-    "W": {
-      "item": "minecraft:white_wool"
-    },
-    "L": {
-      "item": "minecraft:leather"
-    },
-    "O": {
-      "item": "minecraft:orange_wool"
-    },
-    "P": {
-      "item": "minecraft:porkchop"
-    }
+    "#":  "minecraft:bone_block",
+    "W":  "minecraft:white_wool",
+    "L":  "minecraft:leather",
+    "O":  "minecraft:orange_wool",
+    "P":  "minecraft:porkchop"
   },
   "result": {
     "id": "plushies:hoglin_plushie",

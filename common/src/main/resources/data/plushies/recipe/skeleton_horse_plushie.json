@@ -6,15 +6,9 @@
     "B #"
   ],
   "key": {
-    "#": {
-      "item": "minecraft:white_wool"
-    },
-    "S": {
-      "item": "minecraft:saddle"
-    },
-    "B": {
-      "item": "minecraft:bone"
-    }
+    "#":  "minecraft:white_wool",
+    "S":  "minecraft:saddle",
+    "B":  "minecraft:bone"
   },
   "result": {
     "id": "plushies:skeleton_horse_plushie",

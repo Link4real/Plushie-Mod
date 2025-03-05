@@ -6,15 +6,9 @@
     "#A#"
   ],
   "key": {
-    "#": {
-      "item": "minecraft:brown_wool"
-    },
-    "A": {
-      "item": "minecraft:armadillo_scute"
-    },
-    "P": {
-      "item": "minecraft:pink_wool"
-    }
+    "#":  "minecraft:brown_wool",
+    "A":  "minecraft:armadillo_scute",
+    "P":  "minecraft:pink_wool"
   },
   "result": {
     "id": "plushies:armadillo_plushie",

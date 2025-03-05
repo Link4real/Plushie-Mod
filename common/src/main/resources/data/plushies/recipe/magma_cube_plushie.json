@@ -6,12 +6,8 @@
     "MM"
   ],
   "key": {
-    "#": {
-      "item": "minecraft:magma_cream"
-    },
-    "M": {
-      "item": "minecraft:magma_block"
-    }
+    "#":  "minecraft:magma_cream",
+    "M":  "minecraft:magma_block"
   },
   "result": {
     "id": "plushies:magma_cube_plushie",

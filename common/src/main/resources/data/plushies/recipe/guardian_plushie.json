@@ -6,15 +6,9 @@
     "#C#"
   ],
   "key": {
-    "#": {
-      "item": "minecraft:orange_wool"
-    },
-    "C": {
-      "item": "minecraft:cyan_wool"
-    },
-    "R": {
-      "item": "minecraft:red_wool"
-    }
+    "#":  "minecraft:orange_wool",
+    "C":  "minecraft:cyan_wool",
+    "R":  "minecraft:red_wool"
   },
   "result": {
     "id": "plushies:guardian_plushie",

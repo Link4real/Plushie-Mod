@@ -6,15 +6,9 @@
     "WWW"
   ],
   "key": {
-    "/": {
-      "item": "minecraft:stick"
-    },
-    "B": {
-      "item": "minecraft:black_wool"
-    },
-    "W": {
-      "item": "minecraft:white_wool"
-    }
+    "/":  "minecraft:stick",
+    "B":  "minecraft:black_wool",
+    "W":  "minecraft:white_wool"
   },
   "result": {
     "id": "plushies:goat_plushie",

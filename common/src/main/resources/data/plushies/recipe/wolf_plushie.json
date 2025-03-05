@@ -6,18 +6,10 @@
     "BGB"
   ],
   "key": {
-    "#": {
-      "item": "minecraft:black_wool"
-    },
-    "L": {
-      "item": "minecraft:light_gray_wool"
-    },
-    "B": {
-      "item": "minecraft:bone"
-    },
-    "G": {
-      "item": "minecraft:gray_wool"
-    }
+    "#":  "minecraft:black_wool",
+    "L":  "minecraft:light_gray_wool",
+    "B":  "minecraft:bone",
+    "G":  "minecraft:gray_wool"
   },
   "result": {
     "id": "plushies:wolf_plushie",

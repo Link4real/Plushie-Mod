@@ -6,18 +6,10 @@
     "S S"
   ],
   "key": {
-    "#": {
-      "item": "minecraft:black_wool"
-    },
-    "L": {
-      "item": "minecraft:light_gray_wool"
-    },
-    "T": {
-      "item": "minecraft:lily_pad"
-    },
-    "S": {
-      "item": "minecraft:slime_ball"
-    }
+    "#":  "minecraft:black_wool",
+    "L":  "minecraft:light_gray_wool",
+    "T":  "minecraft:lily_pad",
+    "S":  "minecraft:slime_ball"
   },
   "result": {
     "id": "plushies:warm_frog_plushie",

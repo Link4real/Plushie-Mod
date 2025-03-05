@@ -6,18 +6,10 @@
     "#W#"
   ],
   "key": {
-    "#": {
-      "item": "minecraft:yellow_wool"
-    },
-    "W": {
-      "item": "minecraft:white_wool"
-    },
-    "T": {
-      "item": "minecraft:tropical_fish"
-    },
-    "B": {
-      "item": "minecraft:black_wool"
-    }
+    "#":  "minecraft:yellow_wool",
+    "W":  "minecraft:white_wool",
+    "T":  "minecraft:tropical_fish",
+    "B":  "minecraft:black_wool"
   },
   "result": {
     "id": "plushies:small_tropical_fish_plushie",

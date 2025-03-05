@@ -6,18 +6,10 @@
     "BBB"
   ],
   "key": {
-    "#": {
-      "item": "minecraft:lime_wool"
-    },
-    "Y": {
-      "item": "minecraft:yellow_wool"
-    },
-    "B": {
-      "item": "minecraft:brown_wool"
-    },
-    "E": {
-      "item": "minecraft:emerald"
-    }
+    "#":  "minecraft:lime_wool",
+    "Y":  "minecraft:yellow_wool",
+    "B":  "minecraft:brown_wool",
+    "E":  "minecraft:emerald"
   },
   "result": {
     "id": "plushies:villager_plushie",

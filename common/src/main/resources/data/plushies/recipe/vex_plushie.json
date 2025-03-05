@@ -6,15 +6,9 @@
     "LIL"
   ],
   "key": {
-    "#": {
-      "item": "minecraft:white_wool"
-    },
-    "L": {
-      "item": "minecraft:light_gray_wool"
-    },
-    "I": {
-      "item": "minecraft:iron_sword"
-    }
+    "#":  "minecraft:white_wool",
+    "L":  "minecraft:light_gray_wool",
+    "I":  "minecraft:iron_sword"
   },
   "result": {
     "id": "plushies:vex_plushie",

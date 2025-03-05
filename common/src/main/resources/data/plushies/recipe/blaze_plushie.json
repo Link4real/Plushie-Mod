@@ -6,12 +6,8 @@
     " / "
   ],
   "key": {
-    "#": {
-      "item": "minecraft:yellow_wool"
-    },
-    "/": {
-      "item": "minecraft:blaze_rod"
-    }
+    "#":  "minecraft:yellow_wool",
+    "/":  "minecraft:blaze_rod"
   },
   "result": {
     "id": "plushies:blaze_plushie",

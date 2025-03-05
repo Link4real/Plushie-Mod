@@ -6,12 +6,8 @@
     " # "
   ],
   "key": {
-    "#": {
-      "item": "minecraft:blue_wool"
-    },
-    "P": {
-      "item": "minecraft:phantom_membrane"
-    }
+    "#":  "minecraft:blue_wool",
+    "P":  "minecraft:phantom_membrane"
   },
   "result": {
     "id": "plushies:phantom_plushie",

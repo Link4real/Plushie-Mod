@@ -6,18 +6,10 @@
     "GGG"
   ],
   "key": {
-    "#": {
-      "item": "minecraft:black_wool"
-    },
-    "S": {
-      "item": "minecraft:saddle"
-    },
-    "G": {
-      "item": "minecraft:gray_wool"
-    },
-    "I": {
-      "item": "minecraft:iron_block"
-    }
+    "#":  "minecraft:black_wool",
+    "S":  "minecraft:saddle",
+    "G":  "minecraft:gray_wool",
+    "I":  "minecraft:iron_block"
   },
   "result": {
     "id": "plushies:ravager_plushie",

@@ -6,15 +6,9 @@
     "#P#"
   ],
   "key": {
-    "#": {
-      "item": "minecraft:white_wool"
-    },
-    "B": {
-      "item": "minecraft:black_wool"
-    },
-    "P": {
-      "item": "minecraft:pink_wool"
-    }
+    "#":  "minecraft:white_wool",
+    "B":  "minecraft:black_wool",
+    "P":  "minecraft:pink_wool"
   },
   "result": {
     "id": "plushies:sheep_plushie",

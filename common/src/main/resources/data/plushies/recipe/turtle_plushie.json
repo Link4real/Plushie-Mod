@@ -6,15 +6,9 @@
     " G "
   ],
   "key": {
-    "#": {
-      "item": "minecraft:turtle_scute"
-    },
-    "B": {
-      "item": "minecraft:black_wool"
-    },
-    "G": {
-      "item": "minecraft:green_wool"
-    }
+    "#":  "minecraft:turtle_scute",
+    "B":  "minecraft:black_wool",
+    "G":  "minecraft:green_wool"
   },
   "result": {
     "id": "plushies:turtle_plushie",

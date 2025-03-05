@@ -6,18 +6,10 @@
     "QTQ"
   ],
   "key": {
-    "#": {
-      "item": "minecraft:green_wool"
-    },
-    "L": {
-      "item": "minecraft:light_gray_wool"
-    },
-    "Q": {
-      "item": "minecraft:black_wool"
-    },
-    "T": {
-      "item": "minecraft:totem_of_undying"
-    }
+    "#":  "minecraft:green_wool",
+    "L":  "minecraft:light_gray_wool",
+    "Q":  "minecraft:black_wool",
+    "T":  "minecraft:totem_of_undying"
   },
   "result": {
     "id": "plushies:evoker_plushie",

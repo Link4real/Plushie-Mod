@@ -6,18 +6,10 @@
     " B "
   ],
   "key": {
-    "#": {
-      "item": "minecraft:black_wool"
-    },
-    "L": {
-      "item": "minecraft:light_blue_wool"
-    },
-    "B": {
-      "item": "minecraft:breeze_rod"
-    },
-    "W": {
-      "item": "minecraft:white_wool"
-    }
+    "#":  "minecraft:black_wool",
+    "L":  "minecraft:light_blue_wool",
+    "B":  "minecraft:breeze_rod",
+    "W":  "minecraft:white_wool"
   },
   "result": {
     "id": "plushies:breeze_plushie",

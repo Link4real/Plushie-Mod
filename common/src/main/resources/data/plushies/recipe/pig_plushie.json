@@ -6,15 +6,9 @@
     "#C#"
   ],
   "key": {
-    "#": {
-      "item": "minecraft:pink_wool"
-    },
-    "B": {
-      "item": "minecraft:black_wool"
-    },
-    "C": {
-      "item": "minecraft:carrot"
-    }
+    "#":  "minecraft:pink_wool",
+    "B":  "minecraft:black_wool",
+    "C":  "minecraft:carrot"
   },
   "result": {
     "id": "plushies:pig_plushie",

@@ -6,21 +6,11 @@
     "RIR"
   ],
   "key": {
-    "#": {
-      "item": "minecraft:red_wool"
-    },
-    "W": {
-      "item": "minecraft:white_wool"
-    },
-    "P": {
-      "item": "minecraft:pink_wool"
-    },
-    "R": {
-      "item": "minecraft:rabbit_foot"
-    },
-    "I": {
-      "item": "minecraft:iron_sword"
-    }
+    "#":  "minecraft:red_wool",
+    "W":  "minecraft:white_wool",
+    "P":  "minecraft:pink_wool",
+    "R":  "minecraft:rabbit_foot",
+    "I":  "minecraft:iron_sword"
   },
   "result": {
     "id": "plushies:killer_bunny_plushie",

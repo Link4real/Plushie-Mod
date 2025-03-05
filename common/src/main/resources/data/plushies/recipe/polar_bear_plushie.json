@@ -6,15 +6,9 @@
     "###"
   ],
   "key": {
-    "#": {
-      "item": "minecraft:black_wool"
-    },
-    "W": {
-      "item": "minecraft:white_wool"
-    },
-    "S": {
-      "item": "minecraft:snow_block"
-    }
+    "#":  "minecraft:black_wool",
+    "W":  "minecraft:white_wool",
+    "S":  "minecraft:snow_block"
   },
   "result": {
     "id": "plushies:polar_bear_plushie",

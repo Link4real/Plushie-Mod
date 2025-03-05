@@ -6,15 +6,9 @@
     "# #"
   ],
   "key": {
-    "#": {
-      "item": "minecraft:brown_wool"
-    },
-    "S": {
-      "item": "minecraft:saddle"
-    },
-    "C": {
-      "item": "minecraft:chest"
-    }
+    "#":  "minecraft:brown_wool",
+    "S":  "minecraft:saddle",
+    "C":  "minecraft:chest"
   },
   "result": {
     "id": "plushies:mule_plushie",

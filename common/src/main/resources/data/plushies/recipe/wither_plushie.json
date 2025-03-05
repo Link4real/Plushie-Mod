@@ -6,15 +6,9 @@
     " B "
   ],
   "key": {
-    "#": {
-      "item": "minecraft:wither_skeleton_skull"
-    },
-    "B": {
-      "item": "minecraft:black_wool"
-    },
-    "N": {
-      "item": "minecraft:nether_star"
-    }
+    "#":  "minecraft:wither_skeleton_skull",
+    "B":  "minecraft:black_wool",
+    "N":  "minecraft:nether_star"
   },
   "result": {
     "id": "plushies:wither_plushie",

@@ -6,12 +6,8 @@
     "# #"
   ],
   "key": {
-    "#": {
-      "item": "minecraft:white_wool"
-    },
-    "S": {
-      "item": "minecraft:saddle"
-    }
+    "#":  "minecraft:white_wool",
+    "S":  "minecraft:saddle"
   },
   "result": {
     "id": "plushies:horse_plushie",

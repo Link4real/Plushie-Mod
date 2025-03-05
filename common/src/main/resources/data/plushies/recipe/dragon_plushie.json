@@ -6,12 +6,8 @@
     " B "
   ],
   "key": {
-    "#": {
-      "item": "minecraft:dragon_head"
-    },
-    "B": {
-      "item": "minecraft:black_wool"
-    }
+    "#":  "minecraft:dragon_head",
+    "B":  "minecraft:black_wool"
   },
   "result": {
     "id": "plushies:dragon_plushie",

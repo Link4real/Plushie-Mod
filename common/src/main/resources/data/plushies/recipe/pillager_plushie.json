@@ -6,18 +6,10 @@
     "BCB"
   ],
   "key": {
-    "#": {
-      "item": "minecraft:green_wool"
-    },
-    "L": {
-      "item": "minecraft:light_gray_wool"
-    },
-    "B": {
-      "item": "minecraft:brown_wool"
-    },
-    "C": {
-      "item": "minecraft:crossbow"
-    }
+    "#":  "minecraft:green_wool",
+    "L":  "minecraft:light_gray_wool",
+    "B":  "minecraft:brown_wool",
+    "C":  "minecraft:crossbow"
   },
   "result": {
     "id": "plushies:pillager_plushie",

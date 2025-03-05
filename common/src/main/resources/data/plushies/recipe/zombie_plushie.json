@@ -6,18 +6,10 @@
     "BRB"
   ],
   "key": {
-    "#": {
-      "item": "minecraft:black_wool"
-    },
-    "G": {
-      "item": "minecraft:green_wool"
-    },
-    "B": {
-      "item": "minecraft:blue_wool"
-    },
-    "R": {
-      "item": "minecraft:rotten_flesh"
-    }
+    "#":  "minecraft:black_wool",
+    "G":  "minecraft:green_wool",
+    "B":  "minecraft:blue_wool",
+    "R":  "minecraft:rotten_flesh"
   },
   "result": {
     "id": "plushies:zombie_plushie",

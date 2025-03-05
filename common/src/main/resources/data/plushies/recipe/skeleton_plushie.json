@@ -6,12 +6,8 @@
     " W "
   ],
   "key": {
-    "#": {
-      "item": "minecraft:skeleton_skull"
-    },
-    "W": {
-      "item": "minecraft:white_wool"
-    }
+    "#":  "minecraft:skeleton_skull",
+    "W":  "minecraft:white_wool"
   },
   "result": {
     "id": "plushies:skeleton_plushie",
