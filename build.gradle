@@ -8,6 +8,11 @@ architectury {
     minecraft = rootProject.minecraft_version
 }
 
+allprojects {
+    version = rootProject.mod_version
+    group = rootProject.maven_group
+}
+
 subprojects {
     apply plugin: "dev.architectury.loom"
     apply plugin: 'architectury-plugin'
@@ -53,9 +58,4 @@ subprojects {
         repositories {
         }
     }
-}
-
-allprojects {
-    version = rootProject.mod_version
-    group = rootProject.maven_group
 }
