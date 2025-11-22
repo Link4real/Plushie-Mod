@@ -1,5 +1,5 @@
 plugins {
-    id "com.gradleup.shadow"
+    id 'com.gradleup.shadow'
 }
 
 architectury {
@@ -32,19 +32,20 @@ repositories {
 }
 
 dependencies {
-    neoForge "net.neoforged:neoforge:${rootProject.neoforge_version}"
-    // Remove the next line if you don't want to depend on the API
-    modImplementation "dev.architectury:architectury-neoforge:${rootProject.architectury_version}"
+    neoForge "net.neoforged:neoforge:$rootProject.neoforge_version"
 
-    common(project(path: ":common", configuration: "namedElements")) { transitive false }
+    // Architectury API. This is optional, and you can comment it out if you don't need it.
+    modImplementation "dev.architectury:architectury-neoforge:$rootProject.architectury_api_version"
+
+    common(project(path: ':common', configuration: 'namedElements')) { transitive = false }
     shadowBundle project(path: ':common', configuration: 'transformProductionNeoForge')
 }
 
 processResources {
-    inputs.property "version", project.version
+    inputs.property 'version', project.version
 
-    filesMatching("META-INF/neoforge.mods.toml") {
-        expand "version": project.version
+    filesMatching('META-INF/neoforge.mods.toml') {
+        expand version: inputs.properties.version
     }
 }
 
@@ -54,6 +55,5 @@ shadowJar {
 }
 
 remapJar {
-    input.set shadowJar.archiveFile
+    inputFile.set shadowJar.archiveFile
 }
-
