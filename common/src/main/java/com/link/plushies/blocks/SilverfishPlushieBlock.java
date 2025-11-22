@@ -10,8 +10,8 @@ import net.minecraft.world.phys.shapes.Shapes;
 import net.minecraft.world.phys.shapes.VoxelShape;
 import org.jetbrains.annotations.NotNull;
 
-public class SkeletonPlushies extends PlushieBlock {
-    public SkeletonPlushies(Properties properties) {
+public class SilverfishPlushieBlock extends PlushieBlock {
+    public SilverfishPlushieBlock(Properties properties) {
         super(properties);
     }
 
@@ -19,8 +19,10 @@ public class SkeletonPlushies extends PlushieBlock {
     public @NotNull VoxelShape getShape(BlockState state, BlockGetter p_220053_2_, BlockPos p_220053_3_, CollisionContext p_220053_4_) {
         Direction dir = state.getValue(FACING);
         return switch (dir) {
-            case NORTH, SOUTH, EAST, WEST -> Shapes.box(0.35f, 0f, 0.35f, 0.65f, 0.85f, 0.65f);
+            case NORTH, SOUTH -> Shapes.box(0.25f, 0f, 0f, 0.75f, 0.4f, 1f);
+            case EAST, WEST -> Shapes.box(0f, 0f, 0.25f, 1f, 0.4f, 0.75f);
             default -> Shapes.block();
         };
     }
 }
+

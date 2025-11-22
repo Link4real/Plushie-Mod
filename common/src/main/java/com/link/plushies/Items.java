@@ -6,7 +6,6 @@ import dev.architectury.registry.registries.RegistrySupplier;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.resources.ResourceKey;
-import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.Rarity;
@@ -28,7 +27,7 @@ public class Items {
 
     public static RegistrySupplier<Item> registerItem(String id, RegistrySupplier<Block> block, Item.Properties props) {
         final ResourceKey<Item> registryKey = RegUtil.resourceId(Registries.ITEM, id);
-        return ITEMS.register(id, () -> new BlockItem(block.get(), props.setId(registryKey)));
+        return ITEMS.register(id, () -> new PlushieBlockItem(block.get(), props.setId(registryKey)));
     }
 
     private static Item.Properties getCommonProps() {

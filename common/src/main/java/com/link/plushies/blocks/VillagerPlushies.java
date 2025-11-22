@@ -1,5 +1,6 @@
 package com.link.plushies.blocks;
 
+import com.link.plushies.PlushieBlock;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
 import net.minecraft.world.level.BlockGetter;
@@ -9,7 +10,7 @@ import net.minecraft.world.phys.shapes.Shapes;
 import net.minecraft.world.phys.shapes.VoxelShape;
 import org.jetbrains.annotations.NotNull;
 
-public class VillagerPlushies extends Plushie {
+public class VillagerPlushies extends PlushieBlock {
     public VillagerPlushies(Properties properties) {
         super(properties);
     }
