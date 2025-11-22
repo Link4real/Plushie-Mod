@@ -1,5 +1,5 @@
 modLoader = "javafml"
-loaderVersion = "[9,)"
+loaderVersion = "[10,)"
 issueTrackerURL = "https://github.com/Link4real/Plushie-Mod/issues"
 license = "MIT"
 
@@ -16,20 +16,20 @@ logoFile = "assets/plushies/icon.png"
 [[dependencies.plushies]]
 modId = "neoforge"
 type = "required"
-versionRange = "[21.8,)"
+versionRange = "[21.10,)"
 ordering = "NONE"
 side = "BOTH"
 
 [[dependencies.plushies]]
 modId = "minecraft"
 type = "required"
-versionRange = "[1.21.8,)"
+versionRange = "[1.21.10,)"
 ordering = "NONE"
 side = "BOTH"
 
 [[dependencies.plushies]]
 modId = "architectury"
 type = "required"
-versionRange = "[17.0.8,)"
+versionRange = "[18.0.6,)"
 ordering = "AFTER"
 side = "BOTH"
