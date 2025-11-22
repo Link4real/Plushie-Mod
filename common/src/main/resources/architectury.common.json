@@ -1,0 +1,7 @@
+{
+  "injected_interfaces": {
+    "net/minecraft/class_742": [
+      "com/link/plushies/AbstractClientPlayerLastHug"
+    ]
+  }
+}

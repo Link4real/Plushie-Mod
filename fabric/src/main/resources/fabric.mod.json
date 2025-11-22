@@ -28,6 +28,9 @@
     "architectury": ">=15.0.1",
     "java": ">=21"
   },
+  "mixins": [
+    "plushies.mixins.json"
+  ],
   "custom": {
     "modmenu": {
       "links": {

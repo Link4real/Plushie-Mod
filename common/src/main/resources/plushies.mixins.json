@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "package": "com.link.plushies.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "minVersion": "0.8",
+  "client": [
+    "MixinAbstractClientPlayer",
+    "PlayerRendererMixin"
+  ],
+  "mixins": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

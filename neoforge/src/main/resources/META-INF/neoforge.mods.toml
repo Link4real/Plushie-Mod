@@ -33,3 +33,6 @@ type = "required"
 versionRange = "[15.0.1,)"
 ordering = "AFTER"
 side = "BOTH"
+
+[[mixins]]
+config = "plushies.mixins.json"
